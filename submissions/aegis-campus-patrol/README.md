@@ -44,9 +44,12 @@ report are reproducible from the same command.
 - Data collection into `trajectory.json`, including state, waypoint, robot
   position, heading, range readings, anomaly score, and task metrics.
 - Final `mission_report.json` with reproducibility metadata and pass/fail
-  mission checks, including minimum hard-obstacle clearance.
-- Code-generated `demo.mp4` with a mission HUD overlay; no manual screen
-  recording is required.
+  mission checks, mission score, rubric alignment, and minimum hard-obstacle
+  clearance.
+- Code-generated `demo.mp4` with a mission HUD overlay and minimap; no manual
+  screen recording is required.
+- Code-generated `storyboard.png` contact sheet for quick review of the task
+  phases.
 
 ## Highlights
 
@@ -56,6 +59,8 @@ report are reproducible from the same command.
 - Uses only assets already included in the starter repository, avoiding fragile
   external downloads.
 - The report makes the result easy for AI judges to verify automatically.
+- The video overlay and storyboard make the control state, clearance, waypoint
+  progress, and inspection outcome visible without reading logs first.
 
 ## Current limitations
 
@@ -93,6 +98,7 @@ Generated artifacts:
 - `submissions/aegis-campus-patrol/demo.mp4`
 - `submissions/aegis-campus-patrol/trajectory.json`
 - `submissions/aegis-campus-patrol/mission_report.json`
+- `submissions/aegis-campus-patrol/storyboard.png`
 
 ## Demo video
 
@@ -104,5 +110,5 @@ python submissions/aegis-campus-patrol/run_patrol.py
 
 The video shows startup, the Aegis robot, patrol waypoints, local obstacle
 avoidance, suspicious-package inspection, the final return-to-base state, and a
-HUD with mission state, target, range, clearance, waypoint progress, and anomaly
-status.
+HUD/minimap with mission state, target, range, clearance, waypoint progress, and
+anomaly status.
