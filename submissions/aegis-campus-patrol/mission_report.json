@@ -1,0 +1,56 @@
+{
+  "project": "Aegis Campus Patrol",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "robot_platform": "Aegis quadruped URDF/MuJoCo model",
+  "task": "Autonomous campus patrol, obstacle avoidance, suspicious package inspection, and return-to-base reporting.",
+  "model": "/Users/jione/Documents/Robothon/assets/Aegis/urdf/Aegis_mujoco.urdf",
+  "video": "/Users/jione/Documents/Robothon/submissions/aegis-campus-patrol/demo.mp4",
+  "trajectory": "/Users/jione/Documents/Robothon/submissions/aegis-campus-patrol/trajectory.json",
+  "duration_s": 75.0,
+  "fps": 20,
+  "waypoints_completed": [
+    "dispatch",
+    "north_gate",
+    "science_walk",
+    "library_corner",
+    "lab_entry",
+    "quad_return",
+    "dispatch_return"
+  ],
+  "completed_waypoint_count": 7,
+  "anomaly_detected": true,
+  "avoidance_count": 1,
+  "min_hard_obstacle_clearance_m": 0.3,
+  "nearest_hard_obstacle": "maintenance_cart",
+  "safety_corrections": 188,
+  "distance_traveled_m": 7.2692,
+  "final_dispatch_distance_m": 0.3205,
+  "state_changes": [
+    {
+      "time_s": 1.85,
+      "state": "AVOID"
+    },
+    {
+      "time_s": 7.85,
+      "state": "PATROL"
+    },
+    {
+      "time_s": 27.65,
+      "state": "INSPECT"
+    },
+    {
+      "time_s": 32.85,
+      "state": "RETURN"
+    },
+    {
+      "time_s": 54.95,
+      "state": "COMPLETE"
+    }
+  ],
+  "success": true,
+  "reproducibility": {
+    "random_seed": null,
+    "deterministic_controller": true,
+    "external_assets": "none; uses assets already included in this repository"
+  }
+}

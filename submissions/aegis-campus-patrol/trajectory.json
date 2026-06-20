@@ -1,0 +1,7129 @@
+{
+  "samples": [
+    {
+      "time_s": 0.0,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.56451,
+        -0.85067,
+        0.33
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8243,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.6202,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 0.2,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.53253,
+        -0.84937,
+        0.32939
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.039,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.7931,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.5923,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 0.4,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.50056,
+        -0.84806,
+        0.33386
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.007,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.762,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.5644,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 0.6,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.46859,
+        -0.84676,
+        0.32062
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.975,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.7309,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.5366,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 0.8,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.43661,
+        -0.84545,
+        0.34431
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.943,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.7,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.5089,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 1.0,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.40464,
+        -0.84415,
+        0.31478
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.911,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.6691,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.4812,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 1.2,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.37267,
+        -0.84284,
+        0.34233
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.879,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.6384,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.4537,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 1.4,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.34069,
+        -0.84154,
+        0.32229
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.847,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.6078,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.4262,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 1.6,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.30872,
+        -0.84023,
+        0.33201
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.815,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.5773,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3987,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 1.8,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -1.27675,
+        -0.83893,
+        0.33398
+      ],
+      "heading_rad": 0.04079,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.783,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.547,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3714,
+      "anomaly_score": 0.0,
+      "avoidance_count": 0
+    },
+    {
+      "time_s": 2.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.25161,
+        -0.84483,
+        0.3206
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5231,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3507,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 2.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.22751,
+        -0.85458,
+        0.34351
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5051,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3362,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 2.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.20341,
+        -0.86433,
+        0.31428
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4879,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.322,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 2.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.1793,
+        -0.87408,
+        0.34572
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4714,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3078,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 2.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.1552,
+        -0.88383,
+        0.31649
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4558,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2938,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 3.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.1311,
+        -0.89358,
+        0.3394
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4412,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.28,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 3.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.107,
+        -0.90334,
+        0.32602
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4277,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2663,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 3.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.0829,
+        -0.91309,
+        0.32799
+      ],
+      "heading_rad": -0.38445,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4153,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2527,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 3.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.0765,
+        -0.92281,
+        0.33771
+      ],
+      "heading_rad": -0.38163,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4127,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2486,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 3.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.07045,
+        -0.937,
+        0.31767
+      ],
+      "heading_rad": -0.37587,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4194,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2545,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 4.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.04624,
+        -0.94648,
+        0.34522
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4128,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2438,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 4.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -1.02203,
+        -0.95595,
+        0.31403
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4044,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2305,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 4.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.99782,
+        -0.96543,
+        0.34448
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3975,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2173,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 4.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.97361,
+        -0.97491,
+        0.31905
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3923,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2043,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 4.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.9494,
+        -0.98438,
+        0.33589
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3887,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1915,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 5.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.92519,
+        -0.99386,
+        0.33
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3868,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1788,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 5.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.90097,
+        -1.00334,
+        0.32411
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3867,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1663,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 5.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.87676,
+        -1.01282,
+        0.34095
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3883,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1539,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 5.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.85255,
+        -1.02229,
+        0.31552
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3916,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1417,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 5.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.82834,
+        -1.03177,
+        0.34597
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3966,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1297,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 6.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.80413,
+        -1.04125,
+        0.31478
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4033,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1178,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 6.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.77992,
+        -1.05072,
+        0.34233
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4115,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1062,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 6.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.75571,
+        -1.0602,
+        0.32229
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4208,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0947,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 6.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.7315,
+        -1.06968,
+        0.33201
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4303,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0833,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 6.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.70728,
+        -1.07915,
+        0.33398
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4398,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0722,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 7.0,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.68307,
+        -1.08863,
+        0.3206
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4493,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0612,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 7.2,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.65886,
+        -1.09811,
+        0.34351
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4587,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0504,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 7.4,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.63465,
+        -1.10759,
+        0.31428
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4682,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0398,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 7.6,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.61044,
+        -1.11706,
+        0.34572
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4777,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0294,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 7.8,
+      "state": "AVOID",
+      "target": "north_gate",
+      "base_pos": [
+        -0.58623,
+        -1.12654,
+        0.31649
+      ],
+      "heading_rad": -0.3731,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4872,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0192,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 8.0,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.55515,
+        -1.1331,
+        0.3394
+      ],
+      "heading_rad": -0.0431,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4958,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0051,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 8.2,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.52425,
+        -1.1258,
+        0.32602
+      ],
+      "heading_rad": 0.3969,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4919,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9805,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 8.4,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.49939,
+        -1.10603,
+        0.32799
+      ],
+      "heading_rad": 0.8369,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.475,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9498,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 8.6,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.48532,
+        -1.07756,
+        0.33771
+      ],
+      "heading_rad": 1.2769,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.5947,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.4482,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9186,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 8.8,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.48472,
+        -1.04581,
+        0.31767
+      ],
+      "heading_rad": 1.7169,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.6291,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.4167,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.893,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 9.0,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.49771,
+        -1.01682,
+        0.34522
+      ],
+      "heading_rad": 2.1569,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.5428,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3865,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.878,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 9.2,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.51814,
+        -0.9922,
+        0.31403
+      ],
+      "heading_rad": 2.26342,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.444,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3614,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.874,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 9.4,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.53857,
+        -0.96757,
+        0.34448
+      ],
+      "heading_rad": 2.26342,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.412,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3367,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8711,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 9.6,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.55901,
+        -0.94294,
+        0.31905
+      ],
+      "heading_rad": 2.26342,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.38,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3121,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8687,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 9.8,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.57895,
+        -0.937,
+        0.33589
+      ],
+      "heading_rad": 2.21213,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.3673,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.875,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 10.0,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.59642,
+        -0.937,
+        0.33
+      ],
+      "heading_rad": 2.11056,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.3922,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8882,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 10.2,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.61115,
+        -0.937,
+        0.32411
+      ],
+      "heading_rad": 2.01327,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.4166,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8995,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 10.4,
+      "state": "PATROL",
+      "target": "north_gate",
+      "base_pos": [
+        -0.62321,
+        -0.937,
+        0.34095
+      ],
+      "heading_rad": 1.92557,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.4383,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9088,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 10.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.62858,
+        -0.937,
+        0.31552
+      ],
+      "heading_rad": 1.57556,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.4955,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9148,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 10.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.6201,
+        -0.937,
+        0.34597
+      ],
+      "heading_rad": 1.13556,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.5184,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9111,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 11.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.59939,
+        -0.937,
+        0.31478
+      ],
+      "heading_rad": 0.69556,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.4295,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8979,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 11.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.57158,
+        -0.937,
+        0.34233
+      ],
+      "heading_rad": 0.49575,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.2953,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8783,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 11.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.54356,
+        -0.937,
+        0.32229
+      ],
+      "heading_rad": 0.50895,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.2762,
+      "nearest_object": "maintenance_cart",
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8579,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 11.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.51575,
+        -0.937,
+        0.33201
+      ],
+      "heading_rad": 0.5227,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8378,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 11.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.48816,
+        -0.937,
+        0.33398
+      ],
+      "heading_rad": 0.53702,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.818,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 12.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.46082,
+        -0.937,
+        0.3206
+      ],
+      "heading_rad": 0.55193,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7985,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 12.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.43374,
+        -0.937,
+        0.34351
+      ],
+      "heading_rad": 0.56745,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7793,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 12.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.40693,
+        -0.937,
+        0.31428
+      ],
+      "heading_rad": 0.5836,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7604,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 12.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.38041,
+        -0.937,
+        0.34572
+      ],
+      "heading_rad": 0.60039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7419,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 12.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.3542,
+        -0.937,
+        0.31649
+      ],
+      "heading_rad": 0.61784,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7237,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 13.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.32833,
+        -0.937,
+        0.3394
+      ],
+      "heading_rad": 0.63596,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7059,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 13.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.30281,
+        -0.937,
+        0.32602
+      ],
+      "heading_rad": 0.65475,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6884,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 13.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.27767,
+        -0.937,
+        0.32799
+      ],
+      "heading_rad": 0.67421,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6713,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 13.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.25292,
+        -0.937,
+        0.33771
+      ],
+      "heading_rad": 0.69435,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6546,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 13.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.2286,
+        -0.937,
+        0.31767
+      ],
+      "heading_rad": 0.71514,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.301,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6384,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 14.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.20472,
+        -0.937,
+        0.34522
+      ],
+      "heading_rad": 0.73658,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.304,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6225,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 14.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.18131,
+        -0.937,
+        0.31403
+      ],
+      "heading_rad": 0.75864,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3086,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6071,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 14.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.1584,
+        -0.937,
+        0.34448
+      ],
+      "heading_rad": 0.78127,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3148,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5921,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 14.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.13601,
+        -0.937,
+        0.31905
+      ],
+      "heading_rad": 0.80446,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3224,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5775,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 14.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.11416,
+        -0.937,
+        0.33589
+      ],
+      "heading_rad": 0.82813,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.331,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5634,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 15.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.09288,
+        -0.937,
+        0.33
+      ],
+      "heading_rad": 0.85223,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3406,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5498,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 15.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.07218,
+        -0.937,
+        0.32411
+      ],
+      "heading_rad": 0.8767,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.351,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5366,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 15.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.0521,
+        -0.937,
+        0.34095
+      ],
+      "heading_rad": 0.90145,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3619,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.524,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 15.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.03263,
+        -0.937,
+        0.31552
+      ],
+      "heading_rad": 0.9264,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3732,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5118,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 15.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        -0.01382,
+        -0.937,
+        0.34597
+      ],
+      "heading_rad": 0.95147,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3848,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5001,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 16.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.00435,
+        -0.937,
+        0.31478
+      ],
+      "heading_rad": 0.97655,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3966,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4889,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 16.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.02185,
+        -0.937,
+        0.34233
+      ],
+      "heading_rad": 1.00156,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4083,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4781,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 16.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.04462,
+        -0.92333,
+        0.32229
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4195,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4588,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 16.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.06112,
+        -0.89591,
+        0.33201
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4133,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.427,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 16.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.07762,
+        -0.86849,
+        0.33398
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4095,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3952,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 17.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.09411,
+        -0.84107,
+        0.3206
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4082,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3634,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 17.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.11061,
+        -0.81365,
+        0.34351
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4094,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3316,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 17.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.12711,
+        -0.78623,
+        0.31428
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4131,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2997,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 17.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.1436,
+        -0.75881,
+        0.34572
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4192,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2679,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 17.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.1601,
+        -0.73139,
+        0.31649
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4276,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2361,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 18.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.1766,
+        -0.70397,
+        0.3394
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4382,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2043,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 18.2,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.19309,
+        -0.67655,
+        0.32602
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4509,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.1726,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 18.4,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.20959,
+        -0.64913,
+        0.32799
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4654,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.1408,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 18.6,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.22609,
+        -0.62171,
+        0.33771
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4815,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.109,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 18.8,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.24258,
+        -0.59429,
+        0.31767
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.498,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.0772,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 19.0,
+      "state": "PATROL",
+      "target": "science_walk",
+      "base_pos": [
+        0.25908,
+        -0.56687,
+        0.34522
+      ],
+      "heading_rad": 1.02918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5145,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.0455,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 19.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.2777,
+        -0.54101,
+        0.31403
+      ],
+      "heading_rad": 0.80918,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5317,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.0137,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 19.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.30303,
+        -0.52146,
+        0.34448
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5561,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.9824,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 19.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.32864,
+        -0.50227,
+        0.31905
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5817,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.9515,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 19.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.35424,
+        -0.48308,
+        0.33589
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6073,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.9207,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 20.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.37985,
+        -0.46389,
+        0.33
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.633,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.8899,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 20.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.40546,
+        -0.4447,
+        0.32411
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6586,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.8592,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 20.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.43107,
+        -0.42551,
+        0.34095
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6842,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.8285,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 20.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.45667,
+        -0.40632,
+        0.31552
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.7098,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.7978,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 20.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.48228,
+        -0.38713,
+        0.34597
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.7354,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.7672,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 21.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.50789,
+        -0.36794,
+        0.31478
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.761,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.7366,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 21.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.5335,
+        -0.34875,
+        0.34233
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.7866,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.7061,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 21.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.5591,
+        -0.32956,
+        0.32229
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8122,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.6756,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 21.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.58471,
+        -0.31037,
+        0.33201
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8378,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.6452,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 21.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.61032,
+        -0.29118,
+        0.33398
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8634,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.6149,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 22.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.63593,
+        -0.27199,
+        0.3206
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.889,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.5846,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 22.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.66153,
+        -0.2528,
+        0.34351
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9146,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.5544,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 22.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.68714,
+        -0.23361,
+        0.31428
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9402,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.5243,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 22.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.71275,
+        -0.21442,
+        0.34572
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9658,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.4942,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 22.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.73836,
+        -0.19523,
+        0.31649
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9916,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.4643,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 23.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.76396,
+        -0.17604,
+        0.3394
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.0176,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.4344,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 23.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.78957,
+        -0.15685,
+        0.32602
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.044,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.4046,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 23.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.81518,
+        -0.13766,
+        0.32799
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.0707,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.3749,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 23.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.84079,
+        -0.11847,
+        0.33771
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.0976,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.3453,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 23.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.86639,
+        -0.09928,
+        0.31767
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1249,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.3158,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 24.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.892,
+        -0.08009,
+        0.34522
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1524,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2865,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 24.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.91761,
+        -0.0609,
+        0.31403
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1801,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2573,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 24.4,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.94322,
+        -0.04171,
+        0.34448
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.208,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2282,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 24.6,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.96882,
+        -0.02252,
+        0.31905
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2361,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1993,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 24.8,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        0.99443,
+        -0.00333,
+        0.33589
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2644,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1705,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 25.0,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        1.02004,
+        0.01586,
+        0.33
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2929,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1419,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 25.2,
+      "state": "PATROL",
+      "target": "library_corner",
+      "base_pos": [
+        1.04565,
+        0.03505,
+        0.32411
+      ],
+      "heading_rad": 0.64311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3215,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1135,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 25.4,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06493,
+        0.06028,
+        0.34095
+      ],
+      "heading_rad": 1.08311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3474,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0833,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 25.6,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.07164,
+        0.09132,
+        0.31552
+      ],
+      "heading_rad": 1.52311,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3636,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0518,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 25.8,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.07002,
+        0.12328,
+        0.34597
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3701,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0233,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 26.0,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.0684,
+        0.15524,
+        0.31478
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3766,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9954,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 26.2,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06679,
+        0.1872,
+        0.34233
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3837,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9677,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 26.4,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06517,
+        0.21916,
+        0.32229
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3916,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9403,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 26.6,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06355,
+        0.25112,
+        0.33201
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4002,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9132,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 26.8,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06193,
+        0.28307,
+        0.33398
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4094,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8864,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 27.0,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.06032,
+        0.31503,
+        0.3206
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4193,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.86,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 27.2,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.0587,
+        0.34699,
+        0.34351
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4299,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.834,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 27.4,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05708,
+        0.37895,
+        0.31428
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4411,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8083,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 27.6,
+      "state": "PATROL",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.34572
+      ],
+      "heading_rad": 1.62136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4529,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7832,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 27.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33498
+      ],
+      "heading_rad": 1.18136,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 28.0,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33221
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 28.2,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32865
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 28.4,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32557
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 28.6,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32406
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 28.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32464
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 29.0,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32711
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 29.2,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.3306
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 29.4,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33388
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 29.6,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33579
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 29.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33566
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 30.0,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33353
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 30.2,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33015
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 30.4,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32672
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 30.6,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32445
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 30.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32414
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 31.0,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32589
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 31.2,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.3291
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 31.4,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33262
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 31.6,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33522
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 31.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33598
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 32.0,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33462
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 32.2,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.33164
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 32.4,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32807
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 32.6,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.32519
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 32.8,
+      "state": "INSPECT",
+      "target": "lab_entry",
+      "base_pos": [
+        1.05546,
+        0.41091,
+        0.324
+      ],
+      "heading_rad": 0.93479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.777,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4559,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.777,
+      "anomaly_score": -0.304,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 33.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        1.06512,
+        0.43278,
+        0.3394
+      ],
+      "heading_rad": 1.26479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 0.7423,
+      "nearest_object": "suspicious_package",
+      "hard_clearance_m": 1.4686,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7613,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 33.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        1.06611,
+        0.46452,
+        0.32602
+      ],
+      "heading_rad": 1.70479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4865,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7335,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 33.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        1.05348,
+        0.49366,
+        0.32799
+      ],
+      "heading_rad": 2.14479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4922,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7158,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 33.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        1.02964,
+        0.51464,
+        0.33771
+      ],
+      "heading_rad": 2.58479,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4847,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7122,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 33.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.99967,
+        0.52571,
+        0.31767
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4657,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.723,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 34.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.96925,
+        0.53565,
+        0.34522
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4446,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.738,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 34.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.93883,
+        0.5456,
+        0.31403
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4239,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.754,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 34.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.90842,
+        0.55554,
+        0.34448
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.4036,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.771,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 34.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.878,
+        0.56548,
+        0.31905
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3838,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.7889,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 34.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.84758,
+        0.57542,
+        0.33589
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3645,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8077,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 35.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.81717,
+        0.58536,
+        0.33
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3456,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8273,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 35.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.78675,
+        0.5953,
+        0.32411
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3272,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8477,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 35.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.75633,
+        0.60524,
+        0.34095
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.3094,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8688,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 35.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.72592,
+        0.61519,
+        0.31552
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2921,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.8905,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 35.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.6955,
+        0.62513,
+        0.34597
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2754,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9128,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 36.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.66508,
+        0.63507,
+        0.31478
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2592,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9357,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 36.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.63467,
+        0.64501,
+        0.34233
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2437,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9592,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 36.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.60425,
+        0.65495,
+        0.32229
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2288,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 0.9831,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 36.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.57383,
+        0.66489,
+        0.33201
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2146,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0074,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 36.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.54342,
+        0.67483,
+        0.33398
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.2011,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0322,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 37.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.513,
+        0.68477,
+        0.3206
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1882,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0573,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 37.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.48258,
+        0.69472,
+        0.34351
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1761,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.0828,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 37.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.45217,
+        0.70466,
+        0.31428
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1648,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1087,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 37.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.42175,
+        0.7146,
+        0.34572
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1542,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1348,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 37.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.39133,
+        0.72454,
+        0.31649
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1444,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.1613,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 38.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.36092,
+        0.73448,
+        0.3394
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1355,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.188,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 38.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.3305,
+        0.74442,
+        0.32602
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1274,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.215,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 38.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.30008,
+        0.75436,
+        0.32799
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1201,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2422,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 38.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.26967,
+        0.7643,
+        0.33771
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1137,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2697,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 38.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.23925,
+        0.77425,
+        0.31767
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.1082,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 1.2973,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 39.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.20883,
+        0.78419,
+        0.34522
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.0775,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.3252,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 39.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.17842,
+        0.79413,
+        0.31403
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.0457,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.3532,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 39.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.148,
+        0.80407,
+        0.34448
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 1.014,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.3814,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 39.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.11758,
+        0.81401,
+        0.31905
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9823,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.4098,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 39.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.08717,
+        0.82395,
+        0.33589
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.9506,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.4383,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 40.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.05675,
+        0.83389,
+        0.33
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.919,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.467,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 40.2,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        0.02633,
+        0.84383,
+        0.32411
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8873,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.4958,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 40.4,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        -0.00408,
+        0.85378,
+        0.34095
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8557,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.5247,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 40.6,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        -0.0345,
+        0.86372,
+        0.31552
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.8241,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.5538,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 40.8,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        -0.06492,
+        0.87366,
+        0.34597
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.7926,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.5829,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 41.0,
+      "state": "RETURN",
+      "target": "quad_return",
+      "base_pos": [
+        -0.09533,
+        0.8836,
+        0.31478
+      ],
+      "heading_rad": 2.8257,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.761,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.6122,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 41.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.12673,
+        0.88837,
+        0.34233
+      ],
+      "heading_rad": -3.12749,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.7293,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.6424,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 41.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.15717,
+        0.87932,
+        0.32229
+      ],
+      "heading_rad": -2.68749,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6992,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.674,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 41.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.18112,
+        0.85838,
+        0.33201
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6767,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.7015,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 41.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.20221,
+        0.83432,
+        0.33398
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6608,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.7251,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 42.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.2233,
+        0.81025,
+        0.3206
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6462,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.7489,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 42.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.24439,
+        0.78618,
+        0.34351
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6328,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.773,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 42.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.26548,
+        0.76212,
+        0.31428
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6208,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.7973,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 42.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.28657,
+        0.73805,
+        0.34572
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6102,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.8218,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 42.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.30766,
+        0.71398,
+        0.31649
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6012,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.8466,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 43.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.32875,
+        0.68992,
+        0.3394
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5937,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.8716,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 43.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.34984,
+        0.66585,
+        0.32602
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5879,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.8968,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 43.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.37093,
+        0.64179,
+        0.32799
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5838,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.9223,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 43.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.39202,
+        0.61772,
+        0.33771
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5814,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.9479,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 43.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.41311,
+        0.59365,
+        0.31767
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5808,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.9737,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 44.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.4342,
+        0.56959,
+        0.34522
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5819,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 1.9997,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 44.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.45529,
+        0.54552,
+        0.31403
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5848,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.0258,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 44.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.47638,
+        0.52145,
+        0.34448
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5894,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.0521,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 44.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.49747,
+        0.49739,
+        0.31905
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5957,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.0786,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 44.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.51856,
+        0.47332,
+        0.33589
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6037,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.1052,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 45.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.53966,
+        0.44925,
+        0.33
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6132,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.132,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 45.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.56075,
+        0.42519,
+        0.32411
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6242,
+      "nearest_hard_obstacle": "planter",
+      "package_distance_m": 2.1589,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 45.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.58184,
+        0.40112,
+        0.34095
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6211,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.186,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 45.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.60293,
+        0.37705,
+        0.31552
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5971,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2132,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 45.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.62402,
+        0.35299,
+        0.34597
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.573,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2405,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 46.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.64511,
+        0.32892,
+        0.31478
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5489,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2679,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 46.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.6662,
+        0.30486,
+        0.34233
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5249,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.2955,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 46.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.68729,
+        0.28079,
+        0.32229
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5008,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3231,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 46.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.70838,
+        0.25672,
+        0.33201
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4767,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3509,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 46.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.72947,
+        0.23266,
+        0.33398
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4527,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.3788,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 47.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.75056,
+        0.20859,
+        0.3206
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4286,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4068,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 47.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.77165,
+        0.18452,
+        0.34351
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4045,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4349,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 47.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.79274,
+        0.16046,
+        0.31428
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3806,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4631,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 47.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.81383,
+        0.13639,
+        0.34572
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3578,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.4913,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 47.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.83492,
+        0.11232,
+        0.31649
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3366,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5197,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 48.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.85601,
+        0.08826,
+        0.3394
+      ],
+      "heading_rad": -2.29039,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3171,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5481,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 48.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.87699,
+        0.086,
+        0.32602
+      ],
+      "heading_rad": -2.27992,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3148,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.5707,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 48.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.89758,
+        0.086,
+        0.32799
+      ],
+      "heading_rad": -2.26386,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3216,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.59,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 48.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.91777,
+        0.086,
+        0.33771
+      ],
+      "heading_rad": -2.24767,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3295,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6089,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 48.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.93756,
+        0.086,
+        0.31767
+      ],
+      "heading_rad": -2.23139,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3382,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6274,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 49.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.95694,
+        0.086,
+        0.34522
+      ],
+      "heading_rad": -2.21504,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3476,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6456,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 49.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.97589,
+        0.086,
+        0.31403
+      ],
+      "heading_rad": -2.19863,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3576,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6634,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 49.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -0.99442,
+        0.086,
+        0.34448
+      ],
+      "heading_rad": -2.18221,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3681,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6808,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 49.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.01252,
+        0.086,
+        0.31905
+      ],
+      "heading_rad": -2.16579,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.379,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.6978,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 49.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.03018,
+        0.086,
+        0.33589
+      ],
+      "heading_rad": -2.1494,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.3901,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7145,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 50.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.04741,
+        0.086,
+        0.33
+      ],
+      "heading_rad": -2.13307,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4014,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7307,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 50.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.06419,
+        0.086,
+        0.32411
+      ],
+      "heading_rad": -2.11683,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4128,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7466,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 50.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.08464,
+        0.06536,
+        0.34095
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4176,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7706,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 50.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.10093,
+        0.03781,
+        0.31552
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4118,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.7955,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 50.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.11721,
+        0.01026,
+        0.34597
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4084,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8206,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 51.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.1335,
+        -0.01728,
+        0.31478
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4074,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8458,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 51.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.14978,
+        -0.04483,
+        0.34233
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.409,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8711,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 51.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.16607,
+        -0.07238,
+        0.32229
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4131,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.8966,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 51.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.18235,
+        -0.09992,
+        0.33201
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4196,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9222,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 51.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.19864,
+        -0.12747,
+        0.33398
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4284,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9479,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 52.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.21492,
+        -0.15502,
+        0.3206
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4393,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9738,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 52.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.2312,
+        -0.18256,
+        0.34351
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4523,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 2.9997,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 52.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.24749,
+        -0.21011,
+        0.31428
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.467,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0258,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 52.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.26377,
+        -0.23765,
+        0.34572
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4832,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.052,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 52.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.28006,
+        -0.2652,
+        0.31649
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.4995,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.0783,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 53.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.29634,
+        -0.29275,
+        0.3394
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5158,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1047,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 53.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.31263,
+        -0.32029,
+        0.32602
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5321,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1312,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 53.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.32891,
+        -0.34784,
+        0.32799
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5483,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1579,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 53.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.3452,
+        -0.37539,
+        0.33771
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5646,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.1846,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 53.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.36148,
+        -0.40293,
+        0.31767
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5809,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2114,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 54.0,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.37777,
+        -0.43048,
+        0.34522
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.5972,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2383,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 54.2,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.39405,
+        -0.45803,
+        0.31403
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6135,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2653,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 54.4,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.41034,
+        -0.48557,
+        0.34448
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6298,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.2924,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 54.6,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.42662,
+        -0.51312,
+        0.31905
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6461,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3196,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 54.8,
+      "state": "RETURN",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.44291,
+        -0.54067,
+        0.33589
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6623,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3468,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 55.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33353
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 55.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33015
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 55.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32672
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 55.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32445
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 55.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32414
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 56.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32589
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 56.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3291
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 56.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33262
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 56.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33522
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 56.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33598
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 57.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33462
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 57.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33164
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 57.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32807
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 57.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32519
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 57.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.324
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 58.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32493
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 58.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32765
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 58.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3312
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 58.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33432
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 58.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33592
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 59.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33543
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 59.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33302
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 59.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32955
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 59.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32623
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 59.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32425
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 60.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32429
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 60.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32635
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 60.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3297
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 60.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33315
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 60.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33549
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 61.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33589
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 61.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33422
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 61.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33105
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 61.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32751
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 61.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32485
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 62.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32401
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 62.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32528
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 62.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32822
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 62.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33178
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 62.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33472
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 63.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33599
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 63.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33515
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 63.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33249
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 63.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32895
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 63.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32578
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 64.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32411
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 64.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32451
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 64.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32685
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 64.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3303
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 64.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33365
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 65.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33571
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 65.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33575
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 65.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33377
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 65.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33045
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 65.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32698
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 66.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32457
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 66.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32408
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 66.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32568
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 66.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3288
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 66.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33235
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 67.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33507
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 67.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.336
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 67.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33481
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 67.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33193
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 67.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32836
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 68.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32538
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 68.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32402
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 68.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32478
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 68.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32738
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 68.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3309
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 69.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33411
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 69.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33586
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 69.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33555
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 69.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33328
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 69.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32985
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 70.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32647
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 70.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32434
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 70.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32421
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 70.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32612
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 70.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3294
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 71.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33289
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 71.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33536
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 71.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33594
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 71.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33443
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 71.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33135
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 72.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32779
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 72.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32502
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 72.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.324
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 72.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3251
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 72.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32793
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 73.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33149
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 73.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33453
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 73.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33596
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 73.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33529
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 73.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.33276
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 74.0,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32925
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 74.2,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.326
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 74.4,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32417
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 74.6,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.32439
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    },
+    {
+      "time_s": 74.8,
+      "state": "COMPLETE",
+      "target": "dispatch_return",
+      "base_pos": [
+        -1.45105,
+        -0.55444,
+        0.3266
+      ],
+      "heading_rad": -2.1047,
+      "front_range_site": "front_range_site",
+      "front_range_m": 1.05,
+      "nearest_object": null,
+      "hard_clearance_m": 0.6745,
+      "nearest_hard_obstacle": "maintenance_cart",
+      "package_distance_m": 3.3673,
+      "anomaly_score": 0.0,
+      "avoidance_count": 1
+    }
+  ]
+}
