@@ -1,0 +1,87 @@
+{
+  "project": "Aegis Campus Patrol",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "sample_count": 375,
+  "sample_rate_hz": 5.0,
+  "mujoco_timestep_s": 0.002,
+  "control_replay_rate_hz": 20,
+  "channels": [
+    {
+      "name": "base_pos",
+      "unit": "m",
+      "source": "MuJoCo BASE_LINK freejoint pose after controller update",
+      "usage": "waypoint progress, return-to-base distance, and trajectory replay"
+    },
+    {
+      "name": "heading_rad",
+      "unit": "rad",
+      "source": "closed-loop heading target tracker",
+      "range": {
+        "min": -3.1315,
+        "max": 2.8216,
+        "mean": -0.5169
+      },
+      "usage": "camera framing, gait phase alignment, and route tracking"
+    },
+    {
+      "name": "front_range_m",
+      "unit": "m",
+      "source": "front_range_site projection against route obstacles and package",
+      "range": {
+        "min": 0.6745,
+        "max": 1.05,
+        "mean": 1.0292
+      },
+      "usage": "AVOID state trigger and judge-visible HUD telemetry"
+    },
+    {
+      "name": "hard_clearance_m",
+      "unit": "m",
+      "source": "signed replay clearance against hard obstacle geoms",
+      "range": {
+        "min": 0.3615,
+        "max": 1.493,
+        "mean": 0.7832
+      },
+      "usage": "safety margin score and stress replay pass/fail"
+    },
+    {
+      "name": "package_distance_m",
+      "unit": "m",
+      "source": "MuJoCo scene package center relative to BASE_LINK",
+      "range": {
+        "min": 0.7152,
+        "max": 3.6202,
+        "mean": 2.4631
+      },
+      "usage": "inspection trigger and anomaly confidence"
+    },
+    {
+      "name": "anomaly_score",
+      "unit": "normalized",
+      "source": "deterministic package proximity inspection model",
+      "range": {
+        "min": -0.3076,
+        "max": 0.0,
+        "mean": -0.0221
+      },
+      "usage": "mission pass evidence and video inspection overlay"
+    }
+  ],
+  "state_duration_s": {
+    "AVOID": 6.0,
+    "COMPLETE": 21.8,
+    "INSPECT": 5.2,
+    "PATROL": 18.6,
+    "RETURN": 23.4
+  },
+  "labels_exported": [
+    "PATROL",
+    "AVOID",
+    "INSPECT",
+    "RETURN",
+    "COMPLETE",
+    "nearest_object",
+    "nearest_hard_obstacle"
+  ]
+}

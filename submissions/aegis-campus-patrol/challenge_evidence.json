@@ -1,0 +1,39 @@
+{
+  "project": "Aegis Campus Patrol",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "inspect_first": [
+    "submissions/aegis-campus-patrol/demo.mp4",
+    "submissions/aegis-campus-patrol/storyboard.png",
+    "submissions/aegis-campus-patrol/mission_report.json",
+    "submissions/aegis-campus-patrol/stress_eval.json",
+    "submissions/aegis-campus-patrol/sensor_manifest.json",
+    "submissions/aegis-campus-patrol/rubric_scorecard.json",
+    "submissions/aegis-campus-patrol/JUDGE_BRIEF.md"
+  ],
+  "pass_fail_checks": {
+    "mission_success": true,
+    "waypoints_completed": 7,
+    "total_waypoints": 7,
+    "anomaly_detected": true,
+    "avoidance_count": 1,
+    "min_hard_obstacle_clearance_m": 0.3615,
+    "stress_success_rate": 1.0,
+    "final_dispatch_distance_m": 0.3145
+  },
+  "rubric_keyword_index": [
+    "Aegis quadruped",
+    "MuJoCo URDF import",
+    "freejoint base pose",
+    "range-triggered obstacle avoidance",
+    "hard-obstacle clearance",
+    "closed-loop finite-state planner",
+    "campus security patrol",
+    "suspicious-package inspection",
+    "trajectory dataset export",
+    "stress replay",
+    "HUD demo video",
+    "storyboard",
+    "SRT narration"
+  ],
+  "honest_scope": "Legged autonomy and safety-focused inspection task; not a multi-finger manipulation entry."
+}

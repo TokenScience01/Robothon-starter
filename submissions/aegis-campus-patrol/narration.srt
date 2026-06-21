@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:02,800
+Aegis leaves dispatch and begins a deterministic campus patrol route.
+
+2
+00:00:02,800 --> 00:00:08,800
+Forward range evidence triggers a detour around the maintenance cart.
+
+3
+00:00:08,800 --> 00:00:24,600
+The quadruped resumes waypoint patrol while logging pose, range, and clearance.
+
+4
+00:00:24,600 --> 00:00:29,800
+Suspicious-package inspection locks the anomaly score and task evidence.
+
+5
+00:00:29,800 --> 00:00:53,100
+Return-to-base mode closes the loop with continuous hard-obstacle clearance.
+
+6
+00:00:53,100 --> 00:01:15,000
+PASS: all waypoints, avoidance, inspection, and return checks are written to JSON.

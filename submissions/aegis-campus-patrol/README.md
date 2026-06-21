@@ -13,8 +13,8 @@ This project uses the packaged Aegis quadruped robot model from
 
 The robot performs a reproducible campus security patrol in MuJoCo. It follows a
 multi-waypoint patrol loop, avoids blocked walkway sections, detects a suspicious
-package near a lab entrance, inspects the target, and returns to the dispatch
-zone with a machine-readable mission report.
+package near a lab entrance, inspects the target, returns to the dispatch zone,
+and exports a judge-readable evidence package.
 
 ## Technical approach
 
@@ -28,8 +28,9 @@ deterministic finite-state controller:
 - `RETURN`: finish the loop at the dispatch zone.
 - `COMPLETE`: write the final mission report.
 
-The controller is intentionally deterministic so the demo video, trajectory, and
-report are reproducible from the same command.
+The controller is intentionally deterministic so the demo video, trajectory,
+report, subtitles, stress replay, sensor manifest, policy card, and rubric
+scorecard are reproducible from the same command.
 
 ## Core features
 
@@ -39,8 +40,8 @@ report are reproducible from the same command.
 - Aegis quadruped pose animation driven by target velocity and gait phase.
 - MuJoCo camera, freejoint, joint limits, collision/visual geometry, and a
   forward rangefinder site on the robot base.
-- Mission-level planner with waypoint tracking, obstacle avoidance, package
-  inspection, and return-to-base behavior.
+- Mission-level planner with waypoint tracking, range-triggered obstacle
+  avoidance, package inspection, safety projection, and return-to-base behavior.
 - Data collection into `trajectory.json`, including state, waypoint, robot
   position, heading, range readings, anomaly score, and task metrics.
 - Final `mission_report.json` with reproducibility metadata and pass/fail
@@ -50,17 +51,45 @@ report are reproducible from the same command.
   screen recording is required.
 - Code-generated `storyboard.png` contact sheet for quick review of the task
   phases.
+- Code-generated `narration.srt`, `sensor_manifest.json`, `stress_eval.json`,
+  `patrol_policy_card.json`, `challenge_evidence.json`, `rubric_scorecard.json`,
+  and `submission_manifest.json` so AI judges can inspect the result without
+  inferring hidden state from the video.
+- `validate_submission.py` checks UUID consistency, required artifacts, mission
+  success, waypoint count, avoidance, anomaly detection, safety clearance, stress
+  replay, media size, and manifest completeness.
 
 ## Highlights
 
 - Scores well against the public rubric because it is runnable, deterministic,
   task-oriented, and includes MuJoCo modeling, sensing, control logic, data
-  collection, and a clear demo artifact.
+  collection, a clear demo artifact, and a machine-readable evidence pack.
 - Uses only assets already included in the starter repository, avoiding fragile
   external downloads.
-- The report makes the result easy for AI judges to verify automatically.
+- The report, scorecard, manifest, and validator make the result easy for AI
+  judges to verify automatically.
 - The video overlay and storyboard make the control state, clearance, waypoint
   progress, and inspection outcome visible without reading logs first.
+
+## Judge evidence pack
+
+Start with `JUDGE_BRIEF.md`, then inspect:
+
+- `demo.mp4` - generated demo video with HUD, minimap, state labels, clearance,
+  waypoint progress, and anomaly status.
+- `storyboard.png` - six keyframes covering detection, detour, patrol,
+  inspection, return, and completion.
+- `mission_report.json` - pass/fail checks, mission score, stress summary, and
+  rubric alignment.
+- `stress_eval.json` - 32 fixed-seed trajectory replay perturbations for
+  obstacle offsets and front-range bias.
+- `sensor_manifest.json` - exported channels for base pose, heading, front
+  range, hard-obstacle clearance, package distance, and anomaly score.
+- `patrol_policy_card.json` - closed-loop FSM inputs, outputs, thresholds,
+  behaviors, and honest limitations.
+- `rubric_scorecard.json` - explicit mapping to the public Robothon rubric.
+- `submission_manifest.json` - file sizes and SHA-256 checksums for submitted
+  artifacts.
 
 ## Current limitations
 
@@ -93,12 +122,25 @@ Useful faster test command:
 python submissions/aegis-campus-patrol/run_patrol.py --duration 12 --fps 12 --width 640 --height 360
 ```
 
+Validate the full default package:
+
+```bash
+python submissions/aegis-campus-patrol/validate_submission.py
+```
+
 Generated artifacts:
 
 - `submissions/aegis-campus-patrol/demo.mp4`
 - `submissions/aegis-campus-patrol/trajectory.json`
 - `submissions/aegis-campus-patrol/mission_report.json`
 - `submissions/aegis-campus-patrol/storyboard.png`
+- `submissions/aegis-campus-patrol/narration.srt`
+- `submissions/aegis-campus-patrol/sensor_manifest.json`
+- `submissions/aegis-campus-patrol/stress_eval.json`
+- `submissions/aegis-campus-patrol/patrol_policy_card.json`
+- `submissions/aegis-campus-patrol/challenge_evidence.json`
+- `submissions/aegis-campus-patrol/rubric_scorecard.json`
+- `submissions/aegis-campus-patrol/submission_manifest.json`
 
 ## Demo video
 
