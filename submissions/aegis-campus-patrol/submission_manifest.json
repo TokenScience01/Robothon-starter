@@ -10,23 +10,23 @@
   "artifacts": [
     {
       "path": "submissions/aegis-campus-patrol/demo.mp4",
-      "bytes": 2978628,
-      "sha256": "15813b1de85dbe33086d9f1c761b1f6f7452f1bbfacd21ac87a68a0299c46141"
+      "bytes": 2978581,
+      "sha256": "ed6044c7f1ad98c008241d7ade0eecf38ebba49b2381579e80235582ddb6bafd"
     },
     {
       "path": "submissions/aegis-campus-patrol/trajectory.json",
-      "bytes": 182104,
-      "sha256": "ea04efb1bc0d1fb4cfd417784f501d81633fefd4e147a6588cfc9ed22420d6c3"
+      "bytes": 182077,
+      "sha256": "01f309d4beeb544e4f12b90b45ab3814c178a618a1531e1584b9f1a07c89cb2f"
     },
     {
       "path": "submissions/aegis-campus-patrol/mission_report.json",
-      "bytes": 4849,
-      "sha256": "4edc0d64b56f30b065544a7d73deca3c713c0b020103bd73e51d3b58102d18bf"
+      "bytes": 4556,
+      "sha256": "2f73866c78578bf6883173c3c56fb383c69446f6c1b19c957932e22ec7f4ef8a"
     },
     {
       "path": "submissions/aegis-campus-patrol/storyboard.png",
-      "bytes": 185678,
-      "sha256": "d598fcaa2c6122c881b79b516f6b7f8842c63b5ce0dc880584572c0886b6bd70"
+      "bytes": 185661,
+      "sha256": "0c256a0bacf7fbfd0007296d05c89a28e3f6a3485d52cecc349b47b4f8b08aea"
     },
     {
       "path": "submissions/aegis-campus-patrol/narration.srt",
@@ -35,8 +35,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/sensor_manifest.json",
-      "bytes": 2210,
-      "sha256": "446ae615c195aca0242da6e1d6ed31661f9e4e34c930c57ddd3f6e97fb5886c0"
+      "bytes": 2208,
+      "sha256": "8fe70450937c25d3f86e83342721860498e0c9c362058c62edc5e97d24a99c4f"
     },
     {
       "path": "submissions/aegis-campus-patrol/stress_eval.json",
@@ -50,13 +50,13 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/rubric_scorecard.json",
-      "bytes": 3239,
-      "sha256": "ef9823efb0241506d26fd2dd2a6c6b67a93221c81af1a4ea199be5080318ff7e"
+      "bytes": 3333,
+      "sha256": "db8fadad856fc46da8455db9b0bc7484da537e264e7a8c3e193a5a1da6ff5800"
     },
     {
       "path": "submissions/aegis-campus-patrol/challenge_evidence.json",
-      "bytes": 1320,
-      "sha256": "3394a71a45dbf2bc1ecfb3c024ffc2dfa7578fdab4a46cba293d5d0b9864fed5"
+      "bytes": 1353,
+      "sha256": "1ced35b3b4af48fed5ef95cdb00fbcd943436206507e035336b58f3abf9ad4c8"
     },
     {
       "path": "submissions/aegis-campus-patrol/JUDGE_BRIEF.md",
@@ -65,8 +65,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/validate_submission.py",
-      "bytes": 5509,
-      "sha256": "97d008aafff0877ac4def2cb5347f7b872955d6c9cd69d9a6bf2f0825a0d2651"
+      "bytes": 6197,
+      "sha256": "06b595b0a39cd8bba4df2ee26d45b6c1ecb2c535c3b585dd3879cb7c48f3c904"
     },
     {
       "path": "submissions/aegis-campus-patrol/README.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/run_patrol.py",
-      "bytes": 60844,
-      "sha256": "319368b9c72b80afc22e1529932deddf53277b670e148567aecc98253037aa7f"
+      "bytes": 61562,
+      "sha256": "19a6b824897864cfe48b1c522592d207debf0399321dde1d553ce48df432fda3"
     }
   ]
 }

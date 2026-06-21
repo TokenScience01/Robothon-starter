@@ -65,6 +65,9 @@ def main() -> int:
     challenge = load_json(REQUIRED_FILES["challenge_evidence"])
 
     samples = trajectory.get("samples", [])
+    anomaly_scores = [float(sample.get("anomaly_score", 0.0)) for sample in samples]
+    max_anomaly_score = max(anomaly_scores) if anomaly_scores else 0.0
+    min_anomaly_score = min(anomaly_scores) if anomaly_scores else 0.0
     record(checks, "uuid:registration", registration.get("uuid") == UUID, registration.get("uuid", "missing"))
     record(checks, "uuid:report", report.get("registration_uuid") == UUID, report.get("registration_uuid", "missing"))
     record(checks, "uuid:stress_eval", stress_eval.get("registration_uuid") == UUID, stress_eval.get("registration_uuid", "missing"))
@@ -72,6 +75,8 @@ def main() -> int:
     record(checks, "mission:waypoints", report.get("completed_waypoint_count", 0) >= 7, str(report.get("completed_waypoint_count")))
     record(checks, "mission:avoidance", report.get("avoidance_count", 0) >= 1, str(report.get("avoidance_count")))
     record(checks, "mission:anomaly", report.get("anomaly_detected") is True, str(report.get("anomaly_detected")))
+    record(checks, "mission:max_anomaly_score", max_anomaly_score >= 0.75, str(round(max_anomaly_score, 4)))
+    record(checks, "mission:no_negative_anomaly_score", min_anomaly_score >= 0.0, str(round(min_anomaly_score, 4)))
     record(
         checks,
         "mission:clearance",
@@ -86,6 +91,12 @@ def main() -> int:
     )
     record(checks, "trajectory:samples", len(samples) >= 300, str(len(samples)))
     record(checks, "sensor_manifest:samples", sensor_manifest.get("sample_count") == len(samples), str(sensor_manifest.get("sample_count")))
+    record(
+        checks,
+        "sensor_manifest:anomaly_range",
+        sensor_manifest.get("channels", [])[-1].get("range", {}).get("max", 0.0) >= 0.75,
+        str(sensor_manifest.get("channels", [])[-1].get("range", {})),
+    )
     record(checks, "stress:rollouts", stress_eval.get("rollout_count", 0) >= 32, str(stress_eval.get("rollout_count")))
     record(checks, "stress:success_rate", stress_eval.get("success_rate", 0.0) >= 1.0, str(stress_eval.get("success_rate")))
     record(checks, "rubric:criteria", len(rubric.get("scorecard", {})) >= 8, str(len(rubric.get("scorecard", {}))))

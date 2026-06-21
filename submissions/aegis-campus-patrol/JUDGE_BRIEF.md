@@ -33,6 +33,7 @@ evidence.
 - Avoidance count: at least 1
 - Safety clearance target: 0.36 m
 - Suspicious-package anomaly detected: true
+- Max anomaly score: 0.8729
 - Return-to-dispatch threshold: 0.65 m
 - Stress replay rollouts: 32 fixed seeds
 - Generated artifacts: video, trajectory, report, storyboard, narration, sensor manifest, stress replay, policy card, challenge evidence, rubric scorecard, and manifest
