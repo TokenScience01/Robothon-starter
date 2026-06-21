@@ -60,8 +60,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/JUDGE_BRIEF.md",
-      "bytes": 3423,
-      "sha256": "469788f53e57bd8a6115c73e3e144905582aa5636692ab73619ceb17e9297c65"
+      "bytes": 3451,
+      "sha256": "a75ea9909c9ec2c016a2e8d4a9dc56bce778ae9c55235b6c561ff4f239859005"
     },
     {
       "path": "submissions/aegis-campus-patrol/validate_submission.py",
