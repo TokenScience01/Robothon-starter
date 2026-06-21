@@ -45,23 +45,23 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/patrol_policy_card.json",
-      "bytes": 1574,
-      "sha256": "7d77bb19091d484836a4eb6af445ae561fb7af893b7db55ed3b521297904ce3b"
+      "bytes": 1650,
+      "sha256": "7049d38b996d68877861cbc7dde63ddfadb5b3ef35d2980ac1b8652e19c44a4b"
     },
     {
       "path": "submissions/aegis-campus-patrol/rubric_scorecard.json",
-      "bytes": 3333,
-      "sha256": "db8fadad856fc46da8455db9b0bc7484da537e264e7a8c3e193a5a1da6ff5800"
+      "bytes": 3319,
+      "sha256": "7980358fb7ff1a7b18aa84813ae67b27f8e638ed96ebae64a347dbea9eb13321"
     },
     {
       "path": "submissions/aegis-campus-patrol/challenge_evidence.json",
-      "bytes": 1353,
-      "sha256": "1ced35b3b4af48fed5ef95cdb00fbcd943436206507e035336b58f3abf9ad4c8"
+      "bytes": 1407,
+      "sha256": "a9610f728fb0aad6a70228393272a37034084322a1af4cc208a28277c72adba4"
     },
     {
       "path": "submissions/aegis-campus-patrol/JUDGE_BRIEF.md",
-      "bytes": 3451,
-      "sha256": "a75ea9909c9ec2c016a2e8d4a9dc56bce778ae9c55235b6c561ff4f239859005"
+      "bytes": 3423,
+      "sha256": "3acc8d602966aa5fa5065e4165f9fc186970cf4a7983bf4ed72a20637395d54d"
     },
     {
       "path": "submissions/aegis-campus-patrol/validate_submission.py",
@@ -70,8 +70,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/README.md",
-      "bytes": 6313,
-      "sha256": "90176e4aebf9b7642ca0c132da619e6c42d86d2d0e53c5d9137a2b7f82555bde"
+      "bytes": 6381,
+      "sha256": "99c76e8356cc573a035af325361cb3825e2f8d305dba997dcfc2df7a021b289c"
     },
     {
       "path": "submissions/aegis-campus-patrol/registration.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/run_patrol.py",
-      "bytes": 61562,
-      "sha256": "19a6b824897864cfe48b1c522592d207debf0399321dde1d553ce48df432fda3"
+      "bytes": 61678,
+      "sha256": "56a82a747fd4e6ce33a16a5f2943b6eb393dfda68deec745a4b78693dec4e73d"
     }
   ]
 }
