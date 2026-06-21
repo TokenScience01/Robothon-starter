@@ -11,10 +11,11 @@ This project uses the packaged Aegis quadruped robot model from
 
 ## Task goal
 
-The robot performs a reproducible campus security patrol in MuJoCo. It follows a
-multi-waypoint patrol loop, avoids blocked walkway sections, detects a suspicious
-package near a lab entrance, inspects the target, returns to the dispatch zone,
-and exports a judge-readable evidence package.
+The robot performs a reproducible campus security and medication-triage task in
+MuJoCo. It follows a multi-waypoint patrol loop, avoids blocked walkway sections,
+detects a suspicious package near a lab entrance, inspects the target, returns to
+the dispatch zone, then triggers a five-finger DexTriage station that handles a
+fragile vial and exports a judge-readable evidence package.
 
 ## Technical approach
 
@@ -26,6 +27,8 @@ deterministic finite-state controller:
   an obstacle.
 - `INSPECT`: stop at the package, scan it, and log an anomaly score.
 - `RETURN`: finish the loop at the dispatch zone.
+- `DEXTERITY`: run a five-finger manipulation sequence: grasp a vial, rotate the
+  cap, place it into a sterile pod, and press an audit button.
 - `COMPLETE`: write the final mission report.
 
 The controller is intentionally deterministic so the demo video, trajectory,
@@ -35,15 +38,20 @@ scorecard are reproducible from the same command.
 ## Core features
 
 - MuJoCo scene generation with floor, walkway pads, waypoint markers, hazard
-  region, obstacles, dispatch pad, and suspicious package at a campus-scale
-  proportion relative to the Aegis robot.
+  region, obstacles, dispatch pad, suspicious package, and a DexTriage
+  manipulation station at a campus-scale proportion relative to the Aegis robot.
 - Aegis quadruped pose animation driven by target velocity and gait phase.
 - MuJoCo camera, freejoint, joint limits, collision/visual geometry, and a
   forward rangefinder site on the robot base.
+- Procedural five-finger hand with 15 hinge joints, 15 position actuators,
+  fingertip touch sensors, vial/cap free bodies, sterile pod, and audit-button
+  slide joint.
 - Mission-level planner with waypoint tracking, range-triggered obstacle
-  avoidance, package inspection, safety projection, and return-to-base behavior.
+  avoidance, package inspection, safety projection, return-to-base behavior, and
+  deterministic manipulation control.
 - Data collection into `trajectory.json`, including state, waypoint, robot
-  position, heading, range readings, anomaly score, and task metrics.
+  position, heading, range readings, anomaly score, finger contact count, cap
+  rotation, grip force, button press, pod distance, and task metrics.
 - Final `mission_report.json` with reproducibility metadata and pass/fail
   mission checks, mission score, rubric alignment, and minimum hard-obstacle
   clearance.
@@ -69,22 +77,24 @@ scorecard are reproducible from the same command.
 - The report, scorecard, manifest, and validator make the result easy for AI
   judges to verify automatically.
 - The video overlay and storyboard make the control state, clearance, waypoint
-  progress, and inspection outcome visible without reading logs first.
+  progress, inspection outcome, and five-finger manipulation outcome visible
+  without reading logs first.
 
 ## Judge evidence pack
 
 Start with `JUDGE_BRIEF.md`, then inspect:
 
 - `demo.mp4` - generated demo video with HUD, minimap, state labels, clearance,
-  waypoint progress, and anomaly status.
-- `storyboard.png` - six keyframes covering detection, detour, patrol,
-  inspection, return, and completion.
+  waypoint progress, anomaly status, and DexTriage manipulation overlays.
+- `storyboard.png` - eight keyframes covering detection, detour, patrol,
+  inspection, return, five-finger grasp, cap rotation, and completion.
 - `mission_report.json` - pass/fail checks, mission score, stress summary, and
   rubric alignment.
 - `stress_eval.json` - 32 fixed-seed trajectory replay perturbations for
   obstacle offsets and front-range bias.
 - `sensor_manifest.json` - exported channels for base pose, heading, front
-  range, hard-obstacle clearance, package distance, and anomaly score.
+  range, hard-obstacle clearance, package distance, anomaly score, five-finger
+  contact count, cap rotation, button press, and vial-to-pod distance.
 - `patrol_policy_card.json` - closed-loop FSM inputs, outputs, thresholds,
   behaviors, and honest limitations.
 - `rubric_scorecard.json` - explicit mapping to the public Robothon rubric.
@@ -93,8 +103,8 @@ Start with `JUDGE_BRIEF.md`, then inspect:
 
 ## Current limitations
 
-- The quadruped gait is a deterministic visualization controller rather than a
-  trained dynamic locomotion policy.
+- The quadruped gait and five-finger manipulation controller are deterministic
+  visualization/control policies rather than trained torque policies.
 - The obstacle avoidance is local and planner-based; it does not solve arbitrary
   global path planning maps.
 - The anomaly detector is a deterministic range-and-location model rather than a
@@ -105,6 +115,8 @@ Start with `JUDGE_BRIEF.md`, then inspect:
 - Replace the scripted gait with a torque or position actuator controller.
 - Add multiple randomized maps and aggregate evaluation scores.
 - Add image-based package classification from rendered camera frames.
+- Train the DexTriage hand policy from exported grasp and cap-rotation
+  trajectories.
 - Export a larger dataset for imitation learning or policy training.
 
 ## How to run
@@ -151,6 +163,7 @@ python submissions/aegis-campus-patrol/run_patrol.py
 ```
 
 The video shows startup, the Aegis robot, patrol waypoints, local obstacle
-avoidance, suspicious-package inspection, the final return-to-base state, and a
-HUD/minimap with mission state, target, range, clearance, waypoint progress, and
-anomaly status.
+avoidance, suspicious-package inspection, return-to-base, and the DexTriage
+five-finger manipulation phase. The HUD/minimap shows mission state, target,
+range, clearance, waypoint progress, anomaly status, contact count, cap rotation,
+grip force, pod placement, and button press.

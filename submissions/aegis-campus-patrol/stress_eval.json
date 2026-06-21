@@ -11,7 +11,10 @@
   "pass_thresholds": {
     "minimum_replay_clearance_m": 0.24,
     "anomaly_detected": true,
-    "avoidance_count_min": 1
+    "avoidance_count_min": 1,
+    "dexterity_task_completed": true,
+    "minimum_cap_rotation_deg": 200.0,
+    "minimum_button_press_mm": 26.0
   },
   "rollouts": [
     {
