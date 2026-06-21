@@ -2,7 +2,7 @@
   "project": "Aegis Campus Patrol",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "robot_platform": "Aegis quadruped URDF/MuJoCo model",
-  "task": "Autonomous campus safety patrol plus DexTriage five-finger vial manipulation: obstacle avoidance, suspicious-package inspection, return-to-base, cap rotation, pod placement, audit-button press, stress replay, and evidence reporting.",
+  "task": "Autonomous campus safety patrol with closed-loop obstacle avoidance, suspicious-package inspection, stress replay, and return-to-base reporting.",
   "model": "assets/Aegis/urdf/Aegis_mujoco.urdf",
   "video": "submissions/aegis-campus-patrol/demo.mp4",
   "trajectory": "submissions/aegis-campus-patrol/trajectory.json",
@@ -31,13 +31,6 @@
   "anomaly_detected": true,
   "max_anomaly_score": 0.8729,
   "min_anomaly_score": 0.0,
-  "dexterity_task_completed": true,
-  "max_finger_contact_count": 5,
-  "stable_five_finger_contact_samples": 95,
-  "max_cap_rotation_deg": 218.0,
-  "max_button_press_mm": 28.0,
-  "max_grip_force_n": 4.6,
-  "final_vial_pod_distance_m": 0.0,
   "avoidance_count": 1,
   "min_hard_obstacle_clearance_m": 0.3615,
   "nearest_hard_obstacle": "maintenance_cart",
@@ -63,10 +56,6 @@
     },
     {
       "time_s": 53.1,
-      "state": "DEXTERITY"
-    },
-    {
-      "time_s": 69.1,
       "state": "COMPLETE"
     }
   ],
@@ -80,10 +69,9 @@
     "reproducibility": "single-command deterministic run with generated video, trajectory, report, storyboard, subtitles, sensor manifest, stress replay, policy card, and manifest",
     "mujoco_depth": "Aegis URDF import, generated MuJoCo scene geometry, camera, lighting, freejoint pose, 12 joint-target gait visualization, obstacle geoms, range site, and clearance checks",
     "task_design": "multi-waypoint campus patrol with hard-obstacle detour, suspicious-package inspection, and return-to-base condition",
-    "control": "closed-loop finite-state planner plus deterministic five-finger manipulation controller with contact count, cap rotation, pod placement, and button-press telemetry",
-    "dexterity": "procedural five-finger MuJoCo hand with 15 hinge joints, 15 position actuators, fingertip touch sensors, vial/cap free bodies, and audit-button slide joint",
-    "data_collection": "per-frame trajectory samples with state, pose, heading, range, clearance, anomaly score, finger contact count, cap rotation, grip force, button press, and pod placement",
-    "presentation": "75 second code-generated H.264 video with HUD, minimap, dexterity overlays, storyboard contact sheet, and SRT narration"
+    "control": "closed-loop finite-state planner with explicit detour waypoint, range trigger, safety projection, target tracking, and state-dependent camera/HUD feedback",
+    "data_collection": "per-frame trajectory samples with state, pose, heading, range, hard-obstacle clearance, anomaly score, and waypoint progress",
+    "presentation": "75 second code-generated H.264 video with HUD and minimap plus storyboard contact sheet and SRT narration"
   },
   "mission_score": {
     "score_100": 100.0,
@@ -91,7 +79,6 @@
     "anomaly_detection": 1.0,
     "return_to_base": 1.0,
     "clearance_ratio": 1.0,
-    "dexterity_completion": 1.0,
     "reproducibility": 1.0
   },
   "stress_eval_summary": {
@@ -105,8 +92,7 @@
     "sample_rate_hz": 5.0,
     "state_duration_s": {
       "AVOID": 6.0,
-      "COMPLETE": 5.8,
-      "DEXTERITY": 16.0,
+      "COMPLETE": 21.8,
       "INSPECT": 5.2,
       "PATROL": 18.6,
       "RETURN": 23.4
