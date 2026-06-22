@@ -17,7 +17,6 @@
     "anomaly_detected": true,
     "avoidance_count": 1,
     "min_hard_obstacle_clearance_m": 0.3615,
-    "max_anomaly_score": 0.8729,
     "stress_success_rate": 1.0,
     "final_dispatch_distance_m": 0.3145
   },

@@ -11,7 +11,6 @@
     "submissions/aegis-campus-patrol/sensor_manifest.json",
     "submissions/aegis-campus-patrol/stress_eval.json",
     "submissions/aegis-campus-patrol/patrol_policy_card.json",
-    "submissions/aegis-campus-patrol/rubric_scorecard.json",
     "submissions/aegis-campus-patrol/challenge_evidence.json",
     "submissions/aegis-campus-patrol/submission_manifest.json",
     "submissions/aegis-campus-patrol/JUDGE_BRIEF.md",
@@ -62,7 +61,6 @@
     "score_100": 100.0,
     "waypoints_completed": 7,
     "min_hard_obstacle_clearance_m": 0.3615,
-    "max_anomaly_score": 0.8729,
     "final_dispatch_distance_m": 0.3145
   }
 }
