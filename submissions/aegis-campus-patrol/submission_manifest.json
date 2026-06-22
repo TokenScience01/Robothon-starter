@@ -10,68 +10,68 @@
   "artifacts": [
     {
       "path": "submissions/aegis-campus-patrol/demo.mp4",
-      "bytes": 2978581,
-      "sha256": "ed6044c7f1ad98c008241d7ade0eecf38ebba49b2381579e80235582ddb6bafd"
+      "bytes": 3414610,
+      "sha256": "f480b526f0c574d8528a7dfcabe36daf8e3d01885f49a1ca169c637650054b56"
     },
     {
       "path": "submissions/aegis-campus-patrol/trajectory.json",
-      "bytes": 182077,
-      "sha256": "01f309d4beeb544e4f12b90b45ab3814c178a618a1531e1584b9f1a07c89cb2f"
+      "bytes": 267657,
+      "sha256": "63141782ee9b23f02298a4550eb66bea0b9432d65c41eb2fa37cfed9e9a94322"
     },
     {
       "path": "submissions/aegis-campus-patrol/mission_report.json",
-      "bytes": 4556,
-      "sha256": "2f73866c78578bf6883173c3c56fb383c69446f6c1b19c957932e22ec7f4ef8a"
+      "bytes": 5246,
+      "sha256": "7f598e3d2be06add17ee41b4fbe7237a7bee07af0f24df244140b8968510bf8c"
     },
     {
       "path": "submissions/aegis-campus-patrol/storyboard.png",
-      "bytes": 185661,
-      "sha256": "0c256a0bacf7fbfd0007296d05c89a28e3f6a3485d52cecc349b47b4f8b08aea"
+      "bytes": 289115,
+      "sha256": "0ce4dbb26d76c41350b6627a250d31ad1f12c7c1c81114260fda9af91fa9b66c"
     },
     {
       "path": "submissions/aegis-campus-patrol/narration.srt",
-      "bytes": 650,
-      "sha256": "cba1b875605001cd09c4ce3cae15588a799aeca4d812f0a79b8ae3c0d4622a27"
+      "bytes": 791,
+      "sha256": "e4971bc072456ae304a247bc5e5b26df2b551ff9e2bde91591a6a872d60ffad1"
     },
     {
       "path": "submissions/aegis-campus-patrol/sensor_manifest.json",
-      "bytes": 2208,
-      "sha256": "8fe70450937c25d3f86e83342721860498e0c9c362058c62edc5e97d24a99c4f"
+      "bytes": 3409,
+      "sha256": "b63a57a9a8175b8209eef6c47172bfae545526ece6685ee6fe524e5e59258f32"
     },
     {
       "path": "submissions/aegis-campus-patrol/stress_eval.json",
-      "bytes": 12002,
-      "sha256": "b173c71779d3adf8286005244c747915b4bcde9a8ee198672a485db90ab73b86"
+      "bytes": 12116,
+      "sha256": "49ddb39f87b337130b97c591321c5163be6433ae48f50b29354c9116ee5939e7"
     },
     {
       "path": "submissions/aegis-campus-patrol/patrol_policy_card.json",
-      "bytes": 1574,
-      "sha256": "7d77bb19091d484836a4eb6af445ae561fb7af893b7db55ed3b521297904ce3b"
+      "bytes": 2209,
+      "sha256": "830b3256f471526aa32603d0ccd0c620e152a52da74f9ab45c83350d49a4c42c"
     },
     {
       "path": "submissions/aegis-campus-patrol/rubric_scorecard.json",
-      "bytes": 3333,
-      "sha256": "db8fadad856fc46da8455db9b0bc7484da537e264e7a8c3e193a5a1da6ff5800"
+      "bytes": 3721,
+      "sha256": "658e3c2db385a47cfb5d36a39904c4289ab5eb2bbcf4f774b3544649e1e7c98b"
     },
     {
       "path": "submissions/aegis-campus-patrol/challenge_evidence.json",
-      "bytes": 1353,
-      "sha256": "1ced35b3b4af48fed5ef95cdb00fbcd943436206507e035336b58f3abf9ad4c8"
+      "bytes": 1842,
+      "sha256": "46e344894a6c3018f9b35ccbfb4212bfdf2efbb17c413099521d26b7256654a5"
     },
     {
       "path": "submissions/aegis-campus-patrol/JUDGE_BRIEF.md",
-      "bytes": 3423,
-      "sha256": "469788f53e57bd8a6115c73e3e144905582aa5636692ab73619ceb17e9297c65"
+      "bytes": 4070,
+      "sha256": "bb085c65e559169cbaf84a4acc7d8ff29388119227841c82681d9b1dfa92547d"
     },
     {
       "path": "submissions/aegis-campus-patrol/validate_submission.py",
-      "bytes": 6197,
-      "sha256": "06b595b0a39cd8bba4df2ee26d45b6c1ecb2c535c3b585dd3879cb7c48f3c904"
+      "bytes": 7667,
+      "sha256": "50a2b236c3906069768945dea529c2d86d1ff2bdb1268bcca1e0b525953a746e"
     },
     {
       "path": "submissions/aegis-campus-patrol/README.md",
-      "bytes": 6313,
-      "sha256": "90176e4aebf9b7642ca0c132da619e6c42d86d2d0e53c5d9137a2b7f82555bde"
+      "bytes": 7276,
+      "sha256": "19eb67ffe1e1c19273d2e9ad523b1294290e3bc3b102345965784f0eff558fac"
     },
     {
       "path": "submissions/aegis-campus-patrol/registration.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "submissions/aegis-campus-patrol/run_patrol.py",
-      "bytes": 61562,
-      "sha256": "19a6b824897864cfe48b1c522592d207debf0399321dde1d553ce48df432fda3"
+      "bytes": 81716,
+      "sha256": "83be53890b853c0193d47bf792dd5509bcbe7ba0935deef3e4ffcf8169bcab77"
     }
   ]
 }

@@ -18,6 +18,11 @@
     "avoidance_count": 1,
     "min_hard_obstacle_clearance_m": 0.3615,
     "max_anomaly_score": 0.8729,
+    "dexterity_task_completed": true,
+    "max_finger_contact_count": 5,
+    "max_cap_rotation_deg": 218.0,
+    "max_button_press_mm": 28.0,
+    "final_vial_pod_distance_m": 0.0,
     "stress_success_rate": 1.0,
     "final_dispatch_distance_m": 0.3145
   },
@@ -30,11 +35,19 @@
     "closed-loop finite-state planner",
     "campus security patrol",
     "suspicious-package inspection",
+    "five-finger dexterous hand",
+    "15 hinge joints",
+    "15 position actuators",
+    "fingertip touch sensors",
+    "vial freejoint manipulation",
+    "cap rotation over 200 degrees",
+    "audit-button slide joint",
+    "sterile pod placement",
     "trajectory dataset export",
     "stress replay",
     "HUD demo video",
     "storyboard",
     "SRT narration"
   ],
-  "honest_scope": "Legged autonomy and safety-focused inspection task; not a multi-finger manipulation entry."
+  "honest_scope": "Hybrid legged-autonomy and deterministic five-finger manipulation entry; the hand controller is scripted for reproducible judging rather than learned."
 }

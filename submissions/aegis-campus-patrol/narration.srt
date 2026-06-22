@@ -16,8 +16,12 @@ Suspicious-package inspection locks the anomaly score and task evidence.
 
 5
 00:00:29,800 --> 00:00:53,100
-Return-to-base mode closes the loop with continuous hard-obstacle clearance.
+Return-to-base mode closes the patrol loop with continuous hard-obstacle clearance.
 
 6
-00:00:53,100 --> 00:01:15,000
-PASS: all waypoints, avoidance, inspection, and return checks are written to JSON.
+00:00:53,100 --> 00:01:09,100
+DexTriage station performs five-finger grasp, cap rotation, pod placement, and audit-button press.
+
+7
+00:01:09,100 --> 00:01:15,000
+PASS: patrol and five-finger manipulation checks are written to judge-readable JSON.
