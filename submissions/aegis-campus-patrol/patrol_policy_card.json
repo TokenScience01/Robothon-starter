@@ -35,9 +35,9 @@
     "minimum_avoidance_count": 1,
     "anomaly_required": true
   },
-  "scope_notes": [
-    "The gait controller is deterministic so every judge receives the same trajectory, video, report, and replay evidence.",
-    "Stress replay perturbs logged trajectory evidence to keep safety checks compact and reproducible.",
-    "The task focuses on legged autonomy, safety inspection, route recovery, and machine-readable evidence export."
+  "limitations": [
+    "The gait is a deterministic visualization controller, not a learned torque policy.",
+    "Stress replay perturbs logged trajectory evidence; it is not a full randomized re-render.",
+    "The task prioritizes legged autonomy and safety over multi-finger dexterity."
   ]
 }

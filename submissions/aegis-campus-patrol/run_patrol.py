@@ -843,10 +843,10 @@ def write_policy_card(report: dict, output_path: Path) -> dict:
             "minimum_avoidance_count": 1,
             "anomaly_required": True,
         },
-        "scope_notes": [
-            "The gait controller is deterministic so every judge receives the same trajectory, video, report, and replay evidence.",
-            "Stress replay perturbs logged trajectory evidence to keep safety checks compact and reproducible.",
-            "The task focuses on legged autonomy, safety inspection, route recovery, and machine-readable evidence export.",
+        "limitations": [
+            "The gait is a deterministic visualization controller, not a learned torque policy.",
+            "Stress replay perturbs logged trajectory evidence; it is not a full randomized re-render.",
+            "The task prioritizes legged autonomy and safety over multi-finger dexterity.",
         ],
     }
     json_write(output_path, card)
@@ -977,7 +977,7 @@ def write_challenge_evidence(report: dict, stress_eval: dict, output_path: Path)
             "storyboard",
             "SRT narration",
         ],
-        "scope_notes": "Legged-autonomy and safety-focused inspection task with route recovery, anomaly inspection, return-to-base, and machine-readable evidence export.",
+        "honest_scope": "Legged autonomy and safety-focused inspection task; not a multi-finger manipulation entry.",
     }
     json_write(output_path, evidence)
     return evidence
@@ -1021,8 +1021,8 @@ def write_rubric_scorecard(report: dict, stress_eval: dict, output_path: Path) -
                 "evidence": "Closed-loop FSM uses front range, obstacle identity, package distance, waypoint state, safety projection, and return-to-base thresholds; trajectory logs every control phase.",
             },
             "dexterity": {
-                "target_score": 8.6,
-                "evidence": "Legged mobility dexterity through obstacle clearance, route recovery, inspection standoff, stable quadruped gait visualization, and hard-obstacle safety margins.",
+                "target_score": 8.0,
+                "evidence": "Not a multi-finger hand entry; demonstrates legged mobility dexterity through obstacle clearance, route recovery, inspection standoff, and stable quadruped gait visualization.",
             },
             "engineering_quality": {
                 "target_score": 9.4,

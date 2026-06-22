@@ -22,7 +22,7 @@ evidence.
 3. `mission_report.json` - pass/fail checks, mission score, stress summary, and rubric alignment.
 4. `stress_eval.json` - 32 fixed-seed replay perturbations for obstacle shifts and range bias.
 5. `sensor_manifest.json` - exported state, pose, range, clearance, package distance, and anomaly channels.
-6. `patrol_policy_card.json` - closed-loop FSM inputs, outputs, thresholds, and scope notes.
+6. `patrol_policy_card.json` - closed-loop FSM inputs, outputs, thresholds, and limitations.
 7. `rubric_scorecard.json` - explicit mapping to the public Robothon judging rubric.
 8. `validate_submission.py` - one command package validator.
 
@@ -44,14 +44,15 @@ evidence.
 - MuJoCo depth: Aegis URDF import, freejoint base, 12 leg joint targets, generated scene geoms, lights, camera, waypoint markers, hard obstacles, package zone, and range site.
 - Task design: campus security route with blocked walkway, obstacle detour, suspicious-package inspection, and return-to-base completion.
 - Control: closed-loop finite-state planner uses range, obstacle identity, waypoint state, package distance, safety projection, and return threshold.
-- Dexterity: legged mobility dexterity through obstacle clearance, route recovery, inspection standoff, and stable quadruped gait visualization.
-- Engineering quality: compact submission folder, deterministic run, machine-readable artifacts, fixed-seed replay checks, and explicit scope notes.
+- Dexterity: not a multi-finger hand entry; focuses on legged mobility dexterity, safety margin, and route recovery.
+- Engineering quality: compact submission folder, deterministic run, machine-readable artifacts, fixed-seed replay checks, and explicit limitations.
 - Presentation: video HUD/minimap, storyboard, SRT narration, and judge-first metrics reduce ambiguity for AI scoring.
 - Innovation: turns a quadruped campus-security scenario into a reproducible evidence-export benchmark.
 
-## Scope Notes
+## Honest Scope
 
-The gait controller is deterministic so every judge receives the same trajectory,
-video, report, and replay evidence. The stress evaluation is a fixed-seed replay
-over the generated trajectory evidence. This keeps the submission compact,
-reproducible, and easy for automated judges to verify.
+The gait is a deterministic visualization controller rather than a learned
+torque-control locomotion policy. The stress evaluation is a fixed-seed replay
+over the generated trajectory evidence, not a full randomized physics rerender.
+This is intentional: the submission optimizes reproducibility and judge
+verifiability for a legged-autonomy task.

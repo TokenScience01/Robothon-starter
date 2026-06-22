@@ -86,23 +86,23 @@ Start with `JUDGE_BRIEF.md`, then inspect:
 - `sensor_manifest.json` - exported channels for base pose, heading, front
   range, hard-obstacle clearance, package distance, and anomaly score.
 - `patrol_policy_card.json` - closed-loop FSM inputs, outputs, thresholds,
-  behaviors, and scope notes.
+  behaviors, and honest limitations.
 - `rubric_scorecard.json` - explicit mapping to the public Robothon rubric.
 - `submission_manifest.json` - file sizes and SHA-256 checksums for submitted
   artifacts.
 
-## Scope and next upgrades
+## Current limitations
 
-- The quadruped gait controller is deterministic, which keeps the video,
-  trajectory, report, and replay evidence reproducible for every judge.
-- The obstacle avoidance focuses on the submitted campus map with hard-obstacle
-  clearance checks and fixed-seed replay perturbations.
-- The anomaly detector is a deterministic inspection model with positive,
-  normalized anomaly evidence exported to JSON.
+- The quadruped gait is a deterministic visualization controller rather than a
+  trained dynamic locomotion policy.
+- The obstacle avoidance is local and planner-based; it does not solve arbitrary
+  global path planning maps.
+- The anomaly detector is a deterministic range-and-location model rather than a
+  learned perception model.
 
 ## Future improvements
 
-- Add a torque or position actuator controller for dynamic locomotion replay.
+- Replace the scripted gait with a torque or position actuator controller.
 - Add multiple randomized maps and aggregate evaluation scores.
 - Add image-based package classification from rendered camera frames.
 - Export a larger dataset for imitation learning or policy training.

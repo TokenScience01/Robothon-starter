@@ -35,8 +35,8 @@
       "evidence": "Closed-loop FSM uses front range, obstacle identity, package distance, waypoint state, safety projection, and return-to-base thresholds; trajectory logs every control phase."
     },
     "dexterity": {
-      "target_score": 8.6,
-      "evidence": "Legged mobility dexterity through obstacle clearance, route recovery, inspection standoff, stable quadruped gait visualization, and hard-obstacle safety margins."
+      "target_score": 8.0,
+      "evidence": "Not a multi-finger hand entry; demonstrates legged mobility dexterity through obstacle clearance, route recovery, inspection standoff, and stable quadruped gait visualization."
     },
     "engineering_quality": {
       "target_score": 9.4,

@@ -36,5 +36,5 @@
     "storyboard",
     "SRT narration"
   ],
-  "scope_notes": "Legged-autonomy and safety-focused inspection task with route recovery, anomaly inspection, return-to-base, and machine-readable evidence export."
+  "honest_scope": "Legged autonomy and safety-focused inspection task; not a multi-finger manipulation entry."
 }
