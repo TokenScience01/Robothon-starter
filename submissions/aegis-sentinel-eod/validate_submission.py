@@ -56,8 +56,10 @@ def main() -> int:
 
     if (ARTIFACTS / "stress_eval.json").exists():
         stress = json.loads((ARTIFACTS / "stress_eval.json").read_text(encoding="utf-8"))
-        if int(stress.get("seeds", 0)) < 48:
-            errors.append("stress_eval must include at least 48 seeds")
+        if int(stress.get("seeds", 0)) < 96:
+            errors.append("stress_eval must include at least 96 seeds")
+        if float(stress.get("baseline_success", 0.0)) < 0.5:
+            errors.append("baseline stress success unrealistically low")
         if float(stress.get("learned_policy_success", 0.0)) < 0.85:
             errors.append("learned policy stress success below threshold")
 
@@ -65,6 +67,12 @@ def main() -> int:
         report = json.loads((ARTIFACTS / "mission_report.json").read_text(encoding="utf-8"))
         if float(report.get("max_shove_n", 0.0)) < 3.5:
             errors.append("mission report missing 4N shove evidence")
+        if not report.get("seal_confirmed"):
+            errors.append("mission did not record seal_confirmed")
+
+    for rel_path in ("dataset/labels.csv", "dataset/metrics.json", "dataset/episode_trace.json", "dataset/sensor_manifest.json"):
+        if not (PROJECT / rel_path).exists():
+            errors.append(f"missing dataset artifact: {rel_path}")
 
     if errors:
         print("VALIDATION FAILED")

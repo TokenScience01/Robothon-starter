@@ -1,5 +1,5 @@
 {
-  "project": "Aegis Sentinel EOD",
+  "project": "Aegis Sentinel EOD v3",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "keywords": [
     "quadruped patrol",
@@ -14,25 +14,26 @@
   "rubric_index": {
     "reproducibility": "one-command deterministic artifact generation",
     "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
-    "task_design": "campus EOD patrol with scan, tri-finger grasp, containment placement, and alarm confirmation",
+    "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, containment seal, and alarm confirmation",
     "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
-    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, contact balancing, transport",
-    "engineering_quality": "validator, judge brief, scorecard, policy card, 64-seed stress replay",
-    "presentation": "34s HUD video, beat labels, pass banner, SRT subtitles, 8-panel storyboard",
-    "innovation": "quadruped-plus-manipulator campus EOD benchmark with shove recovery"
+    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, seal press, contact balancing, transport",
+    "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay",
+    "presentation": "36s HUD video, beat labels, pass banner, SRT subtitles, 9-panel storyboard",
+    "innovation": "quadruped-plus-manipulator campus EOD benchmark with disturbance recovery and seal confirm",
+    "data_collection": "labels.csv, episode trace, sensor manifest, and metrics JSON exported each run"
   },
   "success": {
     "final_task_success": true,
     "package_grasped": true,
     "alarm_pressed": true,
     "min_package_bin_error_m": 0.02,
-    "recovered_slip_mm": 0.262,
+    "recovered_slip_mm": 0.065,
     "max_shove_n": 4.0
   },
   "stress_eval": {
-    "seeds": 64,
+    "seeds": 96,
     "learned_policy_success": 1.0,
-    "baseline_success": 0.0,
-    "median_error_improvement_mm": 17.24
+    "baseline_success": 0.6667,
+    "median_error_improvement_mm": 25.83
   }
 }

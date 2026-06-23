@@ -1,4 +1,4 @@
-# Aegis Sentinel EOD v2
+# Aegis Sentinel EOD v3
 
 **Campus hazardous-package neutralization with an Aegis-inspired quadruped patrol platform, onboard tri-finger manipulator, and 4N shove recovery.**
 

@@ -1,0 +1,15 @@
+{
+  "sensors": [
+    "forward_range",
+    "finger_a_touch",
+    "finger_b_touch",
+    "thumb_touch",
+    "platform_position",
+    "palm_position",
+    "package_position",
+    "bin_goal_position",
+    "alarm_position",
+    "seal_position"
+  ],
+  "sample_count": 643
+}

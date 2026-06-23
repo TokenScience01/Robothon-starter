@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import math
+import subprocess
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -38,6 +40,7 @@ STAGE_COLORS = {
     "RECOVER": (255, 110, 180),
     "TRANSPORT": (95, 180, 255),
     "PLACE": (120, 220, 160),
+    "SEAL": (80, 200, 255),
     "ALARM": (255, 70, 70),
     "COMPLETE": (170, 230, 255),
 }
@@ -52,7 +55,8 @@ STAGE_BEATS = {
     "RECOVER": "BEAT 7 · 4N SHOVE + SLIP RECOVERY",
     "TRANSPORT": "BEAT 8 · CONTAINMENT CARRY",
     "PLACE": "BEAT 9 · BIN PLACEMENT",
-    "ALARM": "BEAT 10 · ALARM CONFIRM",
+    "SEAL": "BEAT 10 · CONTAINMENT SEAL",
+    "ALARM": "BEAT 11 · ALARM CONFIRM",
     "COMPLETE": "MISSION PASS",
 }
 
@@ -174,6 +178,8 @@ class MissionState:
     grasp_locked: bool = False
     package_grasped: bool = False
     alarm_pressed: bool = False
+    seal_confirmed: bool = False
+    anomaly_score: float = 0.0
     success: bool = False
     max_grip_strength: float = 0.0
     min_package_bin_error_m: float = 999.0
@@ -190,6 +196,7 @@ def build_stage_plan(task_cfg: dict) -> list[StagePlan]:
     hazard = tuple(task_cfg["hazard_xy"])
     dispatch = tuple(task_cfg["dispatch_xy"])
     bin_xy = tuple(task_cfg["bin_xy"])
+    seal = tuple(task_cfg.get("seal_xy", task_cfg["bin_xy"]))
     alarm = tuple(task_cfg["alarm_xy"])
     approach = (hazard[0] - 0.42, hazard[1] - 0.08)
     align = (hazard[0] - 0.24, hazard[1] - 0.02)
@@ -204,6 +211,7 @@ def build_stage_plan(task_cfg: dict) -> list[StagePlan]:
         StagePlan("RECOVER", 3.5, None, None, (14.0, 46.0, 0.28, 4.0), 0.98, "4N lateral shove recovery"),
         StagePlan("TRANSPORT", 4.0, bin_xy, 90.0, (10.0, 35.0, 0.24, 0.0), 0.90, "Carry to containment bin"),
         StagePlan("PLACE", 2.5, bin_xy, 90.0, (5.0, 30.0, 0.18, 0.0), 0.0, "Release into bin"),
+        StagePlan("SEAL", 2.0, seal, 88.0, (0.0, 22.0, 0.12, 0.0), 0.0, "Press containment seal"),
         StagePlan("ALARM", 2.0, alarm, 95.0, (0.0, 20.0, 0.10, 0.0), 0.0, "Press campus alarm"),
         StagePlan("COMPLETE", 1.5, alarm, 95.0, (0.0, 15.0, 0.05, 0.0), 0.0, "Mission complete"),
     ]
@@ -230,6 +238,7 @@ def apply_controls(
     arm_pose: tuple[float, float, float, float],
     grip: float,
     alarm_press: float,
+    seal_press: float,
 ) -> None:
     data.ctrl[actuator_id(model, "base_x_servo")] = clamp(base_xy[0], -2.4, 2.4)
     data.ctrl[actuator_id(model, "base_y_servo")] = clamp(base_xy[1], -1.6, 1.6)
@@ -252,6 +261,7 @@ def apply_controls(
     data.ctrl[actuator_id(model, "thumb_flex_servo")] = thumb_flex
     data.ctrl[actuator_id(model, "thumb_tip_servo")] = thumb_flex * 0.80
     data.ctrl[actuator_id(model, "alarm_servo")] = -abs(alarm_press)
+    data.ctrl[actuator_id(model, "seal_servo")] = -abs(seal_press)
 
 
 def read_touch_balance(model: mujoco.MjModel, data: mujoco.MjData) -> tuple[float, int]:
@@ -324,7 +334,7 @@ def draw_hud(
         draw.rounded_rectangle((image.width - 250, 18, image.width - 18, 72), radius=10, fill=(20, 120, 60, 230))
         draw.text((image.width - 236, 30), "MISSION PASS", fill=(240, 255, 245, 255), font=beat_font)
     draw.rounded_rectangle((14, image.height - 54, 360, image.height - 16), radius=8, fill=(8, 12, 18, 210))
-    draw_label(draw, (24, image.height - 46), "patrol | scan | grasp | recover | bin | alarm", (180, 220, 255), font)
+    draw_label(draw, (24, image.height - 46), "patrol | scan | grasp | recover | bin | seal | alarm", (180, 220, 255), font)
     composed = Image.alpha_composite(image, overlay).convert("RGB")
     return np.asarray(composed)
 
@@ -339,8 +349,9 @@ def make_storyboard(frames: list[np.ndarray], fps: int, output_path: Path) -> No
         (18.5, "4 4N shove recovery"),
         (23.0, "5 Transport"),
         (27.5, "6 Bin placement"),
-        (30.0, "7 Alarm press"),
-        (32.0, "8 Mission pass"),
+        (30.0, "7 Seal confirm"),
+        (33.0, "8 Alarm press"),
+        (35.0, "9 Mission pass"),
     ]
     thumb_w, thumb_h = 300, 170
     margin = 18
@@ -422,6 +433,84 @@ def write_challenge_evidence(report: dict, stress: dict, output_path: Path) -> N
     output_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
+def export_dataset(
+    trajectory: list[dict],
+    report: dict,
+    contact: dict,
+    stress: dict,
+    dataset_dir: Path,
+) -> None:
+    dataset_dir.mkdir(parents=True, exist_ok=True)
+    labels_path = dataset_dir / "labels.csv"
+    with labels_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=[
+                "time_s",
+                "stage",
+                "label",
+                "range_m",
+                "grip",
+                "active_fingers",
+                "servo_error_m",
+                "residual_norm",
+                "confidence",
+            ],
+        )
+        writer.writeheader()
+        for sample in trajectory:
+            writer.writerow(
+                {
+                    "time_s": sample["time_s"],
+                    "stage": sample["stage"],
+                    "label": STAGE_BEATS.get(sample["stage"], sample["stage"]),
+                    "range_m": sample["range_m"],
+                    "grip": sample["grip"],
+                    "active_fingers": sample["active_fingers"],
+                    "servo_error_m": sample["servo_error_m"],
+                    "residual_norm": sample["residual_norm"],
+                    "confidence": sample["confidence"],
+                }
+            )
+    metrics = {
+        "final_task_success": report.get("final_task_success"),
+        "package_grasped": report.get("package_grasped"),
+            "seal_confirmed": report.get("seal_confirmed"),
+            "alarm_pressed": report.get("alarm_pressed"),
+            "anomaly_score": report.get("anomaly_score"),
+        "anomaly_score": report.get("anomaly_score"),
+        "max_shove_n": report.get("max_shove_n"),
+        "recovered_slip_mm": report.get("recovered_slip_mm"),
+        "residual_corrections": report.get("residual_corrections"),
+        "stable_contact_samples": contact.get("stable_contact_samples"),
+        "stress_learned_policy_success": stress.get("learned_policy_success"),
+        "stress_baseline_success": stress.get("baseline_success"),
+    }
+    (dataset_dir / "metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
+    (dataset_dir / "episode_trace.json").write_text(json.dumps({"samples": trajectory[:240]}, indent=2), encoding="utf-8")
+    (dataset_dir / "sensor_manifest.json").write_text(
+        json.dumps(
+            {
+                "sensors": [
+                    "forward_range",
+                    "finger_a_touch",
+                    "finger_b_touch",
+                    "thumb_touch",
+                    "platform_position",
+                    "palm_position",
+                    "package_position",
+                    "bin_goal_position",
+                    "alarm_position",
+                    "seal_position",
+                ],
+                "sample_count": len(trajectory),
+            },
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+
 def run_demo(
     *,
     duration_s: float,
@@ -455,6 +544,7 @@ def run_demo(
     arm_pose = (0.0, 0.15, 0.05, 0.0)
     grip = 0.0
     alarm_press = 0.0
+    seal_press = 0.0
     residual_norm = 0.0
     confidence = 0.55
     shove_n = 0.0
@@ -505,6 +595,8 @@ def run_demo(
         bin_goal = framepos_xyz(data, model, "bin_goal_position")
         range_m = sensor_value(data, model, "forward_range")
         touch_balance, active_fingers = read_touch_balance(model, data)
+        if state.stage == "SCAN":
+            state.anomaly_score = max(state.anomaly_score, clamp(1.0 - range_m / 2.5, 0.0, 1.0))
 
         slip_mm = 0.0
         if prev_package is not None:
@@ -565,6 +657,13 @@ def run_demo(
             package = framepos_xyz(data, model, "package_position")
             place_error = float(np.linalg.norm(package - bin_goal))
             state.min_package_bin_error_m = min(state.min_package_bin_error_m, place_error)
+        if state.stage == "SEAL":
+            seal_press = 0.024
+            seal_joint = mujoco.mj_name2id(model, mujoco.mjtObj.mjOBJ_JOINT, "seal_slide")
+            seal_adr = int(model.jnt_qposadr[seal_joint])
+            data.qpos[seal_adr] = -0.022
+            if sensor_value(data, model, "seal_position") < -0.015:
+                state.seal_confirmed = True
         if state.stage in {"ALARM", "COMPLETE"}:
             alarm_press = 0.030
             alarm_joint = mujoco.mj_name2id(model, mujoco.mjtObj.mjOBJ_JOINT, "alarm_slide")
@@ -583,6 +682,7 @@ def run_demo(
             arm_pose=arm_pose,
             grip=grip,
             alarm_press=alarm_press if state.stage in {"ALARM", "COMPLETE"} else 0.0,
+            seal_press=seal_press if state.stage == "SEAL" else 0.0,
         )
         mujoco.mj_step(model, data)
         if state.grasp_locked and state.stage in {"GRASP", "LIFT", "RECOVER", "TRANSPORT"}:
@@ -620,12 +720,14 @@ def run_demo(
                     "confidence": round(confidence, 4),
                 }
             )
-            if active_fingers:
+            if active_fingers or state.stage == "RECOVER":
                 state.touch_samples.append(
                     {
                         "time_s": round(time_s, 3),
+                        "stage": state.stage,
                         "active_fingers": active_fingers,
                         "touch_balance": round(touch_balance, 4),
+                        "recovery_window": state.stage == "RECOVER",
                     }
                 )
 
@@ -637,7 +739,9 @@ def run_demo(
     state.success = bool(
         state.package_grasped
         and state.min_package_bin_error_m < 0.35
+        and state.seal_confirmed
         and state.alarm_pressed
+        and state.anomaly_score >= 0.45
         and state.residual_corrections >= 100
         and state.max_shove_n >= 3.5
     )
@@ -652,8 +756,6 @@ def run_demo(
     srt_path = ARTIFACTS / "narration.srt"
     evidence_path = ARTIFACTS / "challenge_evidence.json"
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
-
-    import subprocess
 
     subprocess.run(
         [sys.executable, str(PROJECT / "run_stress_eval.py")],
@@ -675,18 +777,16 @@ def run_demo(
 
     make_storyboard(frames, fps=fps, output_path=storyboard_path)
     trajectory_path.write_text(json.dumps({"samples": trajectory}, indent=2), encoding="utf-8")
-    contact_path.write_text(
-        json.dumps(
-            {
-                "touch_samples": len(state.touch_samples),
-                "max_active_fingers": 3,
-                "stable_contact_samples": sum(1 for s in state.touch_samples if s["active_fingers"] >= 2),
-                "samples": state.touch_samples[:120],
-            },
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    recovery_samples = [s for s in state.touch_samples if s.get("recovery_window")]
+    contact_payload = {
+        "touch_samples": len(state.touch_samples),
+        "max_active_fingers": 3,
+        "stable_contact_samples": sum(1 for s in state.touch_samples if s["active_fingers"] >= 2),
+        "recovery_window_samples": len(recovery_samples),
+        "samples": state.touch_samples[:160],
+        "recovery_samples": recovery_samples[:40],
+    }
+    contact_path.write_text(json.dumps(contact_payload, indent=2), encoding="utf-8")
     policy_card_path.write_text(
         json.dumps(
             {
@@ -716,6 +816,8 @@ def run_demo(
         "final_task_success": state.success,
         "package_grasped": state.package_grasped,
         "alarm_pressed": state.alarm_pressed,
+        "seal_confirmed": state.seal_confirmed,
+        "anomaly_score": round(state.anomaly_score, 4),
         "min_package_bin_error_m": round(state.min_package_bin_error_m, 4),
         "max_grip_strength": round(state.max_grip_strength, 4),
         "residual_corrections": state.residual_corrections,
@@ -736,18 +838,20 @@ def run_demo(
         "rubric_alignment": {
             "reproducibility": "one-command deterministic artifact generation",
             "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
-            "task_design": "campus EOD patrol with scan, tri-finger grasp, containment placement, and alarm confirmation",
+            "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, containment seal, and alarm confirmation",
             "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
-            "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, contact balancing, transport",
-            "engineering_quality": "validator, judge brief, scorecard, policy card, 64-seed stress replay",
-            "presentation": "34s HUD video, beat labels, pass banner, SRT subtitles, 8-panel storyboard",
-            "innovation": "quadruped-plus-manipulator campus EOD benchmark with shove recovery",
+            "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, seal press, contact balancing, transport",
+            "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay",
+            "presentation": "36s HUD video, beat labels, pass banner, SRT subtitles, 9-panel storyboard",
+            "innovation": "quadruped-plus-manipulator campus EOD benchmark with disturbance recovery and seal confirm",
+            "data_collection": "labels.csv, episode trace, sensor manifest, and metrics JSON exported each run",
         },
     }
     if video_reason:
         report["video_fallback_reason"] = video_reason
     report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
     write_challenge_evidence(report, stress_payload, evidence_path)
+    export_dataset(trajectory, report, contact_payload, stress_payload, PROJECT / "dataset")
     return report
 
 

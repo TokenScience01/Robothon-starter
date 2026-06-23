@@ -49,6 +49,15 @@
       <site name="bin_goal_site" pos="0 0 0" rgba="0.2 1 0.4 0.85"/>
     </body>
 
+    <body name="seal_housing" pos="0.38 0.72 0.16">
+      <geom name="seal_base" type="box" size="0.08 0.06 0.035" rgba="0.14 0.16 0.20 1"/>
+      <body name="seal_button" pos="0 0 0.050">
+        <joint name="seal_slide" type="slide" axis="0 0 1" range="-0.026 0.000" damping="4"/>
+        <geom name="seal_cap" type="cylinder" size="0.034 0.014" rgba="0.20 0.75 0.95 1"/>
+        <site name="seal_site" pos="0 0 0.016" rgba="0.2 0.8 1 0.85"/>
+      </body>
+    </body>
+
     <body name="alarm_housing" pos="0.55 0.78 0.16">
       <geom name="alarm_base" type="box" size="0.10 0.07 0.04" rgba="0.12 0.12 0.14 1"/>
       <body name="alarm_button" pos="0 0 0.055">
@@ -158,6 +167,7 @@
     <position name="thumb_flex_servo" joint="thumb_flex" kp="70"/>
     <position name="thumb_tip_servo" joint="thumb_tip" kp="54"/>
     <position name="alarm_servo" joint="alarm_slide" kp="120"/>
+    <position name="seal_servo" joint="seal_slide" kp="110"/>
   </actuator>
 
   <sensor>
@@ -166,6 +176,7 @@
     <framepos name="package_position" objtype="site" objname="package_grasp_site"/>
     <framepos name="bin_goal_position" objtype="site" objname="bin_goal_site"/>
     <jointpos name="alarm_position" joint="alarm_slide"/>
+    <jointpos name="seal_position" joint="seal_slide"/>
     <touch name="finger_a_touch" site="finger_a_pad"/>
     <touch name="finger_b_touch" site="finger_b_pad"/>
     <touch name="thumb_touch" site="thumb_pad"/>
