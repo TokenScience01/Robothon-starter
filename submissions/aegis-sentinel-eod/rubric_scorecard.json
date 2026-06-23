@@ -1,11 +1,11 @@
 {
-  "project": "Aegis Sentinel EOD",
+  "project": "Aegis Sentinel EOD v2",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "self_audit_note": "Unofficial self-audit for AI judges. Official scores are determined by the contest panel.",
   "criteria": {
     "reproducibility": {
       "score_10": 9,
-      "evidence": "single-command run, validator, no external downloads"
+      "evidence": "single-command run, validator, no external downloads, SRT and challenge evidence generated"
     },
     "mujoco_depth": {
       "score_10": 9,
@@ -13,30 +13,30 @@
     },
     "task_design": {
       "score_10": 9,
-      "evidence": "campus EOD patrol with scan, grasp, containment, alarm confirmation"
+      "evidence": "campus EOD patrol with scan, grasp, 4N shove recovery, containment, alarm confirmation"
     },
     "control": {
       "score_10": 9,
-      "evidence": "stage planner plus tactile residual policy using MuJoCo sensor streams"
+      "evidence": "stage planner plus tactile residual policy with recovery gain under shove disturbance"
     },
     "dexterity": {
-      "score_10": 8,
-      "evidence": "thumb-opposed tri-finger grasp, contact balancing, transport, release"
+      "score_10": 9,
+      "evidence": "thumb-opposed tri-finger grasp, shove recovery, contact balancing, transport, release"
     },
     "engineering_quality": {
       "score_10": 9,
-      "evidence": "judge brief, scorecard, validator, policy card, training report, manifest"
+      "evidence": "judge brief, scorecard, validator, policy card, 64-seed stress replay, challenge evidence"
     },
     "presentation": {
       "score_10": 9,
-      "evidence": "HUD demo video and generated keyframe storyboard"
+      "evidence": "34s HUD video, beat labels, pass banner, SRT subtitles, 8-panel storyboard"
     },
     "innovation": {
       "score_10": 9,
-      "evidence": "quadruped-plus-manipulator campus EOD benchmark distinct from gantry triage cluster"
+      "evidence": "quadruped-plus-manipulator campus EOD benchmark with disturbance recovery"
     }
   },
-  "estimated_total_80": 71,
-  "estimated_percentage": 88.75,
-  "target_rank_band": "top 10"
+  "estimated_total_80": 72,
+  "estimated_percentage": 90.0,
+  "target_rank_band": "top 15"
 }

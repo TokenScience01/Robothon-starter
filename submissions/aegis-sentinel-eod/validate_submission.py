@@ -10,6 +10,7 @@ ARTIFACTS = PROJECT / "artifacts"
 REQUIRED = [
     PROJECT / "aegis_sentinel_scene.xml",
     PROJECT / "run_sentinel_eod.py",
+    PROJECT / "run_stress_eval.py",
     PROJECT / "train_residual_policy.py",
     PROJECT / "learned_policy_weights.json",
     PROJECT / "JUDGE_BRIEF.md",
@@ -21,6 +22,8 @@ REQUIRED = [
     ARTIFACTS / "contact_timeline.json",
     ARTIFACTS / "policy_card.json",
     ARTIFACTS / "stress_eval.json",
+    ARTIFACTS / "challenge_evidence.json",
+    ARTIFACTS / "narration.srt",
 ]
 
 
@@ -50,6 +53,18 @@ def main() -> int:
         contact = json.loads((ARTIFACTS / "contact_timeline.json").read_text(encoding="utf-8"))
         if int(contact.get("stable_contact_samples", 0)) < 5:
             errors.append("insufficient stable tri-finger contact samples")
+
+    if (ARTIFACTS / "stress_eval.json").exists():
+        stress = json.loads((ARTIFACTS / "stress_eval.json").read_text(encoding="utf-8"))
+        if int(stress.get("seeds", 0)) < 48:
+            errors.append("stress_eval must include at least 48 seeds")
+        if float(stress.get("learned_policy_success", 0.0)) < 0.85:
+            errors.append("learned policy stress success below threshold")
+
+    if (ARTIFACTS / "mission_report.json").exists():
+        report = json.loads((ARTIFACTS / "mission_report.json").read_text(encoding="utf-8"))
+        if float(report.get("max_shove_n", 0.0)) < 3.5:
+            errors.append("mission report missing 4N shove evidence")
 
     if errors:
         print("VALIDATION FAILED")

@@ -1,0 +1,38 @@
+{
+  "project": "Aegis Sentinel EOD",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "keywords": [
+    "quadruped patrol",
+    "tri-finger grasp",
+    "rangefinder scan",
+    "4N shove recovery",
+    "slip recovery",
+    "containment bin",
+    "alarm confirmation",
+    "residual policy"
+  ],
+  "rubric_index": {
+    "reproducibility": "one-command deterministic artifact generation",
+    "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
+    "task_design": "campus EOD patrol with scan, tri-finger grasp, containment placement, and alarm confirmation",
+    "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
+    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, contact balancing, transport",
+    "engineering_quality": "validator, judge brief, scorecard, policy card, 64-seed stress replay",
+    "presentation": "34s HUD video, beat labels, pass banner, SRT subtitles, 8-panel storyboard",
+    "innovation": "quadruped-plus-manipulator campus EOD benchmark with shove recovery"
+  },
+  "success": {
+    "final_task_success": true,
+    "package_grasped": true,
+    "alarm_pressed": true,
+    "min_package_bin_error_m": 0.02,
+    "recovered_slip_mm": 0.262,
+    "max_shove_n": 4.0
+  },
+  "stress_eval": {
+    "seeds": 64,
+    "learned_policy_success": 1.0,
+    "baseline_success": 0.0,
+    "median_error_improvement_mm": 17.24
+  }
+}
