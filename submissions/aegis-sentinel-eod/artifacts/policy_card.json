@@ -1,0 +1,19 @@
+{
+  "policy_type": "tactile_residual_grasp_policy",
+  "inputs": [
+    "visual_servo_error_x",
+    "visual_servo_error_y",
+    "visual_servo_error_z",
+    "contact_balance_error",
+    "slip_observer_mm"
+  ],
+  "outputs": [
+    "grip_delta",
+    "reach_delta_x",
+    "reach_delta_y",
+    "reach_delta_z",
+    "recovery_gain"
+  ],
+  "residual_corrections": 5507,
+  "confidence_end": 0.2
+}

@@ -1,0 +1,11 @@
+{
+  "project_name": "Aegis Sentinel EOD",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "entry_point": "submissions/aegis-sentinel-eod/run_sentinel_eod.py",
+  "judge_entry": "submissions/aegis-sentinel-eod/JUDGE_BRIEF.md",
+  "scene": "submissions/aegis-sentinel-eod/aegis_sentinel_scene.xml",
+  "demo_video": "submissions/aegis-sentinel-eod/artifacts/demo.mp4",
+  "storyboard": "submissions/aegis-sentinel-eod/artifacts/keyframes.png",
+  "report": "submissions/aegis-sentinel-eod/artifacts/mission_report.json",
+  "validator": "submissions/aegis-sentinel-eod/validate_submission.py"
+}

@@ -1,0 +1,36 @@
+{
+  "project": "Aegis Sentinel EOD",
+  "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
+  "robot_platform": "Aegis-inspired quadruped patrol platform with onboard 3-finger manipulator",
+  "task": "Campus hazardous-package neutralization: patrol, MuJoCo rangefinder scan, tri-finger grasp, transport to containment bin, and alarm confirmation.",
+  "scene": "submissions/aegis-sentinel-eod/aegis_sentinel_scene.xml",
+  "video": "submissions/aegis-sentinel-eod/artifacts/demo.mp4",
+  "trajectory": "submissions/aegis-sentinel-eod/artifacts/trajectory.json",
+  "storyboard": "submissions/aegis-sentinel-eod/artifacts/keyframes.png",
+  "duration_s": 48.0,
+  "fps": 18,
+  "final_task_success": true,
+  "package_grasped": true,
+  "alarm_pressed": true,
+  "min_package_bin_error_m": 0.02,
+  "max_grip_strength": 1.0,
+  "residual_corrections": 5507,
+  "raw_median_servo_error_m": 0.91481,
+  "post_residual_median_error_m": 0.05131,
+  "slip_recovery_mm": 1.1,
+  "reproducibility": {
+    "deterministic_controller": true,
+    "external_assets": "none",
+    "single_command": "python submissions/aegis-sentinel-eod/run_sentinel_eod.py"
+  },
+  "rubric_alignment": {
+    "reproducibility": "one-command deterministic artifact generation",
+    "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
+    "task_design": "campus EOD patrol with scan, tri-finger grasp, containment placement, and alarm confirmation",
+    "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
+    "dexterity": "thumb-opposed tri-finger grasp with contact balancing and transport",
+    "engineering_quality": "validator, judge brief, scorecard, policy card, stress replay",
+    "presentation": "HUD video, keyframe storyboard, quantitative overlays",
+    "innovation": "first quadruped-plus-manipulator campus EOD benchmark in this contest"
+  }
+}

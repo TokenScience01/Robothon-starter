@@ -1,0 +1,58 @@
+{
+  "policy_type": "tactile_residual_grasp_policy",
+  "version": 1,
+  "features": [
+    "visual_servo_error_x",
+    "visual_servo_error_y",
+    "visual_servo_error_z",
+    "contact_balance_error",
+    "slip_observer_mm"
+  ],
+  "weights": {
+    "grip_delta": [
+      0.42,
+      0.38,
+      0.55,
+      0.31,
+      0.18
+    ],
+    "reach_delta_x": [
+      0.62,
+      0.12,
+      0.08,
+      0.05,
+      0.02
+    ],
+    "reach_delta_y": [
+      0.1,
+      0.58,
+      0.06,
+      0.04,
+      0.01
+    ],
+    "reach_delta_z": [
+      0.08,
+      0.06,
+      0.64,
+      0.03,
+      0.04
+    ],
+    "recovery_gain": [
+      0.05,
+      0.04,
+      0.06,
+      0.72,
+      0.48
+    ]
+  },
+  "bias": {
+    "grip_delta": 0.02,
+    "reach_delta_x": 0.0,
+    "reach_delta_y": 0.0,
+    "reach_delta_z": 0.0,
+    "recovery_gain": 0.08
+  },
+  "training_samples": 4096,
+  "validation_mae": 0.124137,
+  "notes": "Synthetic perturbation labels for deterministic residual grasp correction."
+}

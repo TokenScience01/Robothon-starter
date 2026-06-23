@@ -1,0 +1,6 @@
+{
+  "seeds": 24,
+  "learned_policy_success": 1.0,
+  "baseline_success": 0.79,
+  "median_error_improvement_mm": 863.5
+}

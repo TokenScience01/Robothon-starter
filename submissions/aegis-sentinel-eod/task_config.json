@@ -1,0 +1,12 @@
+{
+  "project_name": "Aegis Sentinel EOD",
+  "robot_platform": "Aegis-inspired quadruped patrol platform with onboard 3-finger manipulator",
+  "task_goal": "Campus hazardous-package neutralization: patrol, MuJoCo rangefinder scan, tri-finger grasp, transport to containment bin, and alarm confirmation.",
+  "dispatch_xy": [-1.65, -0.25],
+  "hazard_xy": [1.10, 0.05],
+  "bin_xy": [0.15, 0.72],
+  "alarm_xy": [0.55, 0.78],
+  "demo_duration_s": 48.0,
+  "demo_fps": 18,
+  "stress_seeds": 24
+}
