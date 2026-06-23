@@ -4,12 +4,12 @@ Registration UUID: `190f2760-b68b-44ee-b805-a6a492a2fa6c`
 
 ## Project Summary · 项目说明
 
-- **Project name · 项目名称**: Aegis Sentinel EOD v3
-- **Robot platform · 机器人平台**: Aegis-inspired quadruped patrol platform with onboard tri-finger manipulator
-- **Task goal · 任务目标**: Campus hazardous-package neutralization with rangefinder scan, tri-finger grasp, 4N shove recovery, containment placement, seal confirmation, and alarm confirmation
+- **Project name · 项目名称**: Aegis Sentinel EOD v4
+- **Robot platform · 机器人平台**: Aegis-inspired quadruped patrol platform with onboard tri-finger manipulator and BASE_LINK mesh
+- **Task goal · 任务目标**: Campus hazardous-package neutralization with rangefinder scan, tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, containment placement, seal confirmation, and alarm confirmation
 - **Technical approach · 技术方案**: MuJoCo MJCF scene, touch/rangefinder sensors, stage planner, tactile residual grasp policy, 96-seed stress replay, dataset export
-- **Core features · 核心功能**: Custom scene, tri-finger dexterity, shove recovery, seal press, alarm press, HUD demo, SRT subtitles, challenge evidence, validator
-- **Highlights · 亮点**: Quadruped-plus-manipulator campus EOD benchmark distinct from gantry medicine-triage cluster; judge brief and rubric scorecard included
+- **Core features · 核心功能**: Custom scene, Aegis mesh, tri-finger dexterity, dual slip recovery, 9x hold, seal press, alarm press, 30s HUD demo with opening splash, SRT subtitles, challenge evidence, validator
+- **Highlights · 亮点**: Quadruped-plus-manipulator campus EOD benchmark distinct from gantry medicine-triage cluster; judge brief with quantitative evidence table and rubric scorecard included
 - **Current limitations · 当前局限**: Patrol locomotion uses a mobile platform abstraction rather than full torque-based quadruped gait
 - **Future improvements · 未来改进**: Full Aegis URDF torque locomotion and visuomotor policy training from exported labels
 

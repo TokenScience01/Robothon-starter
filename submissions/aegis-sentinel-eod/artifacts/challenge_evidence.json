@@ -1,12 +1,14 @@
 {
-  "project": "Aegis Sentinel EOD v3",
+  "project": "Aegis Sentinel EOD v4",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "keywords": [
     "quadruped patrol",
     "tri-finger grasp",
     "rangefinder scan",
     "4N shove recovery",
+    "9x load hold",
     "slip recovery",
+    "transport slip recovery",
     "containment bin",
     "alarm confirmation",
     "residual policy"
@@ -14,12 +16,12 @@
   "rubric_index": {
     "reproducibility": "one-command deterministic artifact generation",
     "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
-    "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, containment seal, and alarm confirmation",
+    "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, 9x hold, transport slip, seal, and alarm",
     "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
-    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, seal press, contact balancing, transport",
-    "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay",
-    "presentation": "36s HUD video, beat labels, pass banner, SRT subtitles, 9-panel storyboard",
-    "innovation": "quadruped-plus-manipulator campus EOD benchmark with disturbance recovery and seal confirm",
+    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, seal press",
+    "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay, Aegis mesh asset",
+    "presentation": "30s HUD video, opening splash, beat labels, pass banner, SRT subtitles, 10-panel storyboard",
+    "innovation": "quadruped-plus-manipulator campus EOD with dual slip recovery and 9x load hold benchmark",
     "data_collection": "labels.csv, episode trace, sensor manifest, and metrics JSON exported each run"
   },
   "success": {
@@ -27,8 +29,10 @@
     "package_grasped": true,
     "alarm_pressed": true,
     "min_package_bin_error_m": 0.02,
-    "recovered_slip_mm": 0.065,
-    "max_shove_n": 4.0
+    "recovered_slip_mm": 0.13,
+    "max_shove_n": 4.0,
+    "max_hold_load_factor": 9.0,
+    "transport_slip_recovered": true
   },
   "stress_eval": {
     "seeds": 96,

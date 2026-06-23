@@ -1,6 +1,6 @@
-# Aegis Sentinel EOD v3
+# Aegis Sentinel EOD v4
 
-**Campus hazardous-package neutralization with an Aegis-inspired quadruped patrol platform, onboard tri-finger manipulator, and 4N shove recovery.**
+**Campus hazardous-package neutralization with an Aegis-inspired quadruped patrol platform, onboard tri-finger manipulator, 4N shove recovery, 9x load hold, and transport slip recovery.**
 
 Registration UUID: `190f2760-b68b-44ee-b805-a6a492a2fa6c`
 
@@ -14,13 +14,13 @@ Aegis-inspired quadruped patrol body with an onboard 3-finger manipulator (thumb
 
 ## Task goal
 
-The robot patrols from the campus dispatch pad, uses a **MuJoCo rangefinder** to scan a suspicious package, performs a **tri-finger grasp** with tactile residual corrections, survives a **4N lateral shove** with slip recovery, transports the package to a containment bin, and presses the campus alarm button.
+The robot patrols from the campus dispatch pad, uses a **MuJoCo rangefinder** to scan a suspicious package, performs a **tri-finger grasp** with tactile residual corrections, survives a **4N lateral shove** with slip recovery, holds a **9x object-weight load**, recovers a **second transport slip**, places the package in a containment bin, confirms the seal, and presses the campus alarm button.
 
 ## Technical approach
 
 - Custom MJCF scene with patrol platform, manipulator, free package body, containment bin, and alarm button.
 - MuJoCo physics stepping with position actuators on base, arm, fingers, and alarm slide joint.
-- Stage planner for patrol / scan / grasp / recover / transport / place / alarm.
+- Stage planner for patrol / scan / grasp / recover / hold / transport / place / seal / alarm.
 - Tactile residual grasp policy trained by `train_residual_policy.py` and applied during manipulation stages.
 - Artifact export for AI-judge verification: video, storyboard, trajectory, contact timeline, policy card, stress replay, and mission report.
 
@@ -31,8 +31,8 @@ The robot patrols from the campus dispatch pad, uses a **MuJoCo rangefinder** to
 - **Tri-finger dexterity**: thumb opposition, contact balancing, grasp, lift, transport, release.
 - **Closed-loop residual control** during reach / grasp / lift / transport / place.
 - **Judge package**: `JUDGE_BRIEF.md`, `rubric_scorecard.json`, `validate_submission.py`, `submission_manifest.json`.
-- **64-seed stress replay** with baseline-vs-residual comparison.
-- **Generated demo artifacts**: 34s HUD video, SRT subtitles, 8-panel storyboard, challenge evidence JSON.
+- **96-seed stress replay** with baseline-vs-residual comparison.
+- **Generated demo artifacts**: 30s HUD video with opening splash, SRT subtitles, 10-panel storyboard, challenge evidence JSON.
 
 ## Highlights
 

@@ -5,9 +5,11 @@
   "alarm_pressed": true,
   "anomaly_score": 0.9589,
   "max_shove_n": 4.0,
-  "recovered_slip_mm": 0.065,
-  "residual_corrections": 4506,
-  "stable_contact_samples": 51,
+  "max_hold_load_factor": 9.0,
+  "transport_slip_recovered": true,
+  "recovered_slip_mm": 0.13,
+  "residual_corrections": 4257,
+  "stable_contact_samples": 36,
   "stress_learned_policy_success": 1.0,
   "stress_baseline_success": 0.6667
 }

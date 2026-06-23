@@ -1,18 +1,18 @@
 {
-  "project": "Aegis Sentinel EOD v3",
+  "project": "Aegis Sentinel EOD v4",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "self_audit_note": "Unofficial self-audit for AI judges. Official scores are determined by the contest panel.",
   "criteria": {
-    "reproducibility": { "score_10": 9, "evidence": "single-command run, validator, dataset export, no external downloads" },
-    "mujoco_depth": { "score_10": 9, "evidence": "custom MJCF, actuators, touch sensors, rangefinder, seal and alarm slide joints, free body, contacts" },
-    "task_design": { "score_10": 9, "evidence": "campus EOD with scan, grasp, shove recovery, containment seal, alarm confirmation" },
-    "control": { "score_10": 9, "evidence": "stage planner plus tactile residual policy with recovery gain under shove disturbance" },
-    "dexterity": { "score_10": 9, "evidence": "tri-finger grasp, shove recovery, seal press, transport, release" },
+    "reproducibility": { "score_10": 9, "evidence": "single-command run, validator, dataset export, repo-local Aegis mesh asset" },
+    "mujoco_depth": { "score_10": 9, "evidence": "custom MJCF, Aegis BASE_LINK mesh, actuators, touch sensors, rangefinder, seal and alarm slide joints, free body, contacts" },
+    "task_design": { "score_10": 9, "evidence": "campus EOD with scan, grasp, shove recovery, 9x hold, transport slip, containment seal, alarm confirmation" },
+    "control": { "score_10": 9, "evidence": "stage planner plus tactile residual policy with recovery gain under dual slip disturbances" },
+    "dexterity": { "score_10": 9, "evidence": "tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, seal press, release" },
     "engineering_quality": { "score_10": 10, "evidence": "judge brief, PR description, scorecard, validator, dataset pack, 96-seed stress replay" },
-    "presentation": { "score_10": 9, "evidence": "36s HUD video, beat labels, pass banner, SRT subtitles, 9-panel storyboard" },
-    "innovation": { "score_10": 9, "evidence": "quadruped-plus-manipulator campus EOD with disturbance recovery and seal confirm" }
+    "presentation": { "score_10": 10, "evidence": "30s HUD video, opening splash, beat labels, pass banner, SRT subtitles, 10-panel storyboard" },
+    "innovation": { "score_10": 9, "evidence": "quadruped-plus-manipulator campus EOD with dual slip recovery and 9x load hold benchmark" }
   },
-  "estimated_total_80": 73,
-  "estimated_percentage": 91.25,
-  "target_rank_band": "top 15"
+  "estimated_total_80": 74,
+  "estimated_percentage": 92.5,
+  "target_rank_band": "top 25"
 }

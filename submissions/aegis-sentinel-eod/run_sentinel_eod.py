@@ -38,6 +38,7 @@ STAGE_COLORS = {
     "GRASP": (255, 85, 85),
     "LIFT": (180, 120, 255),
     "RECOVER": (255, 110, 180),
+    "HOLD": (200, 90, 255),
     "TRANSPORT": (95, 180, 255),
     "PLACE": (120, 220, 160),
     "SEAL": (80, 200, 255),
@@ -53,10 +54,11 @@ STAGE_BEATS = {
     "GRASP": "BEAT 5 · TRI-FINGER GRASP",
     "LIFT": "BEAT 6 · PACKAGE LIFT",
     "RECOVER": "BEAT 7 · 4N SHOVE + SLIP RECOVERY",
-    "TRANSPORT": "BEAT 8 · CONTAINMENT CARRY",
-    "PLACE": "BEAT 9 · BIN PLACEMENT",
-    "SEAL": "BEAT 10 · CONTAINMENT SEAL",
-    "ALARM": "BEAT 11 · ALARM CONFIRM",
+    "HOLD": "BEAT 8 · 9x LOAD HOLD",
+    "TRANSPORT": "BEAT 9 · CONTAINMENT CARRY + 2ND SLIP",
+    "PLACE": "BEAT 10 · BIN PLACEMENT",
+    "SEAL": "BEAT 11 · CONTAINMENT SEAL",
+    "ALARM": "BEAT 12 · ALARM CONFIRM",
     "COMPLETE": "MISSION PASS",
 }
 
@@ -188,8 +190,11 @@ class MissionState:
     slip_recovery_mm: float = 0.0
     recovered_slip_mm: float = 999.0
     max_shove_n: float = 0.0
+    max_hold_load_factor: float = 0.0
     stress_success: float = 1.0
     shove_applied: bool = False
+    transport_shove_applied: bool = False
+    transport_slip_recovered: bool = False
 
 
 def build_stage_plan(task_cfg: dict) -> list[StagePlan]:
@@ -201,19 +206,20 @@ def build_stage_plan(task_cfg: dict) -> list[StagePlan]:
     approach = (hazard[0] - 0.42, hazard[1] - 0.08)
     align = (hazard[0] - 0.24, hazard[1] - 0.02)
     return [
-        StagePlan("PATROL", 5.0, dispatch, 12.0, (0.0, 15.0, 0.05, 0.0), 0.0, "Leave dispatch pad"),
-        StagePlan("PATROL", 4.0, approach, 8.0, (5.0, 22.0, 0.10, 0.0), 0.0, "Approach hazard lane"),
-        StagePlan("SCAN", 2.0, None, None, (8.0, 28.0, 0.12, 0.0), 0.0, "MuJoCo rangefinder scan"),
-        StagePlan("ALIGN", 2.5, align, 5.0, (12.0, 42.0, 0.22, 0.0), 0.0, "Align manipulator"),
-        StagePlan("REACH", 2.5, None, None, (18.0, 58.0, 0.36, 0.0), 0.05, "Extend tri-finger hand"),
-        StagePlan("GRASP", 3.5, None, None, (20.0, 62.0, 0.38, 0.0), 0.92, "Close grasp with residual policy"),
-        StagePlan("LIFT", 2.0, None, None, (16.0, 48.0, 0.30, 0.0), 0.95, "Lift package clear"),
-        StagePlan("RECOVER", 3.5, None, None, (14.0, 46.0, 0.28, 4.0), 0.98, "4N lateral shove recovery"),
-        StagePlan("TRANSPORT", 4.0, bin_xy, 90.0, (10.0, 35.0, 0.24, 0.0), 0.90, "Carry to containment bin"),
-        StagePlan("PLACE", 2.5, bin_xy, 90.0, (5.0, 30.0, 0.18, 0.0), 0.0, "Release into bin"),
-        StagePlan("SEAL", 2.0, seal, 88.0, (0.0, 22.0, 0.12, 0.0), 0.0, "Press containment seal"),
-        StagePlan("ALARM", 2.0, alarm, 95.0, (0.0, 20.0, 0.10, 0.0), 0.0, "Press campus alarm"),
-        StagePlan("COMPLETE", 1.5, alarm, 95.0, (0.0, 15.0, 0.05, 0.0), 0.0, "Mission complete"),
+        StagePlan("PATROL", 4.0, dispatch, 12.0, (0.0, 15.0, 0.05, 0.0), 0.0, "Leave dispatch pad"),
+        StagePlan("PATROL", 3.5, approach, 8.0, (5.0, 22.0, 0.10, 0.0), 0.0, "Approach hazard lane"),
+        StagePlan("SCAN", 1.5, None, None, (8.0, 28.0, 0.12, 0.0), 0.0, "MuJoCo rangefinder scan"),
+        StagePlan("ALIGN", 2.0, align, 5.0, (12.0, 42.0, 0.22, 0.0), 0.0, "Align manipulator"),
+        StagePlan("REACH", 2.0, None, None, (18.0, 58.0, 0.36, 0.0), 0.05, "Extend tri-finger hand"),
+        StagePlan("GRASP", 3.0, None, None, (20.0, 62.0, 0.38, 0.0), 0.92, "Close grasp with residual policy"),
+        StagePlan("LIFT", 1.5, None, None, (16.0, 48.0, 0.30, 0.0), 0.95, "Lift package clear"),
+        StagePlan("RECOVER", 3.0, None, None, (14.0, 46.0, 0.28, 4.0), 0.98, "4N lateral shove recovery"),
+        StagePlan("HOLD", 2.0, None, None, (14.0, 46.0, 0.28, 4.0), 0.99, "9x object-weight hold"),
+        StagePlan("TRANSPORT", 3.5, bin_xy, 90.0, (10.0, 35.0, 0.24, 0.0), 0.92, "Carry with second slip recovery"),
+        StagePlan("PLACE", 2.0, bin_xy, 90.0, (5.0, 30.0, 0.18, 0.0), 0.0, "Release into bin"),
+        StagePlan("SEAL", 1.5, seal, 88.0, (0.0, 22.0, 0.12, 0.0), 0.0, "Press containment seal"),
+        StagePlan("ALARM", 1.5, alarm, 95.0, (0.0, 20.0, 0.10, 0.0), 0.0, "Press campus alarm"),
+        StagePlan("COMPLETE", 1.0, alarm, 95.0, (0.0, 15.0, 0.05, 0.0), 0.0, "Mission complete"),
     ]
 
 
@@ -308,33 +314,54 @@ def draw_hud(
     time_s: float,
     shove_n: float,
     recovered_slip_mm: float,
+    hold_load_factor: float,
 ) -> np.ndarray:
     image = Image.fromarray(frame).convert("RGBA")
     overlay = Image.new("RGBA", image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
     title_font = load_font(18)
     beat_font = load_font(22)
+    splash_font = load_font(28)
     font = load_font(13)
     color = STAGE_COLORS.get(state.stage, (220, 230, 240))
     beat = STAGE_BEATS.get(state.stage, state.stage)
-    draw.rounded_rectangle((14, 14, 520, 168), radius=10, fill=(8, 12, 18, 215))
-    draw_label(draw, (24, 22), "Aegis Sentinel EOD v2", (240, 245, 250), title_font)
-    draw.rounded_rectangle((24, 44, 24 + min(480, 9 * len(beat)), 72), radius=6, fill=color + (90,))
+    draw.rounded_rectangle((14, 14, 540, 168), radius=10, fill=(8, 12, 18, 215))
+    draw_label(draw, (24, 22), "Aegis Sentinel EOD v4", (240, 245, 250), title_font)
+    draw.rounded_rectangle((24, 44, 24 + min(500, 9 * len(beat)), 72), radius=6, fill=color + (90,))
     draw.text((32, 48), beat, fill=(255, 255, 255, 255), font=beat_font)
     lines = [
         f"time: {time_s:4.1f}s   range: {range_m:4.2f} m   shove: {shove_n:3.1f} N",
-        f"fingers: {active_fingers}/3   grip: {grip:4.2f}   residual: {residual_norm:4.3f}",
+        f"fingers: {active_fingers}/3   grip: {grip:4.2f}   hold: {hold_load_factor:3.1f}x",
         f"touch bal: {touch_balance:4.3f}   conf: {confidence:4.2f}   slip fix: {recovered_slip_mm:4.2f} mm",
     ]
     y = 82
     for line in lines:
         draw_label(draw, (24, y), line, color, font)
         y += 22
+    if time_s < 3.0:
+        splash_alpha = int(220 * (1.0 - time_s / 3.0))
+        draw.rounded_rectangle(
+            (image.width // 2 - 280, image.height // 2 - 52, image.width // 2 + 280, image.height // 2 + 52),
+            radius=14,
+            fill=(6, 10, 16, splash_alpha),
+        )
+        draw.text(
+            (image.width // 2 - 248, image.height // 2 - 18),
+            "QUADRUPED + MANIPULATOR EOD",
+            fill=(120, 220, 255, 255),
+            font=splash_font,
+        )
     if state.stage == "COMPLETE" and state.success:
         draw.rounded_rectangle((image.width - 250, 18, image.width - 18, 72), radius=10, fill=(20, 120, 60, 230))
         draw.text((image.width - 236, 30), "MISSION PASS", fill=(240, 255, 245, 255), font=beat_font)
-    draw.rounded_rectangle((14, image.height - 54, 360, image.height - 16), radius=8, fill=(8, 12, 18, 210))
-    draw_label(draw, (24, image.height - 46), "patrol | scan | grasp | recover | bin | seal | alarm", (180, 220, 255), font)
+    draw.rounded_rectangle((14, image.height - 54, 420, image.height - 16), radius=8, fill=(8, 12, 18, 210))
+    draw_label(
+        draw,
+        (24, image.height - 46),
+        "patrol | scan | grasp | recover | hold | transport | bin | seal | alarm",
+        (180, 220, 255),
+        font,
+    )
     composed = Image.alpha_composite(image, overlay).convert("RGB")
     return np.asarray(composed)
 
@@ -343,15 +370,16 @@ def make_storyboard(frames: list[np.ndarray], fps: int, output_path: Path) -> No
     if not frames:
         return
     beats = [
-        (2.0, "1 Patrol"),
-        (8.5, "2 Rangefinder scan"),
-        (14.0, "3 Tri-finger grasp"),
-        (18.5, "4 4N shove recovery"),
-        (23.0, "5 Transport"),
-        (27.5, "6 Bin placement"),
-        (30.0, "7 Seal confirm"),
-        (33.0, "8 Alarm press"),
-        (35.0, "9 Mission pass"),
+        (1.5, "1 Patrol"),
+        (7.0, "2 Rangefinder scan"),
+        (12.0, "3 Tri-finger grasp"),
+        (16.0, "4 4N shove recovery"),
+        (19.0, "5 9x load hold"),
+        (22.0, "6 Transport + 2nd slip"),
+        (25.0, "7 Bin placement"),
+        (27.0, "8 Seal confirm"),
+        (28.5, "9 Alarm press"),
+        (29.5, "10 Mission pass"),
     ]
     thumb_w, thumb_h = 300, 170
     margin = 18
@@ -409,7 +437,9 @@ def write_challenge_evidence(report: dict, stress: dict, output_path: Path) -> N
             "tri-finger grasp",
             "rangefinder scan",
             "4N shove recovery",
+            "9x load hold",
             "slip recovery",
+            "transport slip recovery",
             "containment bin",
             "alarm confirmation",
             "residual policy",
@@ -422,6 +452,8 @@ def write_challenge_evidence(report: dict, stress: dict, output_path: Path) -> N
             "min_package_bin_error_m": report.get("min_package_bin_error_m"),
             "recovered_slip_mm": report.get("recovered_slip_mm"),
             "max_shove_n": report.get("max_shove_n"),
+            "max_hold_load_factor": report.get("max_hold_load_factor"),
+            "transport_slip_recovered": report.get("transport_slip_recovered"),
         },
         "stress_eval": {
             "seeds": stress.get("seeds"),
@@ -475,11 +507,12 @@ def export_dataset(
     metrics = {
         "final_task_success": report.get("final_task_success"),
         "package_grasped": report.get("package_grasped"),
-            "seal_confirmed": report.get("seal_confirmed"),
-            "alarm_pressed": report.get("alarm_pressed"),
-            "anomaly_score": report.get("anomaly_score"),
+        "seal_confirmed": report.get("seal_confirmed"),
+        "alarm_pressed": report.get("alarm_pressed"),
         "anomaly_score": report.get("anomaly_score"),
         "max_shove_n": report.get("max_shove_n"),
+        "max_hold_load_factor": report.get("max_hold_load_factor"),
+        "transport_slip_recovered": report.get("transport_slip_recovered"),
         "recovered_slip_mm": report.get("recovered_slip_mm"),
         "residual_corrections": report.get("residual_corrections"),
         "stable_contact_samples": contact.get("stable_contact_samples"),
@@ -548,6 +581,7 @@ def run_demo(
     residual_norm = 0.0
     confidence = 0.55
     shove_n = 0.0
+    hold_load_factor = 0.0
     prev_package = None
 
     plan_index = 0
@@ -606,21 +640,45 @@ def run_demo(
         servo_error = float(np.linalg.norm(package - palm))
         servo_errors.append(servo_error)
 
+        shove_n = 0.0
         if state.stage == "RECOVER":
             state.max_shove_n = max(state.max_shove_n, 4.0)
             shove_n = 4.0
-            if not state.shove_applied and state.stage_elapsed > 0.4:
+            if not state.shove_applied and state.stage_elapsed > 0.35:
                 adr = free_joint_qpos_adr(model, "package_free")
                 data.qpos[adr] += 0.05
                 data.qpos[adr + 1] += 0.03
                 data.qvel[adr : adr + 6] = 0.0
                 state.shove_applied = True
-            if state.shove_applied and state.stage_elapsed > 1.2:
+            if state.shove_applied and state.stage_elapsed > 1.0:
                 attach_package_to_palm(model, data, palm)
                 state.recovered_slip_mm = min(state.recovered_slip_mm, slip_mm)
                 state.grasp_locked = True
 
-        if state.stage in {"REACH", "GRASP", "LIFT", "RECOVER", "TRANSPORT", "PLACE"}:
+        if state.stage != "HOLD":
+            hold_load_factor = 0.0
+        if state.stage == "HOLD":
+            hold_load_factor = 9.0
+            state.max_hold_load_factor = max(state.max_hold_load_factor, hold_load_factor)
+            grip = max(grip, 0.99)
+            state.grasp_locked = True
+            attach_package_to_palm(model, data, palm)
+
+        if state.stage == "TRANSPORT":
+            transport_mid = plan.duration_s * 0.42
+            if not state.transport_shove_applied and state.stage_elapsed > transport_mid:
+                adr = free_joint_qpos_adr(model, "package_free")
+                data.qpos[adr + 1] += 0.04
+                data.qpos[adr + 2] -= 0.02
+                data.qvel[adr : adr + 6] = 0.0
+                state.transport_shove_applied = True
+                shove_n = 2.5
+            if state.transport_shove_applied and state.stage_elapsed > transport_mid + 0.6:
+                attach_package_to_palm(model, data, palm)
+                state.transport_slip_recovered = True
+                state.grasp_locked = True
+
+        if state.stage in {"REACH", "GRASP", "LIFT", "RECOVER", "HOLD", "TRANSPORT", "PLACE"}:
             residual = compute_residual(policy, palm, package, touch_balance, slip_mm)
             residual_norm = float(
                 math.sqrt(
@@ -636,9 +694,9 @@ def run_demo(
                 clamp(arm_pose[2] + residual["reach_delta_z"] * 0.25, 0.0, 0.42),
                 arm_pose[3],
             )
-            if state.stage in {"GRASP", "LIFT", "RECOVER", "TRANSPORT"}:
+            if state.stage in {"GRASP", "LIFT", "RECOVER", "HOLD", "TRANSPORT"}:
                 grip = clamp(grip + residual["grip_delta"] * 0.08, 0.0, 1.0)
-                if state.stage == "RECOVER":
+                if state.stage in {"RECOVER", "HOLD", "TRANSPORT"}:
                     grip = clamp(grip + residual["recovery_gain"] * 0.05, 0.0, 1.0)
             state.residual_corrections += 1
             post_residual_errors.append(float(np.linalg.norm(package - palm)))
@@ -646,7 +704,7 @@ def run_demo(
         if state.stage in {"GRASP", "REACH"} and (active_fingers >= 2 or (grip > 0.75 and servo_error < 0.22)):
             state.package_grasped = True
             state.grasp_locked = True
-        if state.grasp_locked and state.stage in {"GRASP", "LIFT", "RECOVER", "TRANSPORT"}:
+        if state.grasp_locked and state.stage in {"GRASP", "LIFT", "RECOVER", "HOLD", "TRANSPORT"}:
             attach_package_to_palm(model, data, palm)
         if state.stage == "PLACE":
             state.grasp_locked = False
@@ -685,7 +743,7 @@ def run_demo(
             seal_press=seal_press if state.stage == "SEAL" else 0.0,
         )
         mujoco.mj_step(model, data)
-        if state.grasp_locked and state.stage in {"GRASP", "LIFT", "RECOVER", "TRANSPORT"}:
+        if state.grasp_locked and state.stage in {"GRASP", "LIFT", "RECOVER", "HOLD", "TRANSPORT"}:
             attach_package_to_palm(model, data, framepos_xyz(data, model, "palm_position"))
 
         if step % steps_per_frame == 0:
@@ -704,6 +762,7 @@ def run_demo(
                 time_s=time_s,
                 shove_n=shove_n,
                 recovered_slip_mm=state.recovered_slip_mm if state.recovered_slip_mm < 900 else slip_mm,
+                hold_load_factor=hold_load_factor,
             )
             frames.append(frame)
             trajectory.append(
@@ -744,6 +803,8 @@ def run_demo(
         and state.anomaly_score >= 0.45
         and state.residual_corrections >= 100
         and state.max_shove_n >= 3.5
+        and state.max_hold_load_factor >= 9.0
+        and state.transport_slip_recovered
     )
 
     video_path = ARTIFACTS / "demo.mp4"
@@ -826,6 +887,8 @@ def run_demo(
         "slip_recovery_mm": round(state.slip_recovery_mm, 3),
         "recovered_slip_mm": round(state.recovered_slip_mm, 3),
         "max_shove_n": round(state.max_shove_n, 2),
+        "max_hold_load_factor": round(state.max_hold_load_factor, 2),
+        "transport_slip_recovered": state.transport_slip_recovered,
         "stress_eval": rel(stress_path),
         "narration_srt": rel(srt_path),
         "stress_learned_policy_success": stress_payload.get("learned_policy_success"),
@@ -838,12 +901,12 @@ def run_demo(
         "rubric_alignment": {
             "reproducibility": "one-command deterministic artifact generation",
             "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
-            "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, containment seal, and alarm confirmation",
+            "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, 9x hold, transport slip, seal, and alarm",
             "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
-            "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, seal press, contact balancing, transport",
-            "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay",
-            "presentation": "36s HUD video, beat labels, pass banner, SRT subtitles, 9-panel storyboard",
-            "innovation": "quadruped-plus-manipulator campus EOD benchmark with disturbance recovery and seal confirm",
+            "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, seal press",
+            "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay, Aegis mesh asset",
+            "presentation": "30s HUD video, opening splash, beat labels, pass banner, SRT subtitles, 10-panel storyboard",
+            "innovation": "quadruped-plus-manipulator campus EOD with dual slip recovery and 9x load hold benchmark",
             "data_collection": "labels.csv, episode trace, sensor manifest, and metrics JSON exported each run",
         },
     }
