@@ -3,13 +3,15 @@
   "package_grasped": true,
   "seal_confirmed": true,
   "alarm_pressed": true,
-  "anomaly_score": 0.9589,
+  "anomaly_score": 0.9562,
   "max_shove_n": 4.0,
   "max_hold_load_factor": 9.0,
   "transport_slip_recovered": true,
-  "recovered_slip_mm": 0.13,
-  "residual_corrections": 4257,
-  "stable_contact_samples": 36,
+  "wire_cut": true,
+  "max_grip_force_n": 47.5,
+  "recovered_slip_mm": 0.078,
+  "residual_corrections": 3907,
+  "stable_contact_samples": 38,
   "stress_learned_policy_success": 1.0,
-  "stress_baseline_success": 0.6667
+  "stress_baseline_success": 0.6641
 }

@@ -1,7 +1,7 @@
 {
-  "project_name": "Aegis Sentinel EOD v4",
-  "robot_platform": "Aegis-inspired quadruped patrol platform with onboard 3-finger manipulator and BASE_LINK mesh",
-  "task_goal": "Campus hazardous-package neutralization: patrol, MuJoCo rangefinder scan, tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, containment placement, seal confirmation, and alarm confirmation.",
+  "project_name": "Aegis Sentinel EOD v5",
+  "robot_platform": "Aegis-inspired quadruped patrol platform with onboard 5-finger manipulator and BASE_LINK mesh",
+  "task_goal": "Campus hazardous-package neutralization: quadruped gait patrol, MuJoCo rangefinder scan, EOD wire severance, five-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, containment placement, seal confirmation, and alarm confirmation.",
   "dispatch_xy": [-1.65, -0.25],
   "hazard_xy": [1.10, 0.05],
   "bin_xy": [0.15, 0.72],
@@ -9,5 +9,5 @@
   "alarm_xy": [0.55, 0.78],
   "demo_duration_s": 30.0,
   "demo_fps": 18,
-  "stress_seeds": 96
+  "stress_seeds": 128
 }

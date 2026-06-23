@@ -44,6 +44,11 @@
       <geom name="package_body" type="box" size="0.08 0.06 0.05" material="package_mat" mass="0.14"/>
       <geom name="package_tape" type="box" pos="0 0 0.052" size="0.07 0.01 0.01" rgba="1 0.9 0.2 1"/>
       <site name="package_grasp_site" pos="0 0 0" rgba="1 0.3 0.1 0.85"/>
+      <body name="tripwire" pos="0.04 0 0.06">
+        <joint name="wire_slide" type="slide" axis="0 1 0" range="-0.10 0.0" damping="3"/>
+        <geom name="wire_geom" type="cylinder" size="0.003 0.055" rgba="0.95 0.15 0.10 1" euler="0 90 0"/>
+        <site name="wire_site" pos="0 0 0" rgba="1 0.2 0.1 0.9"/>
+      </body>
     </body>
 
     <body name="containment_goal" pos="0.15 0.72 0.22">
@@ -80,21 +85,25 @@
       <site name="platform_center" pos="0 0 0.02" rgba="1 1 1 0.75"/>
 
       <body name="fl_leg" pos="0.18 0.12 -0.08">
+        <joint name="fl_knee" type="hinge" axis="0 1 0" range="-55 55" damping="3"/>
         <geom name="fl_upper" type="capsule" fromto="0 0 0 0 0 -0.12" size="0.03" material="leg_mat"/>
         <geom name="fl_lower" type="capsule" fromto="0 0 -0.12 0 0 -0.22" size="0.025" material="leg_mat"/>
         <geom name="fl_foot" type="sphere" pos="0 0 -0.22" size="0.03" rgba="0.05 0.05 0.05 1"/>
       </body>
       <body name="fr_leg" pos="0.18 -0.12 -0.08">
+        <joint name="fr_knee" type="hinge" axis="0 1 0" range="-55 55" damping="3"/>
         <geom name="fr_upper" type="capsule" fromto="0 0 0 0 0 -0.12" size="0.03" material="leg_mat"/>
         <geom name="fr_lower" type="capsule" fromto="0 0 -0.12 0 0 -0.22" size="0.025" material="leg_mat"/>
         <geom name="fr_foot" type="sphere" pos="0 0 -0.22" size="0.03" rgba="0.05 0.05 0.05 1"/>
       </body>
       <body name="rl_leg" pos="-0.18 0.12 -0.08">
+        <joint name="rl_knee" type="hinge" axis="0 1 0" range="-55 55" damping="3"/>
         <geom name="rl_upper" type="capsule" fromto="0 0 0 0 0 -0.12" size="0.03" material="leg_mat"/>
         <geom name="rl_lower" type="capsule" fromto="0 0 -0.12 0 0 -0.22" size="0.025" material="leg_mat"/>
         <geom name="rl_foot" type="sphere" pos="0 0 -0.22" size="0.03" rgba="0.05 0.05 0.05 1"/>
       </body>
       <body name="rr_leg" pos="-0.18 -0.12 -0.08">
+        <joint name="rr_knee" type="hinge" axis="0 1 0" range="-55 55" damping="3"/>
         <geom name="rr_upper" type="capsule" fromto="0 0 0 0 0 -0.12" size="0.03" material="leg_mat"/>
         <geom name="rr_lower" type="capsule" fromto="0 0 -0.12 0 0 -0.22" size="0.025" material="leg_mat"/>
         <geom name="rr_foot" type="sphere" pos="0 0 -0.22" size="0.03" rgba="0.05 0.05 0.05 1"/>
@@ -109,12 +118,13 @@
         <body name="wrist" pos="0.18 0 0">
           <joint name="wrist_roll" type="hinge" axis="1 0 0" range="-90 90" damping="3"/>
           <geom name="wrist_shell" type="cylinder" size="0.04 0.03" material="arm_mat"/>
+          <site name="cutter_tip" pos="0.06 0 -0.02" rgba="0.9 0.9 0.2 0.9"/>
 
           <body name="palm" pos="0 0 -0.04">
-            <geom name="palm_plate" type="box" size="0.07 0.045 0.02" material="arm_mat"/>
+            <geom name="palm_plate" type="box" size="0.08 0.055 0.02" material="arm_mat"/>
             <site name="palm_center" pos="0 0 -0.015" rgba="1 1 1 0.8"/>
 
-            <body name="finger_a_base" pos="0.045 -0.028 -0.01">
+            <body name="finger_a_base" pos="0.045 -0.038 -0.01">
               <joint name="finger_a_flex" type="hinge" axis="0 1 0" range="-5 95"/>
               <geom name="finger_a_prox" type="capsule" fromto="0 0 0 0.09 0 -0.015" size="0.011" material="finger_mat"/>
               <body name="finger_a_tip_body" pos="0.09 0 -0.015">
@@ -124,13 +134,33 @@
               </body>
             </body>
 
-            <body name="finger_b_base" pos="0.048 0.000 -0.01">
+            <body name="finger_b_base" pos="0.048 -0.012 -0.01">
               <joint name="finger_b_flex" type="hinge" axis="0 1 0" range="-5 98"/>
               <geom name="finger_b_prox" type="capsule" fromto="0 0 0 0.095 0 -0.015" size="0.012" material="finger_mat"/>
               <body name="finger_b_tip_body" pos="0.095 0 -0.015">
                 <joint name="finger_b_tip" type="hinge" axis="0 1 0" range="0 90"/>
                 <geom name="finger_b_dist" type="capsule" fromto="0 0 0 0.065 0 -0.01" size="0.011" material="finger_mat"/>
                 <site name="finger_b_pad" pos="0.065 0 -0.01" size="0.013" rgba="0.1 0.95 1 0.85"/>
+              </body>
+            </body>
+
+            <body name="finger_c_base" pos="0.045 0.014 -0.01">
+              <joint name="finger_c_flex" type="hinge" axis="0 1 0" range="-5 96"/>
+              <geom name="finger_c_prox" type="capsule" fromto="0 0 0 0.092 0 -0.015" size="0.0115" material="finger_mat"/>
+              <body name="finger_c_tip_body" pos="0.092 0 -0.015">
+                <joint name="finger_c_tip" type="hinge" axis="0 1 0" range="0 89"/>
+                <geom name="finger_c_dist" type="capsule" fromto="0 0 0 0.062 0 -0.01" size="0.0105" material="finger_mat"/>
+                <site name="finger_c_pad" pos="0.062 0 -0.01" size="0.013" rgba="0.1 0.95 1 0.85"/>
+              </body>
+            </body>
+
+            <body name="finger_d_base" pos="0.042 0.040 -0.01">
+              <joint name="finger_d_flex" type="hinge" axis="0 1 0" range="-5 94"/>
+              <geom name="finger_d_prox" type="capsule" fromto="0 0 0 0.085 0 -0.015" size="0.0105" material="finger_mat"/>
+              <body name="finger_d_tip_body" pos="0.085 0 -0.015">
+                <joint name="finger_d_tip" type="hinge" axis="0 1 0" range="0 86"/>
+                <geom name="finger_d_dist" type="capsule" fromto="0 0 0 0.058 0 -0.01" size="0.010" material="finger_mat"/>
+                <site name="finger_d_pad" pos="0.058 0 -0.01" size="0.012" rgba="0.1 0.95 1 0.85"/>
               </body>
             </body>
 
@@ -152,12 +182,17 @@
     <light name="key" pos="0 -2.5 3.5" dir="0 0.4 -1" diffuse="1 1 1"/>
     <light name="fill" pos="-2.2 2.0 2.4" dir="0.6 -0.4 -1" diffuse="0.55 0.65 0.8"/>
     <camera name="overview_camera" pos="2.0 -2.1 1.7" xyaxes="0.72 0.69 0 -0.30 0.32 0.89"/>
+    <camera name="grasp_camera" pos="1.35 -0.35 0.55" xyaxes="0.05 0.99 0 -0.25 0.01 0.97" fovy="42"/>
   </worldbody>
 
   <actuator>
     <position name="base_x_servo" joint="base_x" kp="480" ctrlrange="-2.4 2.4" ctrllimited="true"/>
     <position name="base_y_servo" joint="base_y" kp="480" ctrlrange="-1.6 1.6" ctrllimited="true"/>
     <position name="base_yaw_servo" joint="base_yaw" kp="180" ctrlrange="-3.14 3.14" ctrllimited="true"/>
+    <position name="fl_knee_servo" joint="fl_knee" kp="90" ctrlrange="-0.96 0.96" ctrllimited="true"/>
+    <position name="fr_knee_servo" joint="fr_knee" kp="90" ctrlrange="-0.96 0.96" ctrllimited="true"/>
+    <position name="rl_knee_servo" joint="rl_knee" kp="90" ctrlrange="-0.96 0.96" ctrllimited="true"/>
+    <position name="rr_knee_servo" joint="rr_knee" kp="90" ctrlrange="-0.96 0.96" ctrllimited="true"/>
     <position name="arm_yaw_servo" joint="arm_yaw" kp="120" ctrlrange="-2.09 2.09" ctrllimited="true"/>
     <position name="arm_pitch_servo" joint="arm_pitch" kp="110" ctrlrange="-0.61 1.48" ctrllimited="true"/>
     <position name="arm_extend_servo" joint="arm_extend" kp="260" ctrlrange="0.0 0.42" ctrllimited="true"/>
@@ -166,9 +201,14 @@
     <position name="finger_a_tip_servo" joint="finger_a_tip" kp="55"/>
     <position name="finger_b_flex_servo" joint="finger_b_flex" kp="72"/>
     <position name="finger_b_tip_servo" joint="finger_b_tip" kp="56"/>
+    <position name="finger_c_flex_servo" joint="finger_c_flex" kp="71"/>
+    <position name="finger_c_tip_servo" joint="finger_c_tip" kp="55"/>
+    <position name="finger_d_flex_servo" joint="finger_d_flex" kp="68"/>
+    <position name="finger_d_tip_servo" joint="finger_d_tip" kp="52"/>
     <position name="thumb_opp_servo" joint="thumb_opp" kp="68"/>
     <position name="thumb_flex_servo" joint="thumb_flex" kp="70"/>
     <position name="thumb_tip_servo" joint="thumb_tip" kp="54"/>
+    <position name="wire_servo" joint="wire_slide" kp="140"/>
     <position name="alarm_servo" joint="alarm_slide" kp="120"/>
     <position name="seal_servo" joint="seal_slide" kp="110"/>
   </actuator>
@@ -180,9 +220,13 @@
     <framepos name="bin_goal_position" objtype="site" objname="bin_goal_site"/>
     <jointpos name="alarm_position" joint="alarm_slide"/>
     <jointpos name="seal_position" joint="seal_slide"/>
+    <jointpos name="wire_position" joint="wire_slide"/>
     <touch name="finger_a_touch" site="finger_a_pad"/>
     <touch name="finger_b_touch" site="finger_b_pad"/>
+    <touch name="finger_c_touch" site="finger_c_pad"/>
+    <touch name="finger_d_touch" site="finger_d_pad"/>
     <touch name="thumb_touch" site="thumb_pad"/>
     <rangefinder name="forward_range" site="range_origin" cutoff="3.0"/>
+    <framepos name="cutter_position" objtype="site" objname="cutter_tip"/>
   </sensor>
 </mujoco>

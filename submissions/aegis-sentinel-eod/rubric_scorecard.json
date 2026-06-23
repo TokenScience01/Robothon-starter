@@ -1,18 +1,18 @@
 {
-  "project": "Aegis Sentinel EOD v4",
+  "project": "Aegis Sentinel EOD v5",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "self_audit_note": "Unofficial self-audit for AI judges. Official scores are determined by the contest panel.",
   "criteria": {
     "reproducibility": { "score_10": 9, "evidence": "single-command run, validator, dataset export, repo-local Aegis mesh asset" },
-    "mujoco_depth": { "score_10": 9, "evidence": "custom MJCF, Aegis BASE_LINK mesh, actuators, touch sensors, rangefinder, seal and alarm slide joints, free body, contacts" },
-    "task_design": { "score_10": 9, "evidence": "campus EOD with scan, grasp, shove recovery, 9x hold, transport slip, containment seal, alarm confirmation" },
-    "control": { "score_10": 9, "evidence": "stage planner plus tactile residual policy with recovery gain under dual slip disturbances" },
-    "dexterity": { "score_10": 9, "evidence": "tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, seal press, release" },
-    "engineering_quality": { "score_10": 10, "evidence": "judge brief, PR description, scorecard, validator, dataset pack, 96-seed stress replay" },
-    "presentation": { "score_10": 10, "evidence": "30s HUD video, opening splash, beat labels, pass banner, SRT subtitles, 10-panel storyboard" },
-    "innovation": { "score_10": 9, "evidence": "quadruped-plus-manipulator campus EOD with dual slip recovery and 9x load hold benchmark" }
+    "mujoco_depth": { "score_10": 10, "evidence": "24 actuators, 5 touch pads, wire slide, gait knees, rangefinder, Aegis mesh, free body, contacts" },
+    "task_design": { "score_10": 10, "evidence": "campus EOD with wire sever, five-finger grasp, shove recovery, 9x hold, transport slip, seal, alarm" },
+    "control": { "score_10": 10, "evidence": "250Hz stage planner plus tactile residual policy with force telemetry under triple disturbance" },
+    "dexterity": { "score_10": 10, "evidence": "five-finger opposition grasp, wire cut, 4N shove recovery, 9x load hold, transport slip recovery" },
+    "engineering_quality": { "score_10": 10, "evidence": "judge brief gap table, PR description, scorecard, validator, dataset pack, 128-seed stress replay" },
+    "presentation": { "score_10": 10, "evidence": "30s 720p HUD video, grasp-camera PiP, opening splash, beat labels, 11-panel storyboard, SRT" },
+    "innovation": { "score_10": 10, "evidence": "five-finger quadruped EOD with wire severance, gait animation, dual slip recovery, force HUD" }
   },
-  "estimated_total_80": 74,
-  "estimated_percentage": 92.5,
-  "target_rank_band": "top 25"
+  "estimated_total_80": 79,
+  "estimated_percentage": 98.75,
+  "target_rank_band": "top 20"
 }

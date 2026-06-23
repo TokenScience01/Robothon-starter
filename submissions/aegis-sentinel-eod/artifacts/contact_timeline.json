@@ -1,1409 +1,1409 @@
 {
-  "touch_samples": 243,
-  "max_active_fingers": 3,
-  "stable_contact_samples": 36,
-  "recovery_window_samples": 54,
+  "touch_samples": 257,
+  "max_active_fingers": 5,
+  "stable_contact_samples": 38,
+  "recovery_window_samples": 50,
   "samples": [
     {
       "time_s": 0.056,
       "stage": "PATROL",
-      "active_fingers": 1,
-      "touch_balance": 615.9523,
-      "recovery_window": false
-    },
-    {
-      "time_s": 0.112,
-      "stage": "PATROL",
-      "active_fingers": 1,
-      "touch_balance": 493.3307,
-      "recovery_window": false
-    },
-    {
-      "time_s": 0.168,
-      "stage": "PATROL",
-      "active_fingers": 1,
-      "touch_balance": 288.2772,
-      "recovery_window": false
-    },
-    {
-      "time_s": 0.224,
-      "stage": "PATROL",
       "active_fingers": 2,
-      "touch_balance": 646.2698,
+      "touch_balance": 739.9303,
+      "recovery_window": false
+    },
+    {
+      "time_s": 11.312,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 15.2167,
+      "recovery_window": false
+    },
+    {
+      "time_s": 11.368,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 25.7895,
       "recovery_window": false
     },
     {
       "time_s": 11.424,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 19.578,
+      "touch_balance": 42.1243,
       "recovery_window": false
     },
     {
       "time_s": 11.48,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 23.3539,
+      "touch_balance": 59.9893,
       "recovery_window": false
     },
     {
       "time_s": 11.536,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 21.9075,
+      "touch_balance": 72.9819,
       "recovery_window": false
     },
     {
       "time_s": 11.592,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 15.4017,
-      "recovery_window": false
-    },
-    {
-      "time_s": 11.648,
-      "stage": "REACH",
-      "active_fingers": 1,
-      "touch_balance": 29.8643,
+      "touch_balance": 49.9088,
       "recovery_window": false
     },
     {
       "time_s": 11.704,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 397.1835,
+      "touch_balance": 51.0344,
       "recovery_window": false
     },
     {
       "time_s": 11.76,
       "stage": "REACH",
-      "active_fingers": 3,
-      "touch_balance": 163.1737,
+      "active_fingers": 1,
+      "touch_balance": 60.5382,
       "recovery_window": false
     },
     {
       "time_s": 11.816,
       "stage": "REACH",
-      "active_fingers": 3,
-      "touch_balance": 46.6236,
+      "active_fingers": 1,
+      "touch_balance": 104.4773,
       "recovery_window": false
     },
     {
       "time_s": 11.872,
       "stage": "REACH",
-      "active_fingers": 2,
-      "touch_balance": 107.7462,
+      "active_fingers": 1,
+      "touch_balance": 37.7543,
       "recovery_window": false
     },
     {
       "time_s": 11.928,
       "stage": "REACH",
       "active_fingers": 2,
-      "touch_balance": 128.502,
+      "touch_balance": 119.3001,
       "recovery_window": false
     },
     {
       "time_s": 11.984,
       "stage": "REACH",
       "active_fingers": 2,
-      "touch_balance": 157.7339,
+      "touch_balance": 187.0513,
       "recovery_window": false
     },
     {
       "time_s": 12.04,
       "stage": "REACH",
-      "active_fingers": 3,
-      "touch_balance": 122.9624,
+      "active_fingers": 1,
+      "touch_balance": 193.8457,
       "recovery_window": false
     },
     {
       "time_s": 12.096,
       "stage": "REACH",
       "active_fingers": 1,
-      "touch_balance": 241.7806,
+      "touch_balance": 149.9661,
       "recovery_window": false
     },
     {
-      "time_s": 13.048,
+      "time_s": 12.152,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 134.5942,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.208,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 125.914,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.264,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 117.4701,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.32,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 109.1045,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.376,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 101.4674,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.432,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 94.7118,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.488,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 88.8706,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.544,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 83.9888,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.6,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 80.0875,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.656,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 77.1197,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.712,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 75.0352,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.768,
+      "stage": "REACH",
+      "active_fingers": 1,
+      "touch_balance": 73.8049,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.824,
       "stage": "GRASP",
       "active_fingers": 2,
-      "touch_balance": 2458.9279,
+      "touch_balance": 1737.4293,
+      "recovery_window": false
+    },
+    {
+      "time_s": 12.936,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 327.4327,
       "recovery_window": false
     },
     {
       "time_s": 13.104,
       "stage": "GRASP",
-      "active_fingers": 1,
-      "touch_balance": 816.4194,
+      "active_fingers": 4,
+      "touch_balance": 1661.0279,
       "recovery_window": false
     },
     {
       "time_s": 13.16,
       "stage": "GRASP",
-      "active_fingers": 2,
-      "touch_balance": 1130.8942,
+      "active_fingers": 1,
+      "touch_balance": 439.2152,
       "recovery_window": false
     },
     {
-      "time_s": 13.272,
+      "time_s": 13.384,
+      "stage": "GRASP",
+      "active_fingers": 4,
+      "touch_balance": 457.2761,
+      "recovery_window": false
+    },
+    {
+      "time_s": 13.72,
+      "stage": "GRASP",
+      "active_fingers": 4,
+      "touch_balance": 473.7646,
+      "recovery_window": false
+    },
+    {
+      "time_s": 13.944,
       "stage": "GRASP",
       "active_fingers": 1,
-      "touch_balance": 635.056,
+      "touch_balance": 312.3371,
       "recovery_window": false
     },
     {
-      "time_s": 13.44,
-      "stage": "GRASP",
-      "active_fingers": 2,
-      "touch_balance": 924.4814,
-      "recovery_window": false
-    },
-    {
-      "time_s": 13.496,
-      "stage": "GRASP",
-      "active_fingers": 2,
-      "touch_balance": 1197.0533,
-      "recovery_window": false
-    },
-    {
-      "time_s": 13.832,
+      "time_s": 14.784,
       "stage": "GRASP",
       "active_fingers": 1,
-      "touch_balance": 289.4694,
-      "recovery_window": false
-    },
-    {
-      "time_s": 14.168,
-      "stage": "GRASP",
-      "active_fingers": 1,
-      "touch_balance": 100.7469,
+      "touch_balance": 151.877,
       "recovery_window": false
     },
     {
       "time_s": 14.84,
       "stage": "GRASP",
       "active_fingers": 1,
-      "touch_balance": 453.4107,
+      "touch_balance": 277.0265,
+      "recovery_window": false
+    },
+    {
+      "time_s": 14.952,
+      "stage": "GRASP",
+      "active_fingers": 2,
+      "touch_balance": 88.4854,
       "recovery_window": false
     },
     {
       "time_s": 15.064,
       "stage": "GRASP",
-      "active_fingers": 1,
-      "touch_balance": 301.1005,
+      "active_fingers": 2,
+      "touch_balance": 972.8018,
       "recovery_window": false
     },
     {
       "time_s": 15.12,
       "stage": "GRASP",
       "active_fingers": 1,
-      "touch_balance": 1074.0007,
+      "touch_balance": 621.9357,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.176,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 649.2947,
       "recovery_window": false
     },
     {
       "time_s": 15.232,
       "stage": "GRASP",
       "active_fingers": 1,
-      "touch_balance": 1176.9718,
+      "touch_balance": 663.7259,
       "recovery_window": false
     },
     {
       "time_s": 15.288,
       "stage": "GRASP",
-      "active_fingers": 2,
-      "touch_balance": 1005.3631,
+      "active_fingers": 1,
+      "touch_balance": 671.5305,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.344,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 670.5308,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.4,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 676.3568,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.456,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 677.8856,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.512,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 679.3592,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.568,
+      "stage": "GRASP",
+      "active_fingers": 1,
+      "touch_balance": 680.8655,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.624,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 684.2312,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.68,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 693.9781,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.736,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 687.9246,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.792,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 688.6317,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.848,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 689.3717,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.904,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 690.9674,
+      "recovery_window": false
+    },
+    {
+      "time_s": 15.96,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 692.5112,
+      "recovery_window": false
+    },
+    {
+      "time_s": 16.016,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 700.545,
+      "recovery_window": false
+    },
+    {
+      "time_s": 16.072,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 694.5319,
+      "recovery_window": false
+    },
+    {
+      "time_s": 16.128,
+      "stage": "LIFT",
+      "active_fingers": 1,
+      "touch_balance": 694.1888,
       "recovery_window": false
     },
     {
       "time_s": 16.184,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 40.6735,
+      "touch_balance": 694.8695,
       "recovery_window": false
     },
     {
       "time_s": 16.24,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 43.6508,
+      "touch_balance": 695.7063,
       "recovery_window": false
     },
     {
       "time_s": 16.296,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 43.6748,
+      "touch_balance": 696.5742,
       "recovery_window": false
     },
     {
       "time_s": 16.352,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 43.2227,
+      "touch_balance": 698.0097,
       "recovery_window": false
     },
     {
       "time_s": 16.408,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 36.9042,
+      "touch_balance": 698.8236,
       "recovery_window": false
     },
     {
       "time_s": 16.464,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 33.3101,
+      "touch_balance": 701.6566,
       "recovery_window": false
     },
     {
       "time_s": 16.52,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 5.2045,
+      "touch_balance": 708.6403,
       "recovery_window": false
     },
     {
       "time_s": 16.576,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 0.8506,
+      "touch_balance": 708.6732,
       "recovery_window": false
     },
     {
       "time_s": 16.632,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 2.4555,
+      "touch_balance": 703.8635,
       "recovery_window": false
     },
     {
       "time_s": 16.688,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 3.9244,
+      "touch_balance": 703.6395,
       "recovery_window": false
     },
     {
       "time_s": 16.744,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 7.3898,
+      "touch_balance": 703.7307,
       "recovery_window": false
     },
     {
       "time_s": 16.8,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 11.6997,
+      "touch_balance": 702.8521,
       "recovery_window": false
     },
     {
       "time_s": 16.856,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 9.7166,
+      "touch_balance": 702.4737,
       "recovery_window": false
     },
     {
       "time_s": 16.912,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 10.548,
+      "touch_balance": 703.1341,
       "recovery_window": false
     },
     {
       "time_s": 16.968,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 10.7084,
+      "touch_balance": 705.8525,
       "recovery_window": false
     },
     {
       "time_s": 17.024,
       "stage": "LIFT",
       "active_fingers": 1,
-      "touch_balance": 10.2515,
+      "touch_balance": 705.3001,
       "recovery_window": false
     },
     {
       "time_s": 17.08,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 7.9644,
-      "recovery_window": false
+      "touch_balance": 704.033,
+      "recovery_window": true
     },
     {
       "time_s": 17.136,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 10.7464,
-      "recovery_window": false
+      "touch_balance": 703.6225,
+      "recovery_window": true
     },
     {
       "time_s": 17.192,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 6.748,
-      "recovery_window": false
+      "touch_balance": 703.3083,
+      "recovery_window": true
     },
     {
       "time_s": 17.248,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 8.1729,
-      "recovery_window": false
+      "touch_balance": 704.045,
+      "recovery_window": true
     },
     {
       "time_s": 17.304,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 10.646,
-      "recovery_window": false
+      "touch_balance": 706.8137,
+      "recovery_window": true
     },
     {
       "time_s": 17.36,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 13.079,
-      "recovery_window": false
+      "touch_balance": 706.3533,
+      "recovery_window": true
     },
     {
       "time_s": 17.416,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 9.1452,
-      "recovery_window": false
+      "touch_balance": 705.1155,
+      "recovery_window": true
     },
     {
       "time_s": 17.472,
-      "stage": "LIFT",
+      "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 8.6497,
-      "recovery_window": false
+      "touch_balance": 704.7196,
+      "recovery_window": true
     },
     {
       "time_s": 17.528,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 12.5762,
+      "touch_balance": 704.3354,
       "recovery_window": true
     },
     {
       "time_s": 17.584,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 10.8994,
+      "touch_balance": 704.9949,
       "recovery_window": true
     },
     {
       "time_s": 17.64,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 12.4809,
+      "touch_balance": 707.8897,
       "recovery_window": true
     },
     {
       "time_s": 17.696,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 11.9269,
+      "touch_balance": 707.469,
       "recovery_window": true
     },
     {
       "time_s": 17.752,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.0948,
+      "touch_balance": 706.9027,
       "recovery_window": true
     },
     {
       "time_s": 17.808,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 13.3094,
+      "touch_balance": 707.2879,
       "recovery_window": true
     },
     {
       "time_s": 17.864,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 15.244,
+      "touch_balance": 707.795,
       "recovery_window": true
     },
     {
       "time_s": 17.92,
       "stage": "RECOVER",
-      "active_fingers": 0,
-      "touch_balance": 1.0,
+      "active_fingers": 1,
+      "touch_balance": 708.4027,
       "recovery_window": true
     },
     {
       "time_s": 17.976,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 17.5071,
+      "touch_balance": 709.2158,
       "recovery_window": true
     },
     {
       "time_s": 18.032,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 17.8554,
+      "touch_balance": 710.2229,
       "recovery_window": true
     },
     {
       "time_s": 18.088,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 20.7134,
+      "touch_balance": 711.7169,
       "recovery_window": true
     },
     {
       "time_s": 18.144,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 25.5082,
+      "touch_balance": 714.1172,
       "recovery_window": true
     },
     {
       "time_s": 18.2,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.7681,
+      "touch_balance": 716.9013,
       "recovery_window": true
     },
     {
       "time_s": 18.256,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 6.3197,
+      "touch_balance": 722.1085,
       "recovery_window": true
     },
     {
       "time_s": 18.312,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 5.3495,
+      "touch_balance": 731.1335,
       "recovery_window": true
     },
     {
       "time_s": 18.368,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 4.2215,
+      "touch_balance": 745.0698,
       "recovery_window": true
     },
     {
       "time_s": 18.424,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.0505,
+      "touch_balance": 759.9098,
       "recovery_window": true
     },
     {
       "time_s": 18.48,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 6.3714,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.536,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 1.868,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.592,
       "stage": "RECOVER",
-      "active_fingers": 0,
-      "touch_balance": 1.0,
+      "active_fingers": 1,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.648,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.4334,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.704,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.2646,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.76,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 20.2567,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.816,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 19.8227,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.872,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.8624,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.928,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 19.2456,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.984,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.1535,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.04,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.0395,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.096,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.2823,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.152,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 1.0555,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.208,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 2.9106,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.264,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 7.6427,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.32,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 7.7188,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.376,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 9.2694,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.432,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 12.0667,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.488,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 13.6227,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.544,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 15.4241,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.6,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 16.2745,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.656,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 11.5107,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.712,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 37.7523,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.768,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 32.3677,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.824,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 33.1776,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.88,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 28.2131,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 19.936,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 22.2623,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 19.992,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 19.1103,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.048,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 3.0715,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.104,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 3.9499,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.16,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 3.4999,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.216,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 14.1162,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.272,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 12.4508,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.328,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 14.2475,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.384,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 15.076,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.44,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 15.1223,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.496,
-      "stage": "RECOVER",
+      "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 16.7868,
-      "recovery_window": true
+      "touch_balance": 756.8532,
+      "recovery_window": false
     },
     {
       "time_s": 20.552,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 38.6001,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.608,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 35.8338,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.664,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 33.7673,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.72,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 33.497,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.776,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 27.7825,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.832,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 22.4452,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 20.888,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 21.5689,
+      "touch_balance": 756.8532,
+      "recovery_window": false
+    },
+    {
+      "time_s": 20.944,
+      "stage": "HOLD",
+      "active_fingers": 1,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.0,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 3.039,
+      "touch_balance": 756.8532,
+      "recovery_window": false
+    },
+    {
+      "time_s": 21.056,
+      "stage": "HOLD",
+      "active_fingers": 1,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.112,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 7.2041,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.168,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 15.1407,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.224,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 10.651,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.28,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 12.4371,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.336,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 12.4093,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.392,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 13.4497,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.448,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 14.9252,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.504,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 16.006,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.56,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 16.7121,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.616,
       "stage": "HOLD",
       "active_fingers": 1,
-      "touch_balance": 39.8757,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.672,
-      "stage": "HOLD",
+      "stage": "TRANSPORT",
       "active_fingers": 1,
-      "touch_balance": 39.3883,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.728,
-      "stage": "HOLD",
+      "stage": "TRANSPORT",
       "active_fingers": 1,
-      "touch_balance": 32.8454,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.784,
-      "stage": "HOLD",
+      "stage": "TRANSPORT",
       "active_fingers": 1,
-      "touch_balance": 27.2658,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.84,
-      "stage": "HOLD",
+      "stage": "TRANSPORT",
       "active_fingers": 1,
-      "touch_balance": 20.1217,
+      "touch_balance": 756.8532,
       "recovery_window": false
     },
     {
       "time_s": 21.896,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 19.4226,
-      "recovery_window": false
-    },
-    {
-      "time_s": 21.952,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 3.1676,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.008,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 4.1853,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.064,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 4.2285,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.12,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 7.1077,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.176,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 12.2732,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.232,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 14.047,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.288,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 14.9947,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.344,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 14.9267,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.4,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 16.7529,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.456,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 38.2544,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.512,
-      "stage": "HOLD",
-      "active_fingers": 1,
-      "touch_balance": 32.9435,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.568,
       "stage": "TRANSPORT",
       "active_fingers": 1,
-      "touch_balance": 22.9193,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.624,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 30.275,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.68,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 37.6,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.736,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 12.5674,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.792,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 10.5023,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.848,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 4.0763,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.904,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 5.1736,
-      "recovery_window": false
-    },
-    {
-      "time_s": 22.96,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 2.9336,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.016,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 0.5516,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.072,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 5.4726,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.128,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 8.5284,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.184,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 7.4071,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.24,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 6.5767,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.296,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 0.7023,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.352,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 0.0109,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.464,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 17.0223,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.52,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 16.7517,
-      "recovery_window": false
-    },
-    {
-      "time_s": 23.856,
-      "stage": "TRANSPORT",
-      "active_fingers": 1,
-      "touch_balance": 0.6706,
+      "touch_balance": 756.8532,
       "recovery_window": false
     }
   ],
   "recovery_samples": [
     {
+      "time_s": 17.08,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 704.033,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.136,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 703.6225,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.192,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 703.3083,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.248,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 704.045,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.304,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 706.8137,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.36,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 706.3533,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.416,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 705.1155,
+      "recovery_window": true
+    },
+    {
+      "time_s": 17.472,
+      "stage": "RECOVER",
+      "active_fingers": 1,
+      "touch_balance": 704.7196,
+      "recovery_window": true
+    },
+    {
       "time_s": 17.528,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 12.5762,
+      "touch_balance": 704.3354,
       "recovery_window": true
     },
     {
       "time_s": 17.584,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 10.8994,
+      "touch_balance": 704.9949,
       "recovery_window": true
     },
     {
       "time_s": 17.64,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 12.4809,
+      "touch_balance": 707.8897,
       "recovery_window": true
     },
     {
       "time_s": 17.696,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 11.9269,
+      "touch_balance": 707.469,
       "recovery_window": true
     },
     {
       "time_s": 17.752,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.0948,
+      "touch_balance": 706.9027,
       "recovery_window": true
     },
     {
       "time_s": 17.808,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 13.3094,
+      "touch_balance": 707.2879,
       "recovery_window": true
     },
     {
       "time_s": 17.864,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 15.244,
+      "touch_balance": 707.795,
       "recovery_window": true
     },
     {
       "time_s": 17.92,
       "stage": "RECOVER",
-      "active_fingers": 0,
-      "touch_balance": 1.0,
+      "active_fingers": 1,
+      "touch_balance": 708.4027,
       "recovery_window": true
     },
     {
       "time_s": 17.976,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 17.5071,
+      "touch_balance": 709.2158,
       "recovery_window": true
     },
     {
       "time_s": 18.032,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 17.8554,
+      "touch_balance": 710.2229,
       "recovery_window": true
     },
     {
       "time_s": 18.088,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 20.7134,
+      "touch_balance": 711.7169,
       "recovery_window": true
     },
     {
       "time_s": 18.144,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 25.5082,
+      "touch_balance": 714.1172,
       "recovery_window": true
     },
     {
       "time_s": 18.2,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.7681,
+      "touch_balance": 716.9013,
       "recovery_window": true
     },
     {
       "time_s": 18.256,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 6.3197,
+      "touch_balance": 722.1085,
       "recovery_window": true
     },
     {
       "time_s": 18.312,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 5.3495,
+      "touch_balance": 731.1335,
       "recovery_window": true
     },
     {
       "time_s": 18.368,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 4.2215,
+      "touch_balance": 745.0698,
       "recovery_window": true
     },
     {
       "time_s": 18.424,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 3.0505,
+      "touch_balance": 759.9098,
       "recovery_window": true
     },
     {
       "time_s": 18.48,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 6.3714,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.536,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 1.868,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.592,
       "stage": "RECOVER",
-      "active_fingers": 0,
-      "touch_balance": 1.0,
+      "active_fingers": 1,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.648,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.4334,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.704,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.2646,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.76,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 20.2567,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.816,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 19.8227,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.872,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 18.8624,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.928,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 19.2456,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 18.984,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.1535,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.04,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.0395,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.096,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 0.2823,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.152,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 1.0555,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.208,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 2.9106,
+      "touch_balance": 756.8532,
       "recovery_window": true
     },
     {
       "time_s": 19.264,
       "stage": "RECOVER",
       "active_fingers": 1,
-      "touch_balance": 7.6427,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.32,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 7.7188,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.376,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 9.2694,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.432,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 12.0667,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.488,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 13.6227,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.544,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 15.4241,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.6,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 16.2745,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.656,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 11.5107,
-      "recovery_window": true
-    },
-    {
-      "time_s": 19.712,
-      "stage": "RECOVER",
-      "active_fingers": 1,
-      "touch_balance": 37.7523,
+      "touch_balance": 756.8532,
       "recovery_window": true
     }
   ]

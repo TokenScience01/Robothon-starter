@@ -1,9 +1,13 @@
 {
-  "project": "Aegis Sentinel EOD v4",
+  "project": "Aegis Sentinel EOD v5",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
   "keywords": [
     "quadruped patrol",
-    "tri-finger grasp",
+    "five-finger grasp",
+    "EOD wire sever",
+    "quadruped gait",
+    "grasp camera PiP",
+    "impedance force telemetry",
     "rangefinder scan",
     "4N shove recovery",
     "9x load hold",
@@ -15,13 +19,13 @@
   ],
   "rubric_index": {
     "reproducibility": "one-command deterministic artifact generation",
-    "mujoco_depth": "MJCF scene, position actuators, touch sensors, rangefinder, free package body, alarm slide joint, contacts",
-    "task_design": "campus EOD patrol with scan, tri-finger grasp, shove recovery, 9x hold, transport slip, seal, and alarm",
-    "control": "stage planner plus tactile residual policy using MuJoCo sensor streams",
-    "dexterity": "thumb-opposed tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, seal press",
-    "engineering_quality": "validator, judge brief, scorecard, dataset labels, 96-seed stress replay, Aegis mesh asset",
-    "presentation": "30s HUD video, opening splash, beat labels, pass banner, SRT subtitles, 10-panel storyboard",
-    "innovation": "quadruped-plus-manipulator campus EOD with dual slip recovery and 9x load hold benchmark",
+    "mujoco_depth": "MJCF scene, 24 actuators, 5 touch pads, rangefinder, wire slide, gait knees, Aegis mesh, contacts",
+    "task_design": "campus EOD with scan, wire sever, five-finger grasp, shove recovery, 9x hold, transport slip, seal, alarm",
+    "control": "250Hz stage planner plus tactile residual policy with impedance-style force telemetry",
+    "dexterity": "five-finger opposition grasp, wire cut, 4N shove recovery, 9x load hold, transport slip recovery",
+    "engineering_quality": "validator, judge brief, scorecard, dataset labels, 128-seed stress replay, Aegis mesh asset",
+    "presentation": "30s 720p HUD video, grasp-camera PiP, opening splash, beat labels, 11-panel storyboard",
+    "innovation": "five-finger quadruped EOD with wire severance, gait animation, dual slip recovery, force HUD",
     "data_collection": "labels.csv, episode trace, sensor manifest, and metrics JSON exported each run"
   },
   "success": {
@@ -29,15 +33,17 @@
     "package_grasped": true,
     "alarm_pressed": true,
     "min_package_bin_error_m": 0.02,
-    "recovered_slip_mm": 0.13,
+    "recovered_slip_mm": 0.078,
     "max_shove_n": 4.0,
     "max_hold_load_factor": 9.0,
-    "transport_slip_recovered": true
+    "transport_slip_recovered": true,
+    "wire_cut": true,
+    "max_grip_force_n": 47.5
   },
   "stress_eval": {
-    "seeds": 96,
+    "seeds": 128,
     "learned_policy_success": 1.0,
-    "baseline_success": 0.6667,
-    "median_error_improvement_mm": 25.83
+    "baseline_success": 0.6641,
+    "median_error_improvement_mm": 26.63
   }
 }

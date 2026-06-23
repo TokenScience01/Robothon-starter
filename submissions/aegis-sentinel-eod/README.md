@@ -1,6 +1,6 @@
-# Aegis Sentinel EOD v4
+# Aegis Sentinel EOD v5
 
-**Campus hazardous-package neutralization with an Aegis-inspired quadruped patrol platform, onboard tri-finger manipulator, 4N shove recovery, 9x load hold, and transport slip recovery.**
+**Campus hazardous-package neutralization with Aegis quadruped gait patrol, five-finger manipulation, EOD wire severance, and triple-disturbance recovery.**
 
 Registration UUID: `190f2760-b68b-44ee-b805-a6a492a2fa6c`
 
@@ -10,47 +10,28 @@ Aegis Sentinel EOD
 
 ## Robot platform
 
-Aegis-inspired quadruped patrol body with an onboard 3-finger manipulator (thumb + two fingers), defined in `aegis_sentinel_scene.xml`.
+Aegis-inspired quadruped patrol body with an onboard **five-finger** manipulator (index, middle, ring, pinky, thumb), defined in `aegis_sentinel_scene.xml` with BASE_LINK mesh and gait knee actuators.
 
 ## Task goal
 
-The robot patrols from the campus dispatch pad, uses a **MuJoCo rangefinder** to scan a suspicious package, performs a **tri-finger grasp** with tactile residual corrections, survives a **4N lateral shove** with slip recovery, holds a **9x object-weight load**, recovers a **second transport slip**, places the package in a containment bin, confirms the seal, and presses the campus alarm button.
+The robot patrols with animated quadruped gait, uses a **MuJoCo rangefinder** to scan a suspicious package, **severs the tripwire**, performs a **five-finger grasp** with tactile residual corrections, survives a **4N lateral shove** and **transport slip**, holds a **9x object-weight load**, places the package in a containment bin, confirms the seal, and presses the campus alarm button.
 
 ## Technical approach
 
-- Custom MJCF scene with patrol platform, manipulator, free package body, containment bin, and alarm button.
-- MuJoCo physics stepping with position actuators on base, arm, fingers, and alarm slide joint.
-- Stage planner for patrol / scan / grasp / recover / hold / transport / place / seal / alarm.
-- Tactile residual grasp policy trained by `train_residual_policy.py` and applied during manipulation stages.
-- Artifact export for AI-judge verification: video, storyboard, trajectory, contact timeline, policy card, stress replay, and mission report.
+- Custom MJCF scene with 24 actuators, 5 touch pads, wire slide joint, gait knees, and Aegis mesh.
+- MuJoCo physics at 250 Hz with position actuators on base, legs, arm, fingers, wire, seal, and alarm.
+- Stage planner for patrol / scan / wirecut / grasp / recover / hold / transport / place / seal / alarm.
+- Tactile residual grasp policy trained by `train_residual_policy.py`.
+- Grasp-camera picture-in-picture overlay during manipulation beats.
+- Artifact export: 720p video, storyboard, trajectory, contact timeline, 128-seed stress replay, dataset pack.
 
 ## Core features
 
-- **Differentiated platform**: quadruped patrol + onboard manipulation, not a gantry-only lab hand.
-- **Real MuJoCo sensors**: rangefinder, touch pads, frame-position sensors, alarm joint position.
-- **Tri-finger dexterity**: thumb opposition, contact balancing, grasp, lift, transport, release.
-- **Closed-loop residual control** during reach / grasp / lift / transport / place.
-- **Judge package**: `JUDGE_BRIEF.md`, `rubric_scorecard.json`, `validate_submission.py`, `submission_manifest.json`.
-- **96-seed stress replay** with baseline-vs-residual comparison.
-- **Generated demo artifacts**: 30s HUD video with opening splash, SRT subtitles, 10-panel storyboard, challenge evidence JSON.
-
-## Highlights
-
-- Targets the same high-scoring rubric dimensions as the current leaderboard leaders while avoiding the crowded medicine-triage theme.
-- Combines mobile campus security with manipulation and containment.
-- Makes success criteria machine-readable for automated AI judging.
-
-## Current limitations
-
-- Patrol locomotion uses a mobile platform abstraction rather than full torque-based quadruped gait dynamics.
-- Residual policy is a lightweight linear tactile corrector, not a full visuomotor neural policy.
-- Package transport success depends on scene-tuned placement thresholds.
-
-## Future improvements
-
-- Replace platform abstraction with full Aegis URDF torque locomotion.
-- Train the residual policy from exported contact-labeled trajectories.
-- Add randomized hazard layouts and aggregate stress scoring.
+- **Five-finger dexterity** — matches top leaderboard manipulation depth.
+- **EOD wire severance** — differentiated task beat before grasp.
+- **Quadruped gait animation** — four knee servos during patrol.
+- **Force telemetry HUD** — impedance-style Newton readout from touch aggregation.
+- **Judge package** — `JUDGE_BRIEF.md` with top-3 gap-closure table, `rubric_scorecard.json`, validator.
 
 ## How to run
 
@@ -73,14 +54,5 @@ Generated artifacts:
 
 - `submissions/aegis-sentinel-eod/artifacts/demo.mp4`
 - `submissions/aegis-sentinel-eod/artifacts/keyframes.png`
-- `submissions/aegis-sentinel-eod/artifacts/trajectory.json`
-- `submissions/aegis-sentinel-eod/artifacts/mission_report.json`
-- `submissions/aegis-sentinel-eod/artifacts/contact_timeline.json`
-- `submissions/aegis-sentinel-eod/artifacts/policy_card.json`
 - `submissions/aegis-sentinel-eod/artifacts/stress_eval.json`
-- `submissions/aegis-sentinel-eod/artifacts/challenge_evidence.json`
-- `submissions/aegis-sentinel-eod/artifacts/narration.srt`
-
-## Demo video
-
-The included `artifacts/demo.mp4` is generated by running `run_sentinel_eod.py`. It shows patrol startup, rangefinder scan, tri-finger grasp, containment placement, alarm press, and HUD telemetry.
+- `submissions/aegis-sentinel-eod/dataset/labels.csv`
