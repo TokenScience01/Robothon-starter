@@ -4,14 +4,13 @@ Registration UUID: `190f2760-b68b-44ee-b805-a6a492a2fa6c`
 
 ## Project Summary · 项目说明
 
-- **Project name · 项目名称**: Aegis Sentinel EOD v5
-- **Robot platform · 机器人平台**: Aegis-inspired quadruped patrol platform with onboard **five-finger** manipulator and BASE_LINK mesh
-- **Task goal · 任务目标**: Campus EOD — gait patrol, rangefinder scan, **wire severance**, five-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, containment seal, alarm confirmation
-- **Technical approach · 技术方案**: MuJoCo MJCF (24 actuators, 5 touch pads), 250Hz stepping, stage planner, tactile residual policy, 128-seed stress replay, grasp-camera PiP, dataset export
-- **Core features · 核心功能**: Five-finger dexterity, EOD wire cut, quadruped gait knees, force telemetry HUD, dual-camera demo, validator, judge brief with gap-closure table
-- **Highlights · 亮点**: Closes five-finger + stress-seed gaps vs top-3 while staying in differentiated campus EOD theme (not crowded medicine triage)
-- **Current limitations · 当前局限**: Patrol uses platform slide abstraction with visual gait; package carry uses palm attach during transport
-- **Future improvements · 未来改进**: Full Aegis URDF torque locomotion and visuomotor policy from exported labels
+- **Project name · 项目名称**: Aegis Sentinel EOD v6 (recovery release)
+- **Robot platform · 机器人平台**: Aegis-inspired quadruped patrol platform with onboard tri-finger manipulator
+- **Task goal · 任务目标**: Campus EOD — patrol, rangefinder scan, tri-finger grasp, 4N shove recovery, 9x load hold, transport slip recovery, containment seal, alarm confirmation
+- **Technical approach · 技术方案**: MuJoCo MJCF, touch/rangefinder sensors, stage planner, tactile residual policy, 96-seed stress replay, dataset export
+- **v6 note · 版本说明**: Reverts v5 over-scoped changes (synthetic force HUD, PiP clutter, inflated self-audit). Restores clear 30s demo arc with honest disclosed abstractions.
+- **Current limitations · 当前局限**: Platform slide abstraction for patrol; palm attach during transport (documented in `mission_report.json`)
+- **Future improvements · 未来改进**: Full Aegis URDF torque locomotion; contact-only transport
 
 ## How to Run · 如何运行
 

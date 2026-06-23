@@ -39,7 +39,7 @@ def main() -> int:
     }
     payload = {
         "policy_type": "tactile_residual_grasp_policy",
-        "version": 2,
+        "version": 1,
         "features": [
             "visual_servo_error_x",
             "visual_servo_error_y",

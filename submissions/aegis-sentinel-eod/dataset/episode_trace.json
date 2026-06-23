@@ -24,9 +24,9 @@
       ],
       "range_m": -1.0,
       "grip": 0.0,
-      "active_fingers": 2,
-      "touch_balance": 739.9303,
-      "servo_error_m": 1.1488,
+      "active_fingers": 1,
+      "touch_balance": 615.9523,
+      "servo_error_m": 0.9969,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -39,9 +39,9 @@
       ],
       "range_m": -1.0,
       "grip": 0.0,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 1.1642,
+      "active_fingers": 1,
+      "touch_balance": 493.3307,
+      "servo_error_m": 1.0123,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -54,9 +54,9 @@
       ],
       "range_m": -1.0,
       "grip": 0.0,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 1.1487,
+      "active_fingers": 1,
+      "touch_balance": 288.2772,
+      "servo_error_m": 1.0156,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -69,9 +69,9 @@
       ],
       "range_m": -1.0,
       "grip": 0.0,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 1.1367,
+      "active_fingers": 2,
+      "touch_balance": 646.2698,
+      "servo_error_m": 1.0208,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -86,7 +86,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1303,
+      "servo_error_m": 1.0268,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -97,11 +97,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0843,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1257,
+      "servo_error_m": 1.0084,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -112,11 +112,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0815,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1217,
+      "servo_error_m": 1.0008,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -127,11 +127,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0807,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1183,
+      "servo_error_m": 0.998,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -142,11 +142,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0804,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1159,
+      "servo_error_m": 0.9957,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -157,11 +157,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0803,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1144,
+      "servo_error_m": 0.9937,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -172,11 +172,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0802,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1135,
+      "servo_error_m": 0.9919,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -187,11 +187,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0802,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1132,
+      "servo_error_m": 0.9903,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -202,11 +202,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0801,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1132,
+      "servo_error_m": 0.9888,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -217,11 +217,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.08,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1136,
+      "servo_error_m": 0.9874,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -232,11 +232,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.08,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1141,
+      "servo_error_m": 0.9861,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -247,11 +247,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.08,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1148,
+      "servo_error_m": 0.9849,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -262,11 +262,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.08,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1156,
+      "servo_error_m": 0.9837,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -277,11 +277,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0799,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1165,
+      "servo_error_m": 0.9825,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -292,11 +292,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0799,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1174,
+      "servo_error_m": 0.9816,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -307,11 +307,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0799,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1184,
+      "servo_error_m": 0.9808,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -322,11 +322,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0798,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1195,
+      "servo_error_m": 0.9802,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -337,11 +337,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0798,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1205,
+      "servo_error_m": 0.9796,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -352,11 +352,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0797,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1216,
+      "servo_error_m": 0.9791,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -367,11 +367,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0797,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1227,
+      "servo_error_m": 0.9787,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -382,11 +382,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0798,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1238,
+      "servo_error_m": 0.9783,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -397,11 +397,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0816,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1284,
+      "servo_error_m": 0.9779,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -412,11 +412,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.0892,
+      "range_m": -1.0,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1329,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -431,7 +431,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1567,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -446,7 +446,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1573,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -461,7 +461,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1568,
+      "servo_error_m": 0.977,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -476,7 +476,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.157,
+      "servo_error_m": 0.9768,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -491,7 +491,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1573,
+      "servo_error_m": 0.9767,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -506,7 +506,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1578,
+      "servo_error_m": 0.9766,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -521,7 +521,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1584,
+      "servo_error_m": 0.9764,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -536,7 +536,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1591,
+      "servo_error_m": 0.9763,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -551,7 +551,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1599,
+      "servo_error_m": 0.9762,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -566,7 +566,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1606,
+      "servo_error_m": 0.9762,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -581,7 +581,7 @@
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1615,
+      "servo_error_m": 0.9761,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -592,11 +592,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1139,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1623,
+      "servo_error_m": 0.976,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -607,11 +607,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1121,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1632,
+      "servo_error_m": 0.976,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -622,11 +622,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1111,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1641,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -637,11 +637,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.165,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -652,11 +652,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1097,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.166,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -667,11 +667,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1091,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.167,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -682,11 +682,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1087,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.168,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -697,11 +697,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1083,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.169,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -712,11 +712,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1079,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.17,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -727,11 +727,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1166,
+      "range_m": 0.1076,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.171,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -742,11 +742,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1144,
+      "range_m": 0.1073,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.172,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -757,11 +757,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.113,
+      "range_m": 0.107,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1731,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -772,11 +772,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.112,
+      "range_m": 0.1068,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1741,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -787,11 +787,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1113,
+      "range_m": 0.1066,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1752,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -802,11 +802,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1107,
+      "range_m": 0.1063,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1763,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -817,11 +817,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1103,
+      "range_m": 0.1062,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1774,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -832,11 +832,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1101,
+      "range_m": 0.106,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1784,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -847,11 +847,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1099,
+      "range_m": 0.1058,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1795,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -862,11 +862,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1099,
+      "range_m": 0.1057,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1806,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -877,11 +877,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1099,
+      "range_m": 0.1055,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1818,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -892,11 +892,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.11,
+      "range_m": 0.1054,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1829,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -907,11 +907,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1102,
+      "range_m": 0.1053,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.184,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -922,11 +922,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1105,
+      "range_m": 0.1051,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1851,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -937,11 +937,11 @@
         -1.65,
         -0.25
       ],
-      "range_m": 0.1108,
+      "range_m": 0.1051,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1863,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -949,14 +949,14 @@
       "time_s": 3.528,
       "stage": "PATROL",
       "base_xy": [
-        -1.6494,
-        -0.2499
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1112,
+      "range_m": 0.105,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1874,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -964,14 +964,14 @@
       "time_s": 3.584,
       "stage": "PATROL",
       "base_xy": [
-        -1.6446,
-        -0.2495
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1117,
+      "range_m": 0.105,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1885,
+      "servo_error_m": 0.976,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -979,14 +979,14 @@
       "time_s": 3.64,
       "stage": "PATROL",
       "base_xy": [
-        -1.6353,
-        -0.2486
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1123,
+      "range_m": 0.1049,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1897,
+      "servo_error_m": 0.976,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -994,14 +994,14 @@
       "time_s": 3.696,
       "stage": "PATROL",
       "base_xy": [
-        -1.6215,
-        -0.2473
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1131,
+      "range_m": 0.1049,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1908,
+      "servo_error_m": 0.9761,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1009,14 +1009,14 @@
       "time_s": 3.752,
       "stage": "PATROL",
       "base_xy": [
-        -1.6034,
-        -0.2456
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1139,
+      "range_m": 0.1049,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1919,
+      "servo_error_m": 0.9761,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1024,14 +1024,14 @@
       "time_s": 3.808,
       "stage": "PATROL",
       "base_xy": [
-        -1.5814,
-        -0.2435
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1151,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.193,
+      "servo_error_m": 0.9762,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1039,14 +1039,14 @@
       "time_s": 3.864,
       "stage": "PATROL",
       "base_xy": [
-        -1.5554,
-        -0.2411
+        -1.65,
+        -0.25
       ],
-      "range_m": 0.1166,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1941,
+      "servo_error_m": 0.9762,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1054,14 +1054,14 @@
       "time_s": 3.92,
       "stage": "PATROL",
       "base_xy": [
-        -1.5258,
-        -0.2383
+        -1.65,
+        -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1952,
+      "servo_error_m": 0.9763,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1069,14 +1069,14 @@
       "time_s": 3.976,
       "stage": "PATROL",
       "base_xy": [
-        -1.4926,
-        -0.2351
+        -1.65,
+        -0.25
       ],
-      "range_m": -1.0,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1962,
+      "servo_error_m": 0.9763,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1084,14 +1084,14 @@
       "time_s": 4.032,
       "stage": "PATROL",
       "base_xy": [
-        -1.4562,
-        -0.2317
+        -1.6494,
+        -0.2499
       ],
-      "range_m": -1.0,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1972,
+      "servo_error_m": 0.9764,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1099,14 +1099,14 @@
       "time_s": 4.088,
       "stage": "PATROL",
       "base_xy": [
-        -1.4166,
-        -0.228
+        -1.6457,
+        -0.2496
       ],
-      "range_m": -1.0,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1982,
+      "servo_error_m": 0.9764,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1114,14 +1114,14 @@
       "time_s": 4.144,
       "stage": "PATROL",
       "base_xy": [
-        -1.374,
-        -0.2239
+        -1.6385,
+        -0.2489
       ],
-      "range_m": -1.0,
+      "range_m": 0.1048,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1992,
+      "servo_error_m": 0.9765,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1129,14 +1129,14 @@
       "time_s": 4.2,
       "stage": "PATROL",
       "base_xy": [
-        -1.3286,
-        -0.2197
+        -1.628,
+        -0.2479
       ],
-      "range_m": -1.0,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2001,
+      "servo_error_m": 0.9765,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1144,14 +1144,14 @@
       "time_s": 4.256,
       "stage": "PATROL",
       "base_xy": [
-        -1.2807,
-        -0.2151
+        -1.6144,
+        -0.2466
       ],
-      "range_m": 0.1186,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.201,
+      "servo_error_m": 0.9766,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1159,14 +1159,14 @@
       "time_s": 4.312,
       "stage": "PATROL",
       "base_xy": [
-        -1.2303,
-        -0.2104
+        -1.5978,
+        -0.2451
       ],
-      "range_m": 0.1164,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2018,
+      "servo_error_m": 0.9766,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1174,14 +1174,14 @@
       "time_s": 4.368,
       "stage": "PATROL",
       "base_xy": [
-        -1.1777,
-        -0.2054
+        -1.5781,
+        -0.2432
       ],
-      "range_m": 0.115,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2026,
+      "servo_error_m": 0.9767,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1189,14 +1189,14 @@
       "time_s": 4.424,
       "stage": "PATROL",
       "base_xy": [
-        -1.1231,
-        -0.2002
+        -1.5557,
+        -0.2411
       ],
-      "range_m": 0.114,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2033,
+      "servo_error_m": 0.9767,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1204,14 +1204,14 @@
       "time_s": 4.48,
       "stage": "PATROL",
       "base_xy": [
-        -1.0665,
-        -0.1949
+        -1.5306,
+        -0.2387
       ],
-      "range_m": 0.1132,
+      "range_m": 0.1047,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.204,
+      "servo_error_m": 0.9768,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1219,14 +1219,14 @@
       "time_s": 4.536,
       "stage": "PATROL",
       "base_xy": [
-        -1.0083,
-        -0.1894
+        -1.5028,
+        -0.2361
       ],
-      "range_m": 0.1125,
+      "range_m": 0.1046,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2047,
+      "servo_error_m": 0.9768,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1234,14 +1234,14 @@
       "time_s": 4.592,
       "stage": "PATROL",
       "base_xy": [
-        -0.9486,
-        -0.1838
+        -1.4726,
+        -0.2332
       ],
-      "range_m": 0.1119,
+      "range_m": 0.1046,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2053,
+      "servo_error_m": 0.9769,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1249,14 +1249,14 @@
       "time_s": 4.648,
       "stage": "PATROL",
       "base_xy": [
-        -0.8876,
-        -0.178
+        -1.44,
+        -0.2302
       ],
-      "range_m": 0.1114,
+      "range_m": 0.1046,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2059,
+      "servo_error_m": 0.9769,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1264,14 +1264,14 @@
       "time_s": 4.704,
       "stage": "PATROL",
       "base_xy": [
-        -0.8254,
-        -0.1721
+        -1.4051,
+        -0.2269
       ],
-      "range_m": 0.1109,
+      "range_m": 0.1046,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2064,
+      "servo_error_m": 0.9769,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1279,14 +1279,14 @@
       "time_s": 4.76,
       "stage": "PATROL",
       "base_xy": [
-        -0.7622,
-        -0.1662
+        -1.3681,
+        -0.2234
       ],
-      "range_m": 0.1106,
+      "range_m": 0.1045,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2068,
+      "servo_error_m": 0.977,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1294,14 +1294,14 @@
       "time_s": 4.816,
       "stage": "PATROL",
       "base_xy": [
-        -0.6983,
-        -0.1601
+        -1.3291,
+        -0.2197
       ],
-      "range_m": 0.1102,
+      "range_m": 0.1045,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2072,
+      "servo_error_m": 0.977,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1309,14 +1309,14 @@
       "time_s": 4.872,
       "stage": "PATROL",
       "base_xy": [
-        -0.6338,
-        -0.154
+        -1.2882,
+        -0.2158
       ],
-      "range_m": 0.11,
+      "range_m": 0.1045,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2076,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1324,14 +1324,14 @@
       "time_s": 4.928,
       "stage": "PATROL",
       "base_xy": [
-        -0.5688,
-        -0.1479
+        -1.2455,
+        -0.2118
       ],
-      "range_m": 0.1098,
+      "range_m": 0.1044,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2079,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1339,14 +1339,14 @@
       "time_s": 4.984,
       "stage": "PATROL",
       "base_xy": [
-        -0.5036,
-        -0.1418
+        -1.2011,
+        -0.2076
       ],
-      "range_m": 0.1096,
+      "range_m": 0.1044,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2081,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1354,14 +1354,14 @@
       "time_s": 5.04,
       "stage": "PATROL",
       "base_xy": [
-        -0.4384,
-        -0.1356
+        -1.1551,
+        -0.2033
       ],
-      "range_m": 0.1095,
+      "range_m": 0.1044,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2083,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1369,14 +1369,14 @@
       "time_s": 5.096,
       "stage": "PATROL",
       "base_xy": [
-        -0.3733,
-        -0.1295
+        -1.1077,
+        -0.1988
       ],
-      "range_m": 0.1094,
+      "range_m": 0.1043,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2084,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1384,14 +1384,14 @@
       "time_s": 5.152,
       "stage": "PATROL",
       "base_xy": [
-        -0.3085,
-        -0.1233
+        -1.0589,
+        -0.1942
       ],
-      "range_m": 0.1094,
+      "range_m": 0.1043,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2085,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1399,14 +1399,14 @@
       "time_s": 5.208,
       "stage": "PATROL",
       "base_xy": [
-        -0.2442,
-        -0.1173
+        -1.0089,
+        -0.1895
       ],
-      "range_m": 0.1094,
+      "range_m": 0.1043,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2085,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1414,14 +1414,14 @@
       "time_s": 5.264,
       "stage": "PATROL",
       "base_xy": [
-        -0.1806,
-        -0.1113
+        -0.9578,
+        -0.1846
       ],
-      "range_m": 0.1095,
+      "range_m": 0.1042,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2085,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1429,14 +1429,14 @@
       "time_s": 5.32,
       "stage": "PATROL",
       "base_xy": [
-        -0.1179,
-        -0.1053
+        -0.9057,
+        -0.1797
       ],
-      "range_m": 0.1096,
+      "range_m": 0.1042,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2084,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1444,14 +1444,14 @@
       "time_s": 5.376,
       "stage": "PATROL",
       "base_xy": [
-        -0.0561,
-        -0.0995
+        -0.8528,
+        -0.1747
       ],
-      "range_m": 0.1098,
+      "range_m": 0.1041,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2083,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1459,14 +1459,14 @@
       "time_s": 5.432,
       "stage": "PATROL",
       "base_xy": [
-        0.0044,
-        -0.0938
+        -0.7991,
+        -0.1697
       ],
-      "range_m": 0.11,
+      "range_m": 0.1041,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2081,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1474,14 +1474,14 @@
       "time_s": 5.488,
       "stage": "PATROL",
       "base_xy": [
-        0.0635,
-        -0.0882
+        -0.7447,
+        -0.1645
       ],
-      "range_m": 0.1103,
+      "range_m": 0.1041,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2079,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1489,14 +1489,14 @@
       "time_s": 5.544,
       "stage": "PATROL",
       "base_xy": [
-        0.121,
-        -0.0828
+        -0.6898,
+        -0.1593
       ],
-      "range_m": 0.1106,
+      "range_m": 0.104,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2076,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1504,14 +1504,14 @@
       "time_s": 5.6,
       "stage": "PATROL",
       "base_xy": [
-        0.1767,
-        -0.0775
+        -0.6344,
+        -0.1541
       ],
-      "range_m": 0.111,
+      "range_m": 0.104,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2073,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1519,14 +1519,14 @@
       "time_s": 5.656,
       "stage": "PATROL",
       "base_xy": [
-        0.2305,
-        -0.0724
+        -0.5788,
+        -0.1489
       ],
-      "range_m": 0.1115,
+      "range_m": 0.1039,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2069,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1534,14 +1534,14 @@
       "time_s": 5.712,
       "stage": "PATROL",
       "base_xy": [
-        0.2822,
-        -0.0676
+        -0.5229,
+        -0.1436
       ],
-      "range_m": 0.112,
+      "range_m": 0.1039,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2065,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1549,14 +1549,14 @@
       "time_s": 5.768,
       "stage": "PATROL",
       "base_xy": [
-        0.3315,
-        -0.0629
+        -0.467,
+        -0.1383
       ],
-      "range_m": 0.1127,
+      "range_m": 0.1038,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2061,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1564,14 +1564,14 @@
       "time_s": 5.824,
       "stage": "PATROL",
       "base_xy": [
-        0.3784,
-        -0.0585
+        -0.4111,
+        -0.133
       ],
-      "range_m": 0.1135,
+      "range_m": 0.1038,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2056,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1579,14 +1579,14 @@
       "time_s": 5.88,
       "stage": "PATROL",
       "base_xy": [
-        0.4226,
-        -0.0543
+        -0.3554,
+        -0.1278
       ],
-      "range_m": 0.1144,
+      "range_m": 0.1038,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.205,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1594,14 +1594,14 @@
       "time_s": 5.936,
       "stage": "PATROL",
       "base_xy": [
-        0.4639,
-        -0.0504
+        -0.3,
+        -0.1225
       ],
-      "range_m": 0.1157,
+      "range_m": 0.1037,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2045,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1609,14 +1609,14 @@
       "time_s": 5.992,
       "stage": "PATROL",
       "base_xy": [
-        0.5022,
-        -0.0468
+        -0.2449,
+        -0.1173
       ],
-      "range_m": 0.1175,
+      "range_m": 0.1037,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2039,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1624,14 +1624,14 @@
       "time_s": 6.048,
       "stage": "PATROL",
       "base_xy": [
-        0.5373,
-        -0.0435
+        -0.1903,
+        -0.1122
       ],
-      "range_m": -1.0,
+      "range_m": 0.1037,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2033,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1639,14 +1639,14 @@
       "time_s": 6.104,
       "stage": "PATROL",
       "base_xy": [
-        0.5689,
-        -0.0405
+        -0.1363,
+        -0.1071
       ],
-      "range_m": -1.0,
+      "range_m": 0.1037,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2026,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1654,14 +1654,14 @@
       "time_s": 6.16,
       "stage": "PATROL",
       "base_xy": [
-        0.597,
-        -0.0378
+        -0.0831,
+        -0.1021
       ],
-      "range_m": -1.0,
+      "range_m": 0.1036,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2019,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1669,14 +1669,14 @@
       "time_s": 6.216,
       "stage": "PATROL",
       "base_xy": [
-        0.6213,
-        -0.0355
+        -0.0307,
+        -0.0971
       ],
-      "range_m": -1.0,
+      "range_m": 0.1036,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2012,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1684,14 +1684,14 @@
       "time_s": 6.272,
       "stage": "PATROL",
       "base_xy": [
-        0.6417,
-        -0.0336
+        0.0208,
+        -0.0922
       ],
-      "range_m": 0.1183,
+      "range_m": 0.1036,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.2005,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1699,14 +1699,14 @@
       "time_s": 6.328,
       "stage": "PATROL",
       "base_xy": [
-        0.6579,
-        -0.0321
+        0.0712,
+        -0.0875
       ],
-      "range_m": 0.1165,
+      "range_m": 0.1035,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1998,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1714,14 +1714,14 @@
       "time_s": 6.384,
       "stage": "PATROL",
       "base_xy": [
-        0.6698,
-        -0.031
+        0.1204,
+        -0.0828
       ],
-      "range_m": 0.1153,
+      "range_m": 0.1035,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.199,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1729,14 +1729,14 @@
       "time_s": 6.44,
       "stage": "PATROL",
       "base_xy": [
-        0.6772,
-        -0.0303
+        0.1683,
+        -0.0783
       ],
-      "range_m": 0.1143,
+      "range_m": 0.1035,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1983,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -1744,269 +1744,269 @@
       "time_s": 6.496,
       "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.2148,
+        -0.0739
       ],
-      "range_m": 0.1136,
+      "range_m": 0.1035,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1975,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.552,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.2598,
+        -0.0697
       ],
-      "range_m": 0.1129,
+      "range_m": 0.1034,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1968,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.608,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.3031,
+        -0.0656
       ],
-      "range_m": 0.1124,
+      "range_m": 0.1034,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.196,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.664,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.3447,
+        -0.0617
       ],
-      "range_m": 0.1119,
+      "range_m": 0.1034,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1953,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.72,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.3844,
+        -0.0579
       ],
-      "range_m": 0.1115,
+      "range_m": 0.1034,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1945,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.776,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.4221,
+        -0.0543
       ],
-      "range_m": 0.1111,
+      "range_m": 0.1034,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1938,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.832,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.4578,
+        -0.051
       ],
-      "range_m": 0.1108,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.193,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.888,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.4912,
+        -0.0478
       ],
-      "range_m": 0.1106,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1923,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 6.944,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.5223,
+        -0.0449
       ],
-      "range_m": 0.1103,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1915,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.0,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.5509,
+        -0.0422
       ],
-      "range_m": 0.1102,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1908,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.056,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.577,
+        -0.0397
       ],
-      "range_m": 0.11,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1901,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.112,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6004,
+        -0.0375
       ],
-      "range_m": 0.1098,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1893,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.168,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6211,
+        -0.0356
       ],
-      "range_m": 0.1097,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1886,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.224,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6388,
+        -0.0339
       ],
-      "range_m": 0.1097,
+      "range_m": 0.1033,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1878,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.28,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6535,
+        -0.0325
       ],
-      "range_m": 0.1096,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1871,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.336,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6651,
+        -0.0314
       ],
-      "range_m": 0.1096,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1863,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.392,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6735,
+        -0.0306
       ],
-      "range_m": 0.1097,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1856,
+      "servo_error_m": 0.9778,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 7.448,
-      "stage": "SCAN",
+      "stage": "PATROL",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6785,
+        -0.0301
       ],
-      "range_m": 0.1098,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1849,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2017,11 +2017,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1099,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1841,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2032,11 +2032,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1101,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1834,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2047,11 +2047,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1103,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1827,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2062,11 +2062,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1106,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1819,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2077,11 +2077,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1109,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1812,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2092,11 +2092,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1113,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1805,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2107,11 +2107,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1118,
+      "range_m": 0.1032,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1797,
+      "servo_error_m": 0.9777,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2122,11 +2122,11 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.1123,
+      "range_m": 0.1031,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.179,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2137,416 +2137,416 @@
         0.68,
         -0.03
       ],
-      "range_m": 0.113,
+      "range_m": 0.1031,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1783,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.008,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1137,
+      "range_m": 0.1031,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1776,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.064,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1146,
+      "range_m": 0.1031,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1768,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.12,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1156,
+      "range_m": 0.1031,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1761,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.176,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1169,
+      "range_m": 0.103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1754,
+      "servo_error_m": 0.9776,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.232,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.119,
+      "range_m": 0.103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1746,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.288,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1739,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.344,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1731,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.4,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.103,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1724,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.456,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1716,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.512,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1198,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1708,
+      "servo_error_m": 0.9775,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.568,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.117,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.17,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.624,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1155,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1691,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.68,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1143,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1683,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.736,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1134,
+      "range_m": 0.1029,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1674,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.792,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1126,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1666,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.848,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.112,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1657,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.904,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1114,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1648,
+      "servo_error_m": 0.9774,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 8.96,
-      "stage": "WIRECUT",
+      "stage": "SCAN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.111,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1639,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.016,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
         0.68,
         -0.03
       ],
-      "range_m": 0.1106,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1629,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.072,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6805,
+        -0.0298
       ],
-      "range_m": 0.1103,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.162,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.128,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6819,
+        -0.0294
       ],
-      "range_m": 0.1101,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.161,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.184,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6839,
+        -0.0287
       ],
-      "range_m": 0.11,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1601,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.24,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6867,
+        -0.0278
       ],
-      "range_m": 0.11,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1591,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.296,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6901,
+        -0.0266
       ],
-      "range_m": 0.11,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1581,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.352,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6941,
+        -0.0253
       ],
-      "range_m": 0.1102,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1572,
+      "servo_error_m": 0.9773,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.408,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.6987,
+        -0.0238
       ],
-      "range_m": 0.1104,
+      "range_m": 0.1028,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1562,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
     {
       "time_s": 9.464,
-      "stage": "WIRECUT",
+      "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.7038,
+        -0.0221
       ],
-      "range_m": 0.1108,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1552,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2554,14 +2554,14 @@
       "time_s": 9.52,
       "stage": "ALIGN",
       "base_xy": [
-        0.68,
-        -0.03
+        0.7093,
+        -0.0202
       ],
-      "range_m": 0.1112,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1542,
+      "servo_error_m": 0.9772,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2569,14 +2569,14 @@
       "time_s": 9.576,
       "stage": "ALIGN",
       "base_xy": [
-        0.681,
-        -0.0297
+        0.7153,
+        -0.0182
       ],
-      "range_m": 0.1117,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1533,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2584,14 +2584,14 @@
       "time_s": 9.632,
       "stage": "ALIGN",
       "base_xy": [
-        0.6833,
-        -0.0289
+        0.7216,
+        -0.0161
       ],
-      "range_m": 0.1123,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1523,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2599,14 +2599,14 @@
       "time_s": 9.688,
       "stage": "ALIGN",
       "base_xy": [
-        0.6869,
-        -0.0277
+        0.7283,
+        -0.0139
       ],
-      "range_m": 0.1131,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1513,
+      "servo_error_m": 0.9771,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2614,14 +2614,14 @@
       "time_s": 9.744,
       "stage": "ALIGN",
       "base_xy": [
-        0.6916,
-        -0.0261
+        0.7352,
+        -0.0116
       ],
-      "range_m": 0.114,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1504,
+      "servo_error_m": 0.977,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2629,14 +2629,14 @@
       "time_s": 9.8,
       "stage": "ALIGN",
       "base_xy": [
-        0.6974,
-        -0.0242
+        0.7423,
+        -0.0092
       ],
-      "range_m": 0.1151,
+      "range_m": 0.1027,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1494,
+      "servo_error_m": 0.977,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2644,14 +2644,14 @@
       "time_s": 9.856,
       "stage": "ALIGN",
       "base_xy": [
-        0.7041,
-        -0.022
+        0.7496,
+        -0.0068
       ],
-      "range_m": 0.1166,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1484,
+      "servo_error_m": 0.9769,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2659,14 +2659,14 @@
       "time_s": 9.912,
       "stage": "ALIGN",
       "base_xy": [
-        0.7116,
-        -0.0195
+        0.7571,
+        -0.0043
       ],
-      "range_m": 0.1187,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1475,
+      "servo_error_m": 0.9769,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2674,14 +2674,14 @@
       "time_s": 9.968,
       "stage": "ALIGN",
       "base_xy": [
-        0.7198,
-        -0.0167
+        0.7646,
+        -0.0018
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1465,
+      "servo_error_m": 0.9768,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2689,14 +2689,14 @@
       "time_s": 10.024,
       "stage": "ALIGN",
       "base_xy": [
-        0.7286,
-        -0.0138
+        0.7722,
+        0.0007
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1456,
+      "servo_error_m": 0.9768,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2704,14 +2704,14 @@
       "time_s": 10.08,
       "stage": "ALIGN",
       "base_xy": [
-        0.7379,
-        -0.0107
+        0.7797,
+        0.0032
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1446,
+      "servo_error_m": 0.9767,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2719,14 +2719,14 @@
       "time_s": 10.136,
       "stage": "ALIGN",
       "base_xy": [
-        0.7475,
-        -0.0075
+        0.7872,
+        0.0057
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1437,
+      "servo_error_m": 0.9766,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2734,14 +2734,14 @@
       "time_s": 10.192,
       "stage": "ALIGN",
       "base_xy": [
-        0.7574,
-        -0.0042
+        0.7946,
+        0.0082
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1427,
+      "servo_error_m": 0.9766,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2749,14 +2749,14 @@
       "time_s": 10.248,
       "stage": "ALIGN",
       "base_xy": [
-        0.7675,
-        -0.0008
+        0.8018,
+        0.0106
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1418,
+      "servo_error_m": 0.9765,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2764,14 +2764,14 @@
       "time_s": 10.304,
       "stage": "ALIGN",
       "base_xy": [
-        0.7776,
-        0.0025
+        0.8088,
+        0.0129
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1409,
+      "servo_error_m": 0.9764,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2779,14 +2779,14 @@
       "time_s": 10.36,
       "stage": "ALIGN",
       "base_xy": [
-        0.7875,
-        0.0058
+        0.8156,
+        0.0152
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1399,
+      "servo_error_m": 0.9763,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2794,14 +2794,14 @@
       "time_s": 10.416,
       "stage": "ALIGN",
       "base_xy": [
-        0.7973,
-        0.0091
+        0.822,
+        0.0173
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.139,
+      "servo_error_m": 0.9763,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2809,14 +2809,14 @@
       "time_s": 10.472,
       "stage": "ALIGN",
       "base_xy": [
-        0.8068,
-        0.0123
+        0.8281,
+        0.0194
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1381,
+      "servo_error_m": 0.9762,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2824,14 +2824,14 @@
       "time_s": 10.528,
       "stage": "ALIGN",
       "base_xy": [
-        0.8159,
-        0.0153
+        0.8339,
+        0.0213
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1371,
+      "servo_error_m": 0.9761,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2839,14 +2839,14 @@
       "time_s": 10.584,
       "stage": "ALIGN",
       "base_xy": [
-        0.8244,
-        0.0181
+        0.8392,
+        0.0231
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1362,
+      "servo_error_m": 0.976,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2854,14 +2854,14 @@
       "time_s": 10.64,
       "stage": "ALIGN",
       "base_xy": [
-        0.8323,
-        0.0208
+        0.844,
+        0.0247
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1353,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2869,14 +2869,14 @@
       "time_s": 10.696,
       "stage": "ALIGN",
       "base_xy": [
-        0.8394,
-        0.0231
+        0.8482,
+        0.0261
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1343,
+      "servo_error_m": 0.9759,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2884,14 +2884,14 @@
       "time_s": 10.752,
       "stage": "ALIGN",
       "base_xy": [
-        0.8457,
-        0.0252
+        0.8519,
+        0.0273
       ],
-      "range_m": -1.0,
+      "range_m": 0.1025,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1334,
+      "servo_error_m": 0.9758,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2899,14 +2899,14 @@
       "time_s": 10.808,
       "stage": "ALIGN",
       "base_xy": [
-        0.8509,
-        0.027
+        0.855,
+        0.0283
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1325,
+      "servo_error_m": 0.9757,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2914,14 +2914,14 @@
       "time_s": 10.864,
       "stage": "ALIGN",
       "base_xy": [
-        0.8551,
-        0.0284
+        0.8573,
+        0.0291
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1315,
+      "servo_error_m": 0.9756,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2929,14 +2929,14 @@
       "time_s": 10.92,
       "stage": "ALIGN",
       "base_xy": [
-        0.8581,
-        0.0294
+        0.859,
+        0.0297
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1306,
+      "servo_error_m": 0.9755,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2944,14 +2944,14 @@
       "time_s": 10.976,
       "stage": "ALIGN",
       "base_xy": [
-        0.8597,
-        0.0299
+        0.8599,
+        0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1297,
+      "servo_error_m": 0.9755,
       "residual_norm": 0.0,
       "confidence": 0.55
     },
@@ -2962,12 +2962,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.1026,
       "grip": 0.0,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1288,
-      "residual_norm": 0.7271,
+      "servo_error_m": 0.9754,
+      "residual_norm": 0.639,
       "confidence": 0.4
     },
     {
@@ -2977,12 +2977,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
+      "range_m": 0.1023,
       "grip": 0.0002,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1284,
-      "residual_norm": 0.7264,
+      "servo_error_m": 0.9752,
+      "residual_norm": 0.6387,
       "confidence": 0.4
     },
     {
@@ -2992,12 +2992,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0007,
+      "range_m": 0.1011,
+      "grip": 0.0006,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1281,
-      "residual_norm": 0.7257,
+      "servo_error_m": 0.9751,
+      "residual_norm": 0.6383,
       "confidence": 0.4
     },
     {
@@ -3007,12 +3007,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0015,
+      "range_m": 0.0995,
+      "grip": 0.0012,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1278,
-      "residual_norm": 0.725,
+      "servo_error_m": 0.975,
+      "residual_norm": 0.6378,
       "confidence": 0.4
     },
     {
@@ -3022,12 +3022,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0024,
+      "range_m": 0.0976,
+      "grip": 0.0021,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 1.1275,
-      "residual_norm": 0.7243,
+      "servo_error_m": 0.9746,
+      "residual_norm": 0.6371,
       "confidence": 0.4
     },
     {
@@ -3037,13 +3037,13 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0036,
-      "active_fingers": 1,
-      "touch_balance": 15.2167,
-      "servo_error_m": 1.1272,
-      "residual_norm": 1.6284,
-      "confidence": 0.2
+      "range_m": 0.0963,
+      "grip": 0.003,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.974,
+      "residual_norm": 0.6361,
+      "confidence": 0.4
     },
     {
       "time_s": 11.368,
@@ -3052,13 +3052,13 @@
         0.86,
         0.03
       ],
-      "range_m": 0.0918,
-      "grip": 0.005,
-      "active_fingers": 1,
-      "touch_balance": 25.7895,
-      "servo_error_m": 1.128,
-      "residual_norm": 2.3523,
-      "confidence": 0.2
+      "range_m": -1.0,
+      "grip": 0.0042,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.9733,
+      "residual_norm": 0.6351,
+      "confidence": 0.4
     },
     {
       "time_s": 11.424,
@@ -3067,12 +3067,12 @@
         0.86,
         0.03
       ],
-      "range_m": 0.086,
-      "grip": 0.0065,
+      "range_m": -1.0,
+      "grip": 0.0055,
       "active_fingers": 1,
-      "touch_balance": 42.1243,
-      "servo_error_m": 1.1288,
-      "residual_norm": 3.489,
+      "touch_balance": 19.578,
+      "servo_error_m": 0.9724,
+      "residual_norm": 1.8483,
       "confidence": 0.2
     },
     {
@@ -3082,12 +3082,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0083,
+      "range_m": 0.0935,
+      "grip": 0.0069,
       "active_fingers": 1,
-      "touch_balance": 59.9893,
-      "servo_error_m": 1.1289,
-      "residual_norm": 4.7388,
+      "touch_balance": 23.3539,
+      "servo_error_m": 0.9705,
+      "residual_norm": 2.1046,
       "confidence": 0.2
     },
     {
@@ -3097,12 +3097,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0101,
+      "range_m": 0.0943,
+      "grip": 0.0085,
       "active_fingers": 1,
-      "touch_balance": 72.9819,
-      "servo_error_m": 1.1316,
-      "residual_norm": 5.6442,
+      "touch_balance": 21.9075,
+      "servo_error_m": 0.968,
+      "residual_norm": 1.9989,
       "confidence": 0.2
     },
     {
@@ -3112,12 +3112,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0121,
+      "range_m": 0.0976,
+      "grip": 0.0102,
       "active_fingers": 1,
-      "touch_balance": 49.9088,
-      "servo_error_m": 1.1381,
-      "residual_norm": 4.0106,
+      "touch_balance": 15.4017,
+      "servo_error_m": 0.9642,
+      "residual_norm": 1.5449,
       "confidence": 0.2
     },
     {
@@ -3127,13 +3127,13 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0142,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 1.113,
-      "residual_norm": 0.6986,
-      "confidence": 0.4
+      "range_m": 0.1021,
+      "grip": 0.012,
+      "active_fingers": 1,
+      "touch_balance": 29.8643,
+      "servo_error_m": 0.9578,
+      "residual_norm": 2.5377,
+      "confidence": 0.2
     },
     {
       "time_s": 11.704,
@@ -3142,12 +3142,12 @@
         0.86,
         0.03
       ],
-      "range_m": -1.0,
-      "grip": 0.0163,
+      "range_m": 0.1087,
+      "grip": 0.0138,
       "active_fingers": 1,
-      "touch_balance": 51.0344,
-      "servo_error_m": 1.0655,
-      "residual_norm": 4.0491,
+      "touch_balance": 397.1835,
+      "servo_error_m": 0.9515,
+      "residual_norm": 28.4718,
       "confidence": 0.2
     },
     {
@@ -3158,11 +3158,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0186,
-      "active_fingers": 1,
-      "touch_balance": 60.5382,
-      "servo_error_m": 1.0631,
-      "residual_norm": 4.7108,
+      "grip": 0.0158,
+      "active_fingers": 3,
+      "touch_balance": 163.1737,
+      "servo_error_m": 0.946,
+      "residual_norm": 11.9193,
       "confidence": 0.2
     },
     {
@@ -3173,11 +3173,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0209,
-      "active_fingers": 1,
-      "touch_balance": 104.4773,
-      "servo_error_m": 1.0673,
-      "residual_norm": 7.7992,
+      "grip": 0.0177,
+      "active_fingers": 3,
+      "touch_balance": 46.6236,
+      "servo_error_m": 0.9354,
+      "residual_norm": 3.6755,
       "confidence": 0.2
     },
     {
@@ -3188,11 +3188,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0232,
-      "active_fingers": 1,
-      "touch_balance": 37.7543,
-      "servo_error_m": 1.1016,
-      "residual_norm": 3.1178,
+      "grip": 0.0198,
+      "active_fingers": 2,
+      "touch_balance": 107.7462,
+      "servo_error_m": 0.909,
+      "residual_norm": 7.9554,
       "confidence": 0.2
     },
     {
@@ -3203,11 +3203,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0255,
+      "grip": 0.0219,
       "active_fingers": 2,
-      "touch_balance": 119.3001,
-      "servo_error_m": 1.1229,
-      "residual_norm": 8.8705,
+      "touch_balance": 128.502,
+      "servo_error_m": 0.902,
+      "residual_norm": 9.41,
       "confidence": 0.2
     },
     {
@@ -3218,11 +3218,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0278,
+      "grip": 0.024,
       "active_fingers": 2,
-      "touch_balance": 187.0513,
-      "servo_error_m": 1.1265,
-      "residual_norm": 13.6579,
+      "touch_balance": 157.7339,
+      "servo_error_m": 0.8894,
+      "residual_norm": 11.4624,
       "confidence": 0.2
     },
     {
@@ -3233,11 +3233,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0301,
-      "active_fingers": 1,
-      "touch_balance": 193.8457,
-      "servo_error_m": 1.1288,
-      "residual_norm": 14.1387,
+      "grip": 0.026,
+      "active_fingers": 3,
+      "touch_balance": 122.9624,
+      "servo_error_m": 0.8816,
+      "residual_norm": 8.9946,
       "confidence": 0.2
     },
     {
@@ -3248,11 +3248,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0324,
+      "grip": 0.0281,
       "active_fingers": 1,
-      "touch_balance": 149.9661,
-      "servo_error_m": 1.1299,
-      "residual_norm": 11.0381,
+      "touch_balance": 241.7806,
+      "servo_error_m": 0.8404,
+      "residual_norm": 17.3626,
       "confidence": 0.2
     },
     {
@@ -3263,12 +3263,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0346,
-      "active_fingers": 1,
-      "touch_balance": 134.5942,
-      "servo_error_m": 1.1297,
-      "residual_norm": 9.9515,
-      "confidence": 0.2
+      "grip": 0.0302,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8117,
+      "residual_norm": 0.5008,
+      "confidence": 0.4
     },
     {
       "time_s": 12.208,
@@ -3278,12 +3278,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0367,
-      "active_fingers": 1,
-      "touch_balance": 125.914,
-      "servo_error_m": 1.129,
-      "residual_norm": 9.3376,
-      "confidence": 0.2
+      "grip": 0.0323,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8236,
+      "residual_norm": 0.5085,
+      "confidence": 0.4
     },
     {
       "time_s": 12.264,
@@ -3293,12 +3293,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0388,
-      "active_fingers": 1,
-      "touch_balance": 117.4701,
-      "servo_error_m": 1.1287,
-      "residual_norm": 8.7409,
-      "confidence": 0.2
+      "grip": 0.0342,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8225,
+      "residual_norm": 0.5079,
+      "confidence": 0.4
     },
     {
       "time_s": 12.32,
@@ -3308,12 +3308,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0407,
-      "active_fingers": 1,
-      "touch_balance": 109.1045,
-      "servo_error_m": 1.1286,
-      "residual_norm": 8.1499,
-      "confidence": 0.2
+      "grip": 0.0362,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8199,
+      "residual_norm": 0.5065,
+      "confidence": 0.4
     },
     {
       "time_s": 12.376,
@@ -3323,12 +3323,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0425,
-      "active_fingers": 1,
-      "touch_balance": 101.4674,
-      "servo_error_m": 1.1286,
-      "residual_norm": 7.6107,
-      "confidence": 0.2
+      "grip": 0.038,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8182,
+      "residual_norm": 0.5057,
+      "confidence": 0.4
     },
     {
       "time_s": 12.432,
@@ -3338,12 +3338,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0441,
-      "active_fingers": 1,
-      "touch_balance": 94.7118,
-      "servo_error_m": 1.1288,
-      "residual_norm": 7.1339,
-      "confidence": 0.2
+      "grip": 0.0398,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.817,
+      "residual_norm": 0.505,
+      "confidence": 0.4
     },
     {
       "time_s": 12.488,
@@ -3353,12 +3353,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0456,
-      "active_fingers": 1,
-      "touch_balance": 88.8706,
-      "servo_error_m": 1.1291,
-      "residual_norm": 6.7217,
-      "confidence": 0.2
+      "grip": 0.0415,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8159,
+      "residual_norm": 0.5045,
+      "confidence": 0.4
     },
     {
       "time_s": 12.544,
@@ -3368,12 +3368,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0469,
-      "active_fingers": 1,
-      "touch_balance": 83.9888,
-      "servo_error_m": 1.1293,
-      "residual_norm": 6.3774,
-      "confidence": 0.2
+      "grip": 0.0431,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.815,
+      "residual_norm": 0.5041,
+      "confidence": 0.4
     },
     {
       "time_s": 12.6,
@@ -3383,12 +3383,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.048,
-      "active_fingers": 1,
-      "touch_balance": 80.0875,
-      "servo_error_m": 1.1294,
-      "residual_norm": 6.1022,
-      "confidence": 0.2
+      "grip": 0.0445,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8141,
+      "residual_norm": 0.5036,
+      "confidence": 0.4
     },
     {
       "time_s": 12.656,
@@ -3398,12 +3398,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0489,
-      "active_fingers": 1,
-      "touch_balance": 77.1197,
-      "servo_error_m": 1.1294,
-      "residual_norm": 5.8929,
-      "confidence": 0.2
+      "grip": 0.0458,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8133,
+      "residual_norm": 0.5033,
+      "confidence": 0.4
     },
     {
       "time_s": 12.712,
@@ -3413,12 +3413,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0495,
-      "active_fingers": 1,
-      "touch_balance": 75.0352,
-      "servo_error_m": 1.1294,
-      "residual_norm": 5.746,
-      "confidence": 0.2
+      "grip": 0.047,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8126,
+      "residual_norm": 0.503,
+      "confidence": 0.4
     },
     {
       "time_s": 12.768,
@@ -3428,71 +3428,71 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.0499,
-      "active_fingers": 1,
-      "touch_balance": 73.8049,
-      "servo_error_m": 1.1296,
-      "residual_norm": 5.6594,
-      "confidence": 0.2
+      "grip": 0.0479,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8119,
+      "residual_norm": 0.5027,
+      "confidence": 0.4
     },
     {
       "time_s": 12.824,
-      "stage": "GRASP",
+      "stage": "REACH",
       "base_xy": [
         0.86,
         0.03
       ],
       "range_m": -1.0,
-      "grip": 1.0,
-      "active_fingers": 2,
-      "touch_balance": 1737.4293,
-      "servo_error_m": 0.05,
-      "residual_norm": 165.7382,
-      "confidence": 0.2
+      "grip": 0.0488,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8114,
+      "residual_norm": 0.5025,
+      "confidence": 0.4
     },
     {
       "time_s": 12.88,
-      "stage": "GRASP",
+      "stage": "REACH",
       "base_xy": [
         0.86,
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.7094,
+      "grip": 0.0494,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 0.0841,
-      "residual_norm": 2.0613,
+      "servo_error_m": 0.8109,
+      "residual_norm": 0.5023,
       "confidence": 0.4
     },
     {
       "time_s": 12.936,
-      "stage": "GRASP",
+      "stage": "REACH",
       "base_xy": [
         0.86,
         0.03
       ],
       "range_m": -1.0,
-      "grip": 1.0,
-      "active_fingers": 1,
-      "touch_balance": 327.4327,
-      "servo_error_m": 0.0512,
-      "residual_norm": 23.8316,
-      "confidence": 0.2
+      "grip": 0.0498,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.8104,
+      "residual_norm": 0.5022,
+      "confidence": 0.4
     },
     {
       "time_s": 12.992,
-      "stage": "GRASP",
+      "stage": "REACH",
       "base_xy": [
         0.86,
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.2493,
+      "grip": 0.05,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 0.0459,
-      "residual_norm": 0.5802,
+      "servo_error_m": 0.8101,
+      "residual_norm": 0.5022,
       "confidence": 0.4
     },
     {
@@ -3503,12 +3503,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.1272,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 0.052,
-      "residual_norm": 0.1744,
-      "confidence": 0.4
+      "grip": 1.0,
+      "active_fingers": 2,
+      "touch_balance": 2458.9279,
+      "servo_error_m": 0.0608,
+      "residual_norm": 174.4099,
+      "confidence": 0.2
     },
     {
       "time_s": 13.104,
@@ -3519,10 +3519,10 @@
       ],
       "range_m": -1.0,
       "grip": 1.0,
-      "active_fingers": 4,
-      "touch_balance": 1661.0279,
-      "servo_error_m": 0.0467,
-      "residual_norm": 117.7498,
+      "active_fingers": 1,
+      "touch_balance": 816.4194,
+      "servo_error_m": 0.0506,
+      "residual_norm": 57.919,
       "confidence": 0.2
     },
     {
@@ -3534,10 +3534,10 @@
       ],
       "range_m": -1.0,
       "grip": 1.0,
-      "active_fingers": 1,
-      "touch_balance": 439.2152,
-      "servo_error_m": 0.0491,
-      "residual_norm": 31.1276,
+      "active_fingers": 2,
+      "touch_balance": 1130.8942,
+      "servo_error_m": 0.0483,
+      "residual_norm": 80.2273,
       "confidence": 0.2
     },
     {
@@ -3548,11 +3548,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.1481,
+      "grip": 0.1757,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 0.0509,
-      "residual_norm": 0.1467,
+      "servo_error_m": 0.0545,
+      "residual_norm": 0.3375,
       "confidence": 0.4
     },
     {
@@ -3563,12 +3563,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.2127,
-      "active_fingers": 0,
-      "touch_balance": 1.0,
-      "servo_error_m": 0.0528,
-      "residual_norm": 0.3,
-      "confidence": 0.4
+      "grip": 1.0,
+      "active_fingers": 1,
+      "touch_balance": 635.056,
+      "servo_error_m": 0.0511,
+      "residual_norm": 45.2194,
+      "confidence": 0.2
     },
     {
       "time_s": 13.328,
@@ -3578,11 +3578,11 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 0.2182,
+      "grip": 0.1936,
       "active_fingers": 0,
       "touch_balance": 1.0,
-      "servo_error_m": 0.053,
-      "residual_norm": 0.2709,
+      "servo_error_m": 0.0486,
+      "residual_norm": 0.3511,
       "confidence": 0.4
     },
     {
@@ -3593,12 +3593,12 @@
         0.03
       ],
       "range_m": -1.0,
-      "grip": 1.0,
-      "active_fingers": 4,
-      "touch_balance": 457.2761,
-      "servo_error_m": 0.0532,
-      "residual_norm": 32.5121,
-      "confidence": 0.2
+      "grip": 0.2556,
+      "active_fingers": 0,
+      "touch_balance": 1.0,
+      "servo_error_m": 0.0457,
+      "residual_norm": 0.5163,
+      "confidence": 0.4
     }
   ]
 }

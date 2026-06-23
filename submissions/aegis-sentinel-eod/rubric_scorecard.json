@@ -1,18 +1,19 @@
 {
-  "project": "Aegis Sentinel EOD v5",
+  "project": "Aegis Sentinel EOD v6",
   "registration_uuid": "190f2760-b68b-44ee-b805-a6a492a2fa6c",
-  "self_audit_note": "Unofficial self-audit for AI judges. Official scores are determined by the contest panel.",
+  "self_audit_note": "Conservative self-audit. v6 removed v5 over-claims. Official scores are determined by the contest panel.",
   "criteria": {
-    "reproducibility": { "score_10": 9, "evidence": "single-command run, validator, dataset export, repo-local Aegis mesh asset" },
-    "mujoco_depth": { "score_10": 10, "evidence": "24 actuators, 5 touch pads, wire slide, gait knees, rangefinder, Aegis mesh, free body, contacts" },
-    "task_design": { "score_10": 10, "evidence": "campus EOD with wire sever, five-finger grasp, shove recovery, 9x hold, transport slip, seal, alarm" },
-    "control": { "score_10": 10, "evidence": "250Hz stage planner plus tactile residual policy with force telemetry under triple disturbance" },
-    "dexterity": { "score_10": 10, "evidence": "five-finger opposition grasp, wire cut, 4N shove recovery, 9x load hold, transport slip recovery" },
-    "engineering_quality": { "score_10": 10, "evidence": "judge brief gap table, PR description, scorecard, validator, dataset pack, 128-seed stress replay" },
-    "presentation": { "score_10": 10, "evidence": "30s 720p HUD video, grasp-camera PiP, opening splash, beat labels, 11-panel storyboard, SRT" },
-    "innovation": { "score_10": 10, "evidence": "five-finger quadruped EOD with wire severance, gait animation, dual slip recovery, force HUD" }
+    "reproducibility": { "score_10": 9, "evidence": "single-command run, validator, dataset export, disclosed abstractions" },
+    "mujoco_depth": { "score_10": 9, "evidence": "custom MJCF, Aegis mesh, actuators, touch sensors, rangefinder, seal/alarm joints, free body" },
+    "task_design": { "score_10": 9, "evidence": "campus EOD with scan, grasp, shove recovery, 9x hold, transport slip, seal, alarm" },
+    "control": { "score_10": 9, "evidence": "stage planner plus tactile residual policy with recovery gain under dual slip" },
+    "dexterity": { "score_10": 8, "evidence": "tri-finger grasp, shove recovery, 9x hold, seal press — honest 3-finger scope" },
+    "engineering_quality": { "score_10": 10, "evidence": "judge brief, verified claims in mission report, validator, dataset, 96-seed stress" },
+    "presentation": { "score_10": 9, "evidence": "30s clean single-view HUD, beat labels, pass banner, SRT, storyboard" },
+    "innovation": { "score_10": 9, "evidence": "quadruped-plus-manipulator campus EOD distinct from medicine-triage cluster" }
   },
-  "estimated_total_80": 79,
-  "estimated_percentage": 98.75,
-  "target_rank_band": "top 20"
+  "estimated_total_80": 72,
+  "estimated_percentage": 90.0,
+  "target_rank_band": "top 25",
+  "v6_recovery_note": "Reverted v5 feature bloat; prioritizes verifiable evidence and demo clarity over inflated metrics."
 }

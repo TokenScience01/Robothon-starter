@@ -1,10 +1,10 @@
 {
-  "seeds": 128,
+  "seeds": 96,
   "learned_policy_success": 1.0,
-  "baseline_success": 0.6641,
-  "median_error_residual_m": 0.01587,
-  "median_error_baseline_m": 0.04249,
-  "median_error_improvement_mm": 26.63,
+  "baseline_success": 0.6667,
+  "median_error_residual_m": 0.01504,
+  "median_error_baseline_m": 0.04087,
+  "median_error_improvement_mm": 25.83,
   "max_lateral_shove_n": 4.0,
   "residual_rollouts": [
     {
